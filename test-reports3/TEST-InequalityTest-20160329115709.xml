@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<testsuite errors="5" failures="0" name="InequalityTest-20160329115709" tests="5" time="3.094">
+	<testcase classname="InequalityTest" name="test_fAgeTest_4" time="0.619">
+		<error message="' 12,000 years old hunter-gatherer population discovered in scotland ' != ' #age             hunter-gatherer population discovered in scotland '
+-  12,000 years old hunter-gatherer population discovered in scotland 
+?  ^^^^^^^^ ^^^^^^^
++  #age             hunter-gatherer population discovered in scotland 
+?  ^^^ ^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 27, in test_fAgeTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: ' 12,000 years old hunter-gatherer population discovered in scotland ' != ' #age             hunter-gatherer population discovered in scotland '
+-  12,000 years old hunter-gatherer population discovered in scotland 
+?  ^^^^^^^^ ^^^^^^^
++  #age             hunter-gatherer population discovered in scotland 
+?  ^^^ ^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pAgeTest_1" time="0.570">
+		<error message="' still of seth rogen and paul rudd in the 40-year-old virgin  ' != ' still of seth rogen and paul rudd in the #age        virgin  '
+-  still of seth rogen and paul rudd in the 40-year-old virgin  
+?                                           ^^^^ ^^^^^^
++  still of seth rogen and paul rudd in the #age        virgin  
+?                                           ^^^ ^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 34, in test_pAgeTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' still of seth rogen and paul rudd in the 40-year-old virgin  ' != ' still of seth rogen and paul rudd in the #age        virgin  '
+-  still of seth rogen and paul rudd in the 40-year-old virgin  
+?                                           ^^^^ ^^^^^^
++  still of seth rogen and paul rudd in the #age        virgin  
+?                                           ^^^ ^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pAgeTest_6" time="0.614">
+		<error message="' most 3-month-old babies take a few naps of about 1 1/2 to 2 hours each day  ' != ' most #age        babies take a few naps of about 1 1/2 to 2 hours each day  '
+-  most 3-month-old babies take a few naps of about 1 1/2 to 2 hours each day  
+?       ^^^^^^^^^^^
++  most #age        babies take a few naps of about 1 1/2 to 2 hours each day  
+?       ^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 40, in test_pAgeTest_6
+    self.assertEqual(Actuval, expected)
+AssertionError: ' most 3-month-old babies take a few naps of about 1 1/2 to 2 hours each day  ' != ' most #age        babies take a few naps of about 1 1/2 to 2 hours each day  '
+-  most 3-month-old babies take a few naps of about 1 1/2 to 2 hours each day  
+?       ^^^^^^^^^^^
++  most #age        babies take a few naps of about 1 1/2 to 2 hours each day  
+?       ^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pAgeTest_8" time="0.697">
+		<error message="' whi[94 chars]0 to 11,000 years old  according to experts wh[81 chars]as  ' != ' whi[94 chars]0 to #age              according to experts wh[81 chars]as  '
+-  while walking along the jersey shore  a woman recently stumbled upon a rare spearhead about 10,000 to 11,000 years old  according to experts who believe the ancient artifact may hold clues into prehistoric life in the americas  
++  while walking along the jersey shore  a woman recently stumbled upon a rare spearhead about 10,000 to #age              according to experts who believe the ancient artifact may hold clues into prehistoric life in the americas  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 46, in test_pAgeTest_8
+    self.assertEqual(Actuval, expected)
+AssertionError: ' whi[94 chars]0 to 11,000 years old  according to experts wh[81 chars]as  ' != ' whi[94 chars]0 to #age              according to experts wh[81 chars]as  '
+-  while walking along the jersey shore  a woman recently stumbled upon a rare spearhead about 10,000 to 11,000 years old  according to experts who believe the ancient artifact may hold clues into prehistoric life in the americas  
++  while walking along the jersey shore  a woman recently stumbled upon a rare spearhead about 10,000 to #age              according to experts who believe the ancient artifact may hold clues into prehistoric life in the americas  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pAgeTest_9" time="0.594">
+		<error message="' kno[51 chars]games for kids  brings you free online games for 5 year olds  ' != ' kno[51 chars]games for kids  brings you free online games for #age         '
+-  knowledge adventure  the expert in making educational games for kids  brings you free online games for 5 year olds  
+?                                                                                                         ^^^ ^^^^^^^
++  knowledge adventure  the expert in making educational games for kids  brings you free online games for #age         
+?                                                                                                         ^^^ ^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 52, in test_pAgeTest_9
+    self.assertEqual(Actuval, expected)
+AssertionError: ' kno[51 chars]games for kids  brings you free online games for 5 year olds  ' != ' kno[51 chars]games for kids  brings you free online games for #age         '
+-  knowledge adventure  the expert in making educational games for kids  brings you free online games for 5 year olds  
+?                                                                                                         ^^^ ^^^^^^^
++  knowledge adventure  the expert in making educational games for kids  brings you free online games for #age         
+?                                                                                                         ^^^ ^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

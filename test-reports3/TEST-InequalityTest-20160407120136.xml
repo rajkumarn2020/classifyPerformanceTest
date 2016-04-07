@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<testsuite errors="5" failures="0" name="InequalityTest-20160407120136" tests="46" time="32.884">
+	<testcase classname="InequalityTest" name="test_IsClassify_1" time="0.677"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_10" time="0.738"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_11" time="0.780"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_12" time="0.689"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_13" time="0.721"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_14" time="0.771"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_15" time="0.719"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_16" time="0.666"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_17" time="2.123"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_18" time="0.690"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_19" time="0.654"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_2" time="0.770"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_20" time="0.678"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_21" time="0.663"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_22" time="0.704"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_23" time="0.675"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_24" time="0.648"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_25" time="0.697"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_26" time="0.644"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_27" time="0.681"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_28" time="0.654"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_29" time="0.688"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_3" time="0.677"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_30" time="0.682"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_31" time="0.632"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_32" time="0.680"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_33" time="0.674"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_34" time="0.627"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_35" time="0.675"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_36" time="0.651"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_37" time="0.680"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_38" time="0.679"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_39" time="0.679"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_4" time="0.671"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_40" time="0.652"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_41" time="0.636"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_5" time="0.719"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_6" time="0.727"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_7" time="0.707"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_8" time="0.730"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_9" time="0.745"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_42" time="0.665">
+		<error message="500 != 0" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 270, in test_IsClassify_42
+    self.assertEqual(Actuval, expected)
+AssertionError: 500 != 0
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsClassify_43" time="0.632">
+		<error message="500 != 0" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 276, in test_IsClassify_43
+    self.assertEqual(Actuval, expected)
+AssertionError: 500 != 0
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsClassify_44" time="0.664">
+		<error message="500 != 0" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 282, in test_IsClassify_44
+    self.assertEqual(Actuval, expected)
+AssertionError: 500 != 0
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsClassify_45" time="0.627">
+		<error message="500 != 0" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 288, in test_IsClassify_45
+    self.assertEqual(Actuval, expected)
+AssertionError: 500 != 0
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsClassify_46" time="0.641">
+		<error message="500 != 0" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 294, in test_IsClassify_46
+    self.assertEqual(Actuval, expected)
+AssertionError: 500 != 0
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[500
+501
+501
+502
+502
+502
+502
+502
+503
+503
+503
+500
+503
+503
+504
+504
+504
+504
+504
+505
+505
+505
+500
+505
+505
+506
+506
+506
+506
+506
+507
+507
+507
+500
+507
+507
+500
+500
+500
+500
+500
+500
+500
+501
+501
+501
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

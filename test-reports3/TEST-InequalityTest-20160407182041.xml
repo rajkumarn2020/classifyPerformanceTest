@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="InequalityTest-20160407182041" tests="1" time="0.690">
+	<testcase classname="InequalityTest" name="test_IsClassify_many" time="0.690">
+		<error message="500 != '500'" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 38, in test_IsClassify_many
+    self.assertEqual(Actuval, catid)
+AssertionError: 500 != '500'
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[500
+Dear Camille,
+
+Please refrain from discussing details of your dating life with co-workers. I overheard you the other day, and whew, it was pretty hot.  A little much for this old man to hear!
+
+Kevin
+500
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

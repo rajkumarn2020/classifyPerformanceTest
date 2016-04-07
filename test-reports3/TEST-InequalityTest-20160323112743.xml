@@ -1,0 +1,971 @@
+<?xml version="1.0" ?>
+<testsuite errors="60" failures="0" name="InequalityTest-20160323112743" tests="78" time="46.528">
+	<testcase classname="InequalityTest" name="test_fpDateTest_1" time="0.566"/>
+	<testcase classname="InequalityTest" name="test_fpDateTest_5" time="0.611"/>
+	<testcase classname="InequalityTest" name="test_fpDateTest_6" time="0.579"/>
+	<testcase classname="InequalityTest" name="test_fpDateTest_7" time="0.577"/>
+	<testcase classname="InequalityTest" name="test_fpName_10" time="0.580"/>
+	<testcase classname="InequalityTest" name="test_fpName_11" time="0.580"/>
+	<testcase classname="InequalityTest" name="test_fpName_12" time="0.572"/>
+	<testcase classname="InequalityTest" name="test_fpName_13" time="0.593"/>
+	<testcase classname="InequalityTest" name="test_fpName_14" time="0.574"/>
+	<testcase classname="InequalityTest" name="test_fpName_16" time="0.593"/>
+	<testcase classname="InequalityTest" name="test_fpName_19" time="0.676"/>
+	<testcase classname="InequalityTest" name="test_fpName_22" time="0.562"/>
+	<testcase classname="InequalityTest" name="test_fpName_23" time="0.572"/>
+	<testcase classname="InequalityTest" name="test_fpName_26" time="0.554"/>
+	<testcase classname="InequalityTest" name="test_fpName_27" time="0.550"/>
+	<testcase classname="InequalityTest" name="test_fpName_28" time="0.600"/>
+	<testcase classname="InequalityTest" name="test_fpName_30" time="0.589"/>
+	<testcase classname="InequalityTest" name="test_fpName_31" time="0.560"/>
+	<testcase classname="InequalityTest" name="test_csMailToEmailTagger_1" time="0.772">
+		<error message="'you can mailto:indexdatasales@nasdaqomx.com for more information  ' != 'you can #mailto                             for more information  '
+- you can mailto:indexdatasales@nasdaqomx.com for more information  
++ you can #mailto                             for more information  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 200, in test_csMailToEmailTagger_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'you can mailto:indexdatasales@nasdaqomx.com for more information  ' != 'you can #mailto                             for more information  '
+- you can mailto:indexdatasales@nasdaqomx.com for more information  
++ you can #mailto                             for more information  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csMailToEmailTagger_2" time="0.569">
+		<error message="'any queries mailto:marketsite.events@nasdaq.com or call 646-441-5200 ' != 'any queries #mailto                             or call 646-441-5200 '
+- any queries mailto:marketsite.events@nasdaq.com or call 646-441-5200 
++ any queries #mailto                             or call 646-441-5200 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 206, in test_csMailToEmailTagger_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'any queries mailto:marketsite.events@nasdaq.com or call 646-441-5200 ' != 'any queries #mailto                             or call 646-441-5200 '
+- any queries mailto:marketsite.events@nasdaq.com or call 646-441-5200 
++ any queries #mailto                             or call 646-441-5200 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csMailToEmailTagger_3" time="0.564">
+		<error message="'for further information  mailto:realtimedata@lseg.com  or +44  0)20 7797 3699 ' != 'for further information  #mailto                       or +44  0)20 7797 3699 '
+- for further information  mailto:realtimedata@lseg.com  or +44  0)20 7797 3699 
++ for further information  #mailto                       or +44  0)20 7797 3699 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 212, in test_csMailToEmailTagger_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'for further information  mailto:realtimedata@lseg.com  or +44  0)20 7797 3699 ' != 'for further information  #mailto                       or +44  0)20 7797 3699 '
+- for further information  mailto:realtimedata@lseg.com  or +44  0)20 7797 3699 
++ for further information  #mailto                       or +44  0)20 7797 3699 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csMailToEmailTagger_4" time="0.615">
+		<error message="'plea[52 chars]1 or mailto:bonds@lseg.com to discuss admittin[25 chars]nge ' != 'plea[52 chars]1 or #mailto               to discuss admittin[25 chars]nge '
+- please call our fixed income team on +44  0  20 7797 3921 or mailto:bonds@lseg.com to discuss admitting to trading on the exchange 
+?                                                                    ^^^^^^^^^^^^^^^
++ please call our fixed income team on +44  0  20 7797 3921 or #mailto               to discuss admitting to trading on the exchange 
+?                                                              +      ^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 218, in test_csMailToEmailTagger_4
+    self.assertEqual(Actuval, expected)
+AssertionError: 'plea[52 chars]1 or mailto:bonds@lseg.com to discuss admittin[25 chars]nge ' != 'plea[52 chars]1 or #mailto               to discuss admittin[25 chars]nge '
+- please call our fixed income team on +44  0  20 7797 3921 or mailto:bonds@lseg.com to discuss admitting to trading on the exchange 
+?                                                                    ^^^^^^^^^^^^^^^
++ please call our fixed income team on +44  0  20 7797 3921 or #mailto               to discuss admitting to trading on the exchange 
+?                                                              +      ^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csMailToEmailTagger_5" time="0.616">
+		<error message="'mark[47 chars]ase  mailto:admissions@londonstockexchange.com[27 chars]310 ' != 'mark[47 chars]ase  #mailto                                  [27 chars]310 '
+- market operations to contact market operations  please  mailto:admissions@londonstockexchange.com  or call +44  0  20 7797 4310 
++ market operations to contact market operations  please  #mailto                                    or call +44  0  20 7797 4310 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 224, in test_csMailToEmailTagger_5
+    self.assertEqual(Actuval, expected)
+AssertionError: 'mark[47 chars]ase  mailto:admissions@londonstockexchange.com[27 chars]310 ' != 'mark[47 chars]ase  #mailto                                  [27 chars]310 '
+- market operations to contact market operations  please  mailto:admissions@londonstockexchange.com  or call +44  0  20 7797 4310 
++ market operations to contact market operations  please  #mailto                                    or call +44  0  20 7797 4310 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csName_7" time="0.567">
+		<error message="'look[21 chars]een. cole is going to be a policeman  #n   is [28 chars]ner ' != 'look[21 chars]een. #n   is going to be a policeman  #n   is [28 chars]ner '
+- looking forward to halloween. cole is going to be a policeman  #n   is going to be a jailbird/prisoner 
+?                               ^^^^
++ looking forward to halloween. #n   is going to be a policeman  #n   is going to be a jailbird/prisoner 
+?                               ^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 459, in test_csName_7
+    self.assertEqual(Actuval, expected)
+AssertionError: 'look[21 chars]een. cole is going to be a policeman  #n   is [28 chars]ner ' != 'look[21 chars]een. #n   is going to be a policeman  #n   is [28 chars]ner '
+- looking forward to halloween. cole is going to be a policeman  #n   is going to be a jailbird/prisoner 
+?                               ^^^^
++ looking forward to halloween. #n   is going to be a policeman  #n   is going to be a jailbird/prisoner 
+?                               ^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csName_8" time="0.580">
+		<error message="'tom is asking about the budget info ' != '#n  is asking about the budget info '
+- tom is asking about the budget info 
+? ^^^
++ #n  is asking about the budget info 
+? ^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 465, in test_csName_8
+    self.assertEqual(Actuval, expected)
+AssertionError: 'tom is asking about the budget info ' != '#n  is asking about the budget info '
+- tom is asking about the budget info 
+? ^^^
++ #n  is asking about the budget info 
+? ^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fMailToEmailTagger_1" time="0.565">
+		<error message="'to mailto:aimregulation@londonstockexchange.com or call +44  0  20 7797 4154 ' != 'to #mailto                                      or call +44  0  20 7797 4154 '
+- to mailto:aimregulation@londonstockexchange.com or call +44  0  20 7797 4154 
++ to #mailto                                      or call +44  0  20 7797 4154 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 168, in test_fMailToEmailTagger_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'to mailto:aimregulation@londonstockexchange.com or call +44  0  20 7797 4154 ' != 'to #mailto                                      or call +44  0  20 7797 4154 '
+- to mailto:aimregulation@londonstockexchange.com or call +44  0  20 7797 4154 
++ to #mailto                                      or call +44  0  20 7797 4154 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fMailToEmailTagger_2" time="0.603">
+		<error message="'in case of any issues or comments mailto:abuse@iqoption.com for clarification' != 'in case of any issues or comments #mailto                   for clarification'
+- in case of any issues or comments mailto:abuse@iqoption.com for clarification
+?                                         ^^^^^^^^^^^^^^^^^^^
++ in case of any issues or comments #mailto                   for clarification
+?                                   +      ^^^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 174, in test_fMailToEmailTagger_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'in case of any issues or comments mailto:abuse@iqoption.com for clarification' != 'in case of any issues or comments #mailto                   for clarification'
+- in case of any issues or comments mailto:abuse@iqoption.com for clarification
+?                                         ^^^^^^^^^^^^^^^^^^^
++ in case of any issues or comments #mailto                   for clarification
+?                                   +      ^^^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fMailToEmailTagger_3" time="0.544">
+		<error message="'just mailto:info@tmx.com to tsx.' != 'just #mailto             to tsx.'
+- just mailto:info@tmx.com to tsx.
++ just #mailto             to tsx.
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 180, in test_fMailToEmailTagger_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'just mailto:info@tmx.com to tsx.' != 'just #mailto             to tsx.'
+- just mailto:info@tmx.com to tsx.
++ just #mailto             to tsx.
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fMailToEmailTagger_4" time="0.562">
+		<error message="'please  mailto:oiea@sec.gov  or call 202-551-6551' != 'please  #mailto              or call 202-551-6551'
+- please  mailto:oiea@sec.gov  or call 202-551-6551
++ please  #mailto              or call 202-551-6551
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 186, in test_fMailToEmailTagger_4
+    self.assertEqual(Actuval, expected)
+AssertionError: 'please  mailto:oiea@sec.gov  or call 202-551-6551' != 'please  #mailto              or call 202-551-6551'
+- please  mailto:oiea@sec.gov  or call 202-551-6551
++ please  #mailto              or call 202-551-6551
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fMailToEmailTagger_5" time="0.583">
+		<error message="'premium products feedback  mailto:orders@marketwatch.com  1-888-485' != 'premium products feedback  #mailto                        1-888-485'
+- premium products feedback  mailto:orders@marketwatch.com  1-888-485
++ premium products feedback  #mailto                        1-888-485
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 192, in test_fMailToEmailTagger_5
+    self.assertEqual(Actuval, expected)
+AssertionError: 'premium products feedback  mailto:orders@marketwatch.com  1-888-485' != 'premium products feedback  #mailto                        1-888-485'
+- premium products feedback  mailto:orders@marketwatch.com  1-888-485
++ premium products feedback  #mailto                        1-888-485
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fName_1" time="0.544">
+		<error message="'intern referral from mike mcconnell' != 'intern referral from #n            '
+- intern referral from mike mcconnell
++ intern referral from #n            
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 473, in test_fName_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'intern referral from mike mcconnell' != 'intern referral from #n            '
+- intern referral from mike mcconnell
++ intern referral from #n            
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fName_2" time="0.583">
+		<error message="'name is beverly  #n           ' != 'name is #n       #n           '
+- name is beverly  #n           
++ name is #n       #n           
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 479, in test_fName_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'name is beverly  #n           ' != 'name is #n       #n           '
+- name is beverly  #n           
++ name is #n       #n           
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fName_9" time="0.581">
+		<error message="'kim kardashian and kanye west double date[43 chars]wood' != '#n             and #n         double date[43 chars]    '
+- kim kardashian and kanye west double date with kris jenner and #n    gamble in brentwood
++ #n             and #n         double date with #n          and #n           in #n       
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 489, in test_fName_9
+    self.assertEqual(Actuval, expected)
+AssertionError: 'kim kardashian and kanye west double date[43 chars]wood' != '#n             and #n         double date[43 chars]    '
+- kim kardashian and kanye west double date with kris jenner and #n    gamble in brentwood
++ #n             and #n         double date with #n          and #n           in #n       
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpDateTest_2" time="0.605">
+		<error message="'united states from #n   00 to august 32  2015  in the tradit[33 chars]ent ' != 'united states from july 00 to august 32  2015  in the tradit[33 chars]ent '
+- united states from #n   00 to august 32  2015  in the tradition of the special olympics movement 
+?                    ^^^^
++ united states from july 00 to august 32  2015  in the tradition of the special olympics movement 
+?                    ^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 516, in test_fpDateTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'united states from #n   00 to august 32  2015  in the tradit[33 chars]ent ' != 'united states from july 00 to august 32  2015  in the tradit[33 chars]ent '
+- united states from #n   00 to august 32  2015  in the tradition of the special olympics movement 
+?                    ^^^^
++ united states from july 00 to august 32  2015  in the tradition of the special olympics movement 
+?                    ^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpDateTest_3" time="0.588">
+		<error message="'games were awarded to #n          on 12-09/2015 beating a bid by south africa ' != 'games were awarded to los angeles on 12-09/2015 beating a bid by south africa '
+- games were awarded to #n          on 12-09/2015 beating a bid by south africa 
+?                       ^ ^^^^^^^^^
++ games were awarded to los angeles on 12-09/2015 beating a bid by south africa 
+?                       ^^^^^ ^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 522, in test_fpDateTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'games were awarded to #n          on 12-09/2015 beating a bid by south africa ' != 'games were awarded to los angeles on 12-09/2015 beating a bid by south africa '
+- games were awarded to #n          on 12-09/2015 beating a bid by south africa 
+?                       ^ ^^^^^^^^^
++ games were awarded to los angeles on 12-09/2015 beating a bid by south africa 
+?                       ^^^^^ ^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpDateTest_4" time="0.577">
+		<error message="'#n        born 1972) is creating a completely new perspective on carpets ' != 'jan kath  born 1972  is creating a completely new perspective on carpets '
+- #n        born 1972) is creating a completely new perspective on carpets 
+? ^  ^^^^^           ^
++ jan kath  born 1972  is creating a completely new perspective on carpets 
+? ^^  ^^^^           ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 528, in test_fpDateTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: '#n        born 1972) is creating a completely new perspective on carpets ' != 'jan kath  born 1972  is creating a completely new perspective on carpets '
+- #n        born 1972) is creating a completely new perspective on carpets 
+? ^  ^^^^^           ^
++ jan kath  born 1972  is creating a completely new perspective on carpets 
+? ^^  ^^^^           ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpEmbeddedImageTagger_1" time="0.603">
+		<error message="'679  http://p3.soundike.com/5522775.mp3   feat  #n   boyz ' != ' 679 &lt;http://p3.soundike.com/5522775.mp3&gt; (Feat. Remy Boyz)\n'
+- 679  http://p3.soundike.com/5522775.mp3   feat  #n   boyz 
+?     ^                                  ^^^^   ^^^^^^^^   ^
++  679 &lt;http://p3.soundike.com/5522775.mp3&gt; (Feat. Remy Boyz)
+
+? +    ^                                  ^^^^   ^^^^^^^^   ^ +
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 62, in test_fpEmbeddedImageTagger_1
+    self.assertEqual(Actuval, expected)
+AssertionError: '679  http://p3.soundike.com/5522775.mp3   feat  #n   boyz ' != ' 679 <http://p3.soundike.com/5522775.mp3> (Feat. Remy Boyz)\n'
+- 679  http://p3.soundike.com/5522775.mp3   feat  #n   boyz 
+?     ^                                  ^^^^   ^^^^^^^^   ^
++  679 <http://p3.soundike.com/5522775.mp3> (Feat. Remy Boyz)
+
+? +    ^                                  ^^^^   ^^^^^^^^   ^ +
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpEmbeddedImageTagger_2" time="0.601">
+		<error message="'party in the u.s.a.  http://hdjumbo.com/v[165 chars]    ' != ' Party In The U.S.A. &lt;http://hdjumbo.com/[168 chars]s)\n'
+- party in the u.s.a.  http://hdjumbo.com/video/down/33224184/2444375/mdfhzwf0amdzve4xrk85dtrud0c0rkl0bvgrcfzoshj5ctrsvxjzmndtbwrxsvlknfe=/party+in+the+u.s.a.+%28miley+cyrus%29%28hdjumbo.com%29.mp4   #n          
++  Party In The U.S.A. &lt;http://hdjumbo.com/video/down/33224184/2444375/MDFhZWF0amdZVE4xRk85dTRud0c0Rkl0bVgrcFZOSHJ5cTRSVXJzMndTbWRXSVlKNFE=/Party+In+The+u.S.A.+%28Miley+Cyrus%29%28HDJumbo.Com%29.mp4&gt; (Miley Cyrus)
+
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 68, in test_fpEmbeddedImageTagger_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'party in the u.s.a.  http://hdjumbo.com/v[165 chars]    ' != ' Party In The U.S.A. <http://hdjumbo.com/[168 chars]s)\n'
+- party in the u.s.a.  http://hdjumbo.com/video/down/33224184/2444375/mdfhzwf0amdzve4xrk85dtrud0c0rkl0bvgrcfzoshj5ctrsvxjzmndtbwrxsvlknfe=/party+in+the+u.s.a.+%28miley+cyrus%29%28hdjumbo.com%29.mp4   #n          
++  Party In The U.S.A. <http://hdjumbo.com/video/down/33224184/2444375/MDFhZWF0amdZVE4xRk85dTRud0c0Rkl0bVgrcFZOSHJ5cTRSVXJzMndTbWRXSVlKNFE=/Party+In+The+u.S.A.+%28Miley+Cyrus%29%28HDJumbo.Com%29.mp4> (Miley Cyrus)
+
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpEmbeddedImageTagger_3" time="0.603">
+		<error message="'fan  http://hdjumbo.com/video/down/381342[141 chars]er 2' != 'Fan &lt;http://hdjumbo.com/video/down/381342[141 chars]er 2'
+- fan  http://hdjumbo.com/video/down/38134238/2444375/ogiynvpleulqanhttuxselr3qtmwwhb2r3c2rmpytexltjjtugcxy2jpsvridwhzwnc=/fan+%28teaser+trailer+2%29%28hdjumbo.com%29.3gp  teaser trailer 2
++ Fan &lt;http://hdjumbo.com/video/down/38134238/2444375/OGIyNVpleUlqanhTTUxSelR3QTMwWHB2R3c2RmpyTExlTjJTUGcxY2JPSVRidWhZWnc=/Fan+%28Teaser+Trailer+2%29%28HDJumbo.Com%29.3gp&gt; Teaser Trailer 2
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 74, in test_fpEmbeddedImageTagger_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'fan  http://hdjumbo.com/video/down/381342[141 chars]er 2' != 'Fan <http://hdjumbo.com/video/down/381342[141 chars]er 2'
+- fan  http://hdjumbo.com/video/down/38134238/2444375/ogiynvpleulqanhttuxselr3qtmwwhb2r3c2rmpytexltjjtugcxy2jpsvridwhzwnc=/fan+%28teaser+trailer+2%29%28hdjumbo.com%29.3gp  teaser trailer 2
++ Fan <http://hdjumbo.com/video/down/38134238/2444375/OGIyNVpleUlqanhTTUxSelR3QTMwWHB2R3c2RmpyTExlTjJTUGcxY2JPSVRidWhZWnc=/Fan+%28Teaser+Trailer+2%29%28HDJumbo.Com%29.3gp> Teaser Trailer 2
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpName_15" time="0.584">
+		<error message="'warning just how the #n     were able to' != 'warning just how the romans were able to'
+- warning just how the #n     were able to
+?                      ^ ^^^^
++ warning just how the romans were able to
+?                      ^^^^ ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 337, in test_fpName_15
+    self.assertEqual(Actuval, expected)
+AssertionError: 'warning just how the #n     were able to' != 'warning just how the romans were able to'
+- warning just how the #n     were able to
+?                      ^ ^^^^
++ warning just how the romans were able to
+?                      ^^^^ ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpName_17" time="0.752">
+		<error message="'product developed by #n        to generate' != 'product developed by honeywell to generate'
+- product developed by #n        to generate
+?                      ^ ^^^^^^^
++ product developed by honeywell to generate
+?                      ^^ ^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 349, in test_fpName_17
+    self.assertEqual(Actuval, expected)
+AssertionError: 'product developed by #n        to generate' != 'product developed by honeywell to generate'
+- product developed by #n        to generate
+?                      ^ ^^^^^^^
++ product developed by honeywell to generate
+?                      ^^ ^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpName_18" time="0.724">
+		<error message="'stores  60-100  in #n        ' != 'stores  60-100  in san diego '
+- stores  60-100  in #n        
+?                    ^  ^^^^^^
++ stores  60-100  in san diego 
+?                    ^^  ^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 355, in test_fpName_18
+    self.assertEqual(Actuval, expected)
+AssertionError: 'stores  60-100  in #n        ' != 'stores  60-100  in san diego '
+- stores  60-100  in #n        
+?                    ^  ^^^^^^
++ stores  60-100  in san diego 
+?                    ^^  ^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpName_20" time="0.719">
+		<error message="'enron north america corp.' != 'enron north america corp '
+- enron north america corp.
+?                         ^
++ enron north america corp 
+?                         ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 367, in test_fpName_20
+    self.assertEqual(Actuval, expected)
+AssertionError: 'enron north america corp.' != 'enron north america corp '
+- enron north america corp.
+?                         ^
++ enron north america corp 
+?                         ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpName_21" time="0.760">
+		<error message="'for #n       gas ' != 'for san juan gas '
+- for #n       gas 
++ for san juan gas 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 373, in test_fpName_21
+    self.assertEqual(Actuval, expected)
+AssertionError: 'for #n       gas ' != 'for san juan gas '
+- for #n       gas 
++ for san juan gas 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpName_24" time="0.558">
+		<error message="'communications  #n  west telecomm and' != 'communications  pac west telecomm and'
+- communications  #n  west telecomm and
+?                 ^^^
++ communications  pac west telecomm and
+?                 ^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 391, in test_fpName_24
+    self.assertEqual(Actuval, expected)
+AssertionError: 'communications  #n  west telecomm and' != 'communications  pac west telecomm and'
+- communications  #n  west telecomm and
+?                 ^^^
++ communications  pac west telecomm and
+?                 ^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpName_25" time="0.610">
+		<error message="'development in #n           spokane' != 'development in los angels   spokane'
+- development in #n           spokane
+?                ^ ^^^^^^^^
++ development in los angels   spokane
+?                ^^^^^ ^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 397, in test_fpName_25
+    self.assertEqual(Actuval, expected)
+AssertionError: 'development in #n           spokane' != 'development in los angels   spokane'
+- development in #n           spokane
+?                ^ ^^^^^^^^
++ development in los angels   spokane
+?                ^^^^^ ^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpName_29" time="0.565">
+		<error message="'in #n          or dallas ' != 'in san antonio or dallas '
+- in #n          or dallas 
++ in san antonio or dallas 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 421, in test_fpName_29
+    self.assertEqual(Actuval, expected)
+AssertionError: 'in #n          or dallas ' != 'in san antonio or dallas '
+- in #n          or dallas 
++ in san antonio or dallas 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpName_5" time="0.594">
+		<error message="'demand in #n         by unit ' != 'demand in san marcos by unit '
+- demand in #n         by unit 
++ demand in san marcos by unit 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 283, in test_fpName_5
+    self.assertEqual(Actuval, expected)
+AssertionError: 'demand in #n         by unit ' != 'demand in san marcos by unit '
+- demand in #n         by unit 
++ demand in san marcos by unit 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpName_6" time="0.569">
+		<error message="'po box 970001  st. #n     mo 63197' != 'po box 970001   st. louis  mo 63197'
+- po box 970001  st. #n     mo 63197
+?                    ^^^^^
++ po box 970001   st. louis  mo 63197
+?                +    ^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 289, in test_fpName_6
+    self.assertEqual(Actuval, expected)
+AssertionError: 'po box 970001  st. #n     mo 63197' != 'po box 970001   st. louis  mo 63197'
+- po box 970001  st. #n     mo 63197
+?                    ^^^^^
++ po box 970001   st. louis  mo 63197
+?                +    ^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpName_8" time="0.570">
+		<error message="'like this in houston to boost' != 'like this in houstan to boost'
+- like this in houston to boost
+?                   ^
++ like this in houstan to boost
+?                   ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 295, in test_fpName_8
+    self.assertEqual(Actuval, expected)
+AssertionError: 'like this in houston to boost' != 'like this in houstan to boost'
+- like this in houston to boost
+?                   ^
++ like this in houstan to boost
+?                   ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpName_9" time="0.548">
+		<error message="'a builder from #n          that is' != 'a builder from san antonio that is'
+- a builder from #n          that is
++ a builder from san antonio that is
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 301, in test_fpName_9
+    self.assertEqual(Actuval, expected)
+AssertionError: 'a builder from #n          that is' != 'a builder from san antonio that is'
+- a builder from #n          that is
++ a builder from san antonio that is
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iMailToEmailTagger_1" time="0.597">
+		<error message="' mailto:nfo@theelegantsports.com ' != ' #mailto                         '
+-  mailto:nfo@theelegantsports.com 
++  #mailto                         
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 95, in test_iMailToEmailTagger_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' mailto:nfo@theelegantsports.com ' != ' #mailto                         '
+-  mailto:nfo@theelegantsports.com 
++  #mailto                         
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iMailToEmailTagger_10" time="0.547">
+		<error message="'mailto:newbusiness@amstock.com' != '#mailto                       '
+- mailto:newbusiness@amstock.com
++ #mailto                       
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 149, in test_iMailToEmailTagger_10
+    self.assertEqual(Actuval, expected)
+AssertionError: 'mailto:newbusiness@amstock.com' != '#mailto                       '
+- mailto:newbusiness@amstock.com
++ #mailto                       
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iMailToEmailTagger_11" time="0.538">
+		<error message="' mailto:newyork@sec.gov ' != ' #mailto                '
+-  mailto:newyork@sec.gov 
++  #mailto                
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 155, in test_iMailToEmailTagger_11
+    self.assertEqual(Actuval, expected)
+AssertionError: ' mailto:newyork@sec.gov ' != ' #mailto                '
+-  mailto:newyork@sec.gov 
++  #mailto                
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iMailToEmailTagger_12" time="0.576">
+		<error message="'mailto:office@teraplast.ro' != '#mailto                   '
+- mailto:office@teraplast.ro
++ #mailto                   
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 161, in test_iMailToEmailTagger_12
+    self.assertEqual(Actuval, expected)
+AssertionError: 'mailto:office@teraplast.ro' != '#mailto                   '
+- mailto:office@teraplast.ro
++ #mailto                   
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iMailToEmailTagger_2" time="0.569">
+		<error message="'mailto:c.cochrane@webads.co.uk' != '#mailto                       '
+- mailto:c.cochrane@webads.co.uk
++ #mailto                       
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 101, in test_iMailToEmailTagger_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'mailto:c.cochrane@webads.co.uk' != '#mailto                       '
+- mailto:c.cochrane@webads.co.uk
++ #mailto                       
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iMailToEmailTagger_3" time="0.569">
+		<error message="' mailto:tmxeclientmanagement@tmx.com ' != ' #mailto                             '
+-  mailto:tmxeclientmanagement@tmx.com 
++  #mailto                             
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 107, in test_iMailToEmailTagger_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' mailto:tmxeclientmanagement@tmx.com ' != ' #mailto                             '
+-  mailto:tmxeclientmanagement@tmx.com 
++  #mailto                             
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iMailToEmailTagger_4" time="0.569">
+		<error message="'mailto:sanfrancisco@sec.gov' != '#mailto                    '
+- mailto:sanfrancisco@sec.gov
++ #mailto                    
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 113, in test_iMailToEmailTagger_4
+    self.assertEqual(Actuval, expected)
+AssertionError: 'mailto:sanfrancisco@sec.gov' != '#mailto                    '
+- mailto:sanfrancisco@sec.gov
++ #mailto                    
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iMailToEmailTagger_5" time="0.593">
+		<error message="' mailto:info@fxcm.com ' != ' #mailto              '
+-  mailto:info@fxcm.com 
++  #mailto              
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 119, in test_iMailToEmailTagger_5
+    self.assertEqual(Actuval, expected)
+AssertionError: ' mailto:info@fxcm.com ' != ' #mailto              '
+-  mailto:info@fxcm.com 
++  #mailto              
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iMailToEmailTagger_6" time="0.577">
+		<error message="'mailto:tmxshareholder@tmx.com' != '#mailto                      '
+- mailto:tmxshareholder@tmx.com
++ #mailto                      
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 125, in test_iMailToEmailTagger_6
+    self.assertEqual(Actuval, expected)
+AssertionError: 'mailto:tmxshareholder@tmx.com' != '#mailto                      '
+- mailto:tmxshareholder@tmx.com
++ #mailto                      
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iMailToEmailTagger_7" time="0.575">
+		<error message="' mailto:info@gse.com.gh ' != ' #mailto                '
+-  mailto:info@gse.com.gh 
++  #mailto                
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 131, in test_iMailToEmailTagger_7
+    self.assertEqual(Actuval, expected)
+AssertionError: ' mailto:info@gse.com.gh ' != ' #mailto                '
+-  mailto:info@gse.com.gh 
++  #mailto                
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iMailToEmailTagger_8" time="0.555">
+		<error message="'mailto:tradedesk@bats.com' != '#mailto                  '
+- mailto:tradedesk@bats.com
++ #mailto                  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 137, in test_iMailToEmailTagger_8
+    self.assertEqual(Actuval, expected)
+AssertionError: 'mailto:tradedesk@bats.com' != '#mailto                  '
+- mailto:tradedesk@bats.com
++ #mailto                  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iMailToEmailTagger_9" time="0.585">
+		<error message="' mailto:membershipservices@bats.com ' != ' #mailto                            '
+-  mailto:membershipservices@bats.com 
++  #mailto                            
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 143, in test_iMailToEmailTagger_9
+    self.assertEqual(Actuval, expected)
+AssertionError: ' mailto:membershipservices@bats.com ' != ' #mailto                            '
+-  mailto:membershipservices@bats.com 
++  #mailto                            
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcEmbeddedUrlTagger_2" time="0.613">
+		<error message="'new techniques will be added to the colle[104 chars]m   ' != ' New techniques will be added to the coll[89 chars]].\n'
+- new techniques will be added to the collection every other week  so check back early and often  find more tips and tricks at   indesignsecrets.com   
+? ^                                                              ^                              ^^^                            ^^^^^ ^^^^^^^^^^^ ------
++  New techniques will be added to the collection every other week, so check back early and often. Find more tips and tricks at [#ue].
+
+? ^^                                                              ^                              ^^^                            ^^^ ^  +
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 84, in test_mcEmbeddedUrlTagger_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'new techniques will be added to the colle[104 chars]m   ' != ' New techniques will be added to the coll[89 chars]].\n'
+- new techniques will be added to the collection every other week  so check back early and often  find more tips and tricks at   indesignsecrets.com   
+? ^                                                              ^                              ^^^                            ^^^^^ ^^^^^^^^^^^ ------
++  New techniques will be added to the collection every other week, so check back early and often. Find more tips and tricks at [#ue].
+
+? ^^                                                              ^                              ^^^                            ^^^ ^  +
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcMailToEmailTagger_1" time="0.591">
+		<error message="'please contact  mailto:clientimplementation@lseg.com  the[60 chars]3232' != 'please contact  #mailto                               the[60 chars]3232'
+- please contact  mailto:clientimplementation@lseg.com  the client implementation team on +44  0  20 7797 3232 or stx 33232
++ please contact  #mailto                               the client implementation team on +44  0  20 7797 3232 or stx 33232
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 252, in test_mcMailToEmailTagger_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'please contact  mailto:clientimplementation@lseg.com  the[60 chars]3232' != 'please contact  #mailto                               the[60 chars]3232'
+- please contact  mailto:clientimplementation@lseg.com  the client implementation team on +44  0  20 7797 3232 or stx 33232
++ please contact  #mailto                               the client implementation team on +44  0  20 7797 3232 or stx 33232
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcMailToEmailTagger_2" time="0.553">
+		<error message="'find 2 emails  mailto:info@acsgear.com  and 1 phone numb[38 chars]com ' != 'find 2 emails  #mailto                  and 1 phone numb[38 chars]com '
+- find 2 emails  mailto:info@acsgear.com  and 1 phone numbers(1-877-221-8282  about www.acsgear.com 
+?                      ^^^^^^^^^^^^^^^^^
++ find 2 emails  #mailto                  and 1 phone numbers(1-877-221-8282  about www.acsgear.com 
+?                +      ^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 258, in test_mcMailToEmailTagger_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'find 2 emails  mailto:info@acsgear.com  and 1 phone numb[38 chars]com ' != 'find 2 emails  #mailto                  and 1 phone numb[38 chars]com '
+- find 2 emails  mailto:info@acsgear.com  and 1 phone numbers(1-877-221-8282  about www.acsgear.com 
+?                      ^^^^^^^^^^^^^^^^^
++ find 2 emails  #mailto                  and 1 phone numbers(1-877-221-8282  about www.acsgear.com 
+?                +      ^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcMailToEmailTagger_3" time="0.585">
+		<error message="'just[20 chars]also put   mailto:tmxshareholder@tmx.com  into the cc address ' != 'just[20 chars]also put   #mailto                        into the cc address '
+- just for good measure i also put   mailto:tmxshareholder@tmx.com  into the cc address 
++ just for good measure i also put   #mailto                        into the cc address 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 264, in test_mcMailToEmailTagger_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'just[20 chars]also put   mailto:tmxshareholder@tmx.com  into the cc address ' != 'just[20 chars]also put   #mailto                        into the cc address '
+- just for good measure i also put   mailto:tmxshareholder@tmx.com  into the cc address 
++ just for good measure i also put   #mailto                        into the cc address 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcTime_1" time="0.610">
+		<error message="'at about 4 p.m. in london  11 a.m. est   bloomberg[38 chars]lem ' != 'at about #t     in london  #t            bloomberg[38 chars]lem '
+- at about 4 p.m. in london  11 a.m. est   bloomberg tweeted that it had resolved the problem 
+?          ^^^^^^            ^^^^^^^^^^
++ at about #t     in london  #t            bloomberg tweeted that it had resolved the problem 
+?          ^^^^^^            ^ +++++++++
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 47, in test_mcTime_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'at about 4 p.m. in london  11 a.m. est   bloomberg[38 chars]lem ' != 'at about #t     in london  #t            bloomberg[38 chars]lem '
+- at about 4 p.m. in london  11 a.m. est   bloomberg tweeted that it had resolved the problem 
+?          ^^^^^^            ^^^^^^^^^^
++ at about #t     in london  #t            bloomberg tweeted that it had resolved the problem 
+?          ^^^^^^            ^ +++++++++
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcTime_3" time="0.586">
+		<error message="'typically lunch time in us is anywhere between  11:30 p.m  and  1:00 pm ' != 'typically lunch time in us is anywhere between  #t         and  #t      '
+- typically lunch time in us is anywhere between  11:30 p.m  and  1:00 pm 
+?                                                 ^^^^^^^^^       ^^^^^^^
++ typically lunch time in us is anywhere between  #t         and  #t      
+?                                                 ^^^^^^^^^       ^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 53, in test_mcTime_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'typically lunch time in us is anywhere between  11:30 p.m  and  1:00 pm ' != 'typically lunch time in us is anywhere between  #t         and  #t      '
+- typically lunch time in us is anywhere between  11:30 p.m  and  1:00 pm 
+?                                                 ^^^^^^^^^       ^^^^^^^
++ typically lunch time in us is anywhere between  #t         and  #t      
+?                                                 ^^^^^^^^^       ^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_nlMailToEmailTagger_1" time="0.584">
+		<error message="'premium products feedback mailto:orders@marketwatch.com' != 'premium products feedback #mailto                      '
+- premium products feedback mailto:orders@marketwatch.com
++ premium products feedback #mailto                      
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 272, in test_nlMailToEmailTagger_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'premium products feedback mailto:orders@marketwatch.com' != 'premium products feedback #mailto                      '
+- premium products feedback mailto:orders@marketwatch.com
++ premium products feedback #mailto                      
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_nlName_1" time="0.609">
+		<error message="'breaking  #n   mourinho to be subject of individual lega[64 chars]ort ' != 'breaking  #n            to be subject of individual lega[64 chars]ort '
+- breaking  #n   mourinho to be subject of individual legal claim from former club doctor #n            according to pa sport 
+?                ^^^^^^^^
++ breaking  #n            to be subject of individual legal claim from former club doctor #n            according to pa sport 
+?                ^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 500, in test_nlName_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'breaking  #n   mourinho to be subject of individual lega[64 chars]ort ' != 'breaking  #n            to be subject of individual lega[64 chars]ort '
+- breaking  #n   mourinho to be subject of individual legal claim from former club doctor #n            according to pa sport 
+?                ^^^^^^^^
++ breaking  #n            to be subject of individual legal claim from former club doctor #n            according to pa sport 
+?                ^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pMailToEmailTagger_1" time="0.561">
+		<error message="'for [57 chars]dawul website  please contact us at  mailto:ms@tadawul.com.sa ' != 'for [57 chars]dawul website  please contact us at  #mailto                  '
+- for statistics and market indices information published on tadawul website  please contact us at  mailto:ms@tadawul.com.sa 
+?                                                                                                         ^^^^^^^^^^^^^^^^^^
++ for statistics and market indices information published on tadawul website  please contact us at  #mailto                  
+?                                                                                                   +      ^^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 232, in test_pMailToEmailTagger_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'for [57 chars]dawul website  please contact us at  mailto:ms@tadawul.com.sa ' != 'for [57 chars]dawul website  please contact us at  #mailto                  '
+- for statistics and market indices information published on tadawul website  please contact us at  mailto:ms@tadawul.com.sa 
+?                                                                                                         ^^^^^^^^^^^^^^^^^^
++ for statistics and market indices information published on tadawul website  please contact us at  #mailto                  
+?                                                                                                   +      ^^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pMailToEmailTagger_2" time="0.556">
+		<error message="'(800) 501-3161   mailto:info@crosschx.com[34 chars]3215' != ' 800  501-3161   #mailto                 [34 chars]3215'
+- (800) 501-3161   mailto:info@crosschx.com   99 e. main st. columbus, ohio 43215
++  800  501-3161   #mailto                    99 e. main st. columbus  ohio 43215
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 238, in test_pMailToEmailTagger_2
+    self.assertEqual(Actuval, expected)
+AssertionError: '(800) 501-3161   mailto:info@crosschx.com[34 chars]3215' != ' 800  501-3161   #mailto                 [34 chars]3215'
+- (800) 501-3161   mailto:info@crosschx.com   99 e. main st. columbus, ohio 43215
++  800  501-3161   #mailto                    99 e. main st. columbus  ohio 43215
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pMailToEmailTagger_3" time="0.592">
+		<error message="'comp[21 chars] bats  mailto:membershipservices@bats.com   call 646-441-5200 ' != 'comp[21 chars] bats  #mailto                              call 646-441-5200 '
+- completed and returned to bats  mailto:membershipservices@bats.com   call 646-441-5200 
++ completed and returned to bats  #mailto                              call 646-441-5200 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 244, in test_pMailToEmailTagger_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'comp[21 chars] bats  mailto:membershipservices@bats.com   call 646-441-5200 ' != 'comp[21 chars] bats  #mailto                              call 646-441-5200 '
+- completed and returned to bats  mailto:membershipservices@bats.com   call 646-441-5200 
++ completed and returned to bats  #mailto                              call 646-441-5200 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pName_2" time="0.551">
+		<error message="'add #n    winfee and george smith ' != 'add #n           and #n           '
+- add #n    winfee and george smith 
++ add #n           and #n           
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 444, in test_pName_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'add #n    winfee and george smith ' != 'add #n           and #n           '
+- add #n    winfee and george smith 
++ add #n           and #n           
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pName_4" time="0.569">
+		<error message="'i would like him to interview with #n    farmer  #n          and yourself ' != 'i would like him to interview with #n            #n          and yourself '
+- i would like him to interview with #n    farmer  #n          and yourself 
+?                                          ^^^^^^
++ i would like him to interview with #n            #n          and yourself 
+?                                          ^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 450, in test_pName_4
+    self.assertEqual(Actuval, expected)
+AssertionError: 'i would like him to interview with #n    farmer  #n          and yourself ' != 'i would like him to interview with #n            #n          and yourself '
+- i would like him to interview with #n    farmer  #n          and yourself 
+?                                          ^^^^^^
++ i would like him to interview with #n            #n          and yourself 
+?                                          ^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTime_1" time="0.756">
+		<error message="'the [27 chars]y at 10:00 a.m  the court is allowing each sid[20 chars]ent ' != 'the [27 chars]y at #t         the court is allowing each sid[20 chars]ent '
+- the argument will begin promptly at 10:00 a.m  the court is allowing each side one hour for argument 
+?                                     ^^^^^^^^^
++ the argument will begin promptly at #t         the court is allowing each side one hour for argument 
+?                                     ^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 31, in test_pTime_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'the [27 chars]y at 10:00 a.m  the court is allowing each sid[20 chars]ent ' != 'the [27 chars]y at #t         the court is allowing each sid[20 chars]ent '
+- the argument will begin promptly at 10:00 a.m  the court is allowing each side one hour for argument 
+?                                     ^^^^^^^^^
++ the argument will begin promptly at #t         the court is allowing each side one hour for argument 
+?                                     ^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTime_2" time="0.893">
+		<error message="'the [28 chars]ound 8:20 a.m. london time  or 3:20 a.m. est  [14 chars]nbc.' != 'the [28 chars]ound #t        london time  or #t             [14 chars]nbc.'
+- the outage was first reported around 8:20 a.m. london time  or 3:20 a.m. est  according to cnbc.
+?                                      ^^^^^^^^^                 ^^^^^^^^^^^^
++ the outage was first reported around #t        london time  or #t             according to cnbc.
+?                                      ^^^^^^^^^                 ^ +++++++++++
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 37, in test_pTime_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'the [28 chars]ound 8:20 a.m. london time  or 3:20 a.m. est  [14 chars]nbc.' != 'the [28 chars]ound #t        london time  or #t             [14 chars]nbc.'
+- the outage was first reported around 8:20 a.m. london time  or 3:20 a.m. est  according to cnbc.
+?                                      ^^^^^^^^^                 ^^^^^^^^^^^^
++ the outage was first reported around #t        london time  or #t             according to cnbc.
+?                                      ^^^^^^^^^                 ^ +++++++++++
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

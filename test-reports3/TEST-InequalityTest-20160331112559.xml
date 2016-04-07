@@ -1,0 +1,283 @@
+<?xml version="1.0" ?>
+<testsuite errors="22" failures="0" name="InequalityTest-20160331112559" tests="22" time="16.872">
+	<testcase classname="InequalityTest" name="test_IsLocation_1" time="0.818">
+		<error message="'with the domestic united states equity ma[614 chars]y   ' != ' with the domestic #loc   #loc   equity m[616 chars]    '
+Diff is 1327 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 27, in test_IsLocation_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'with the domestic united states equity ma[614 chars]y   ' != ' with the domestic #loc   #loc   equity m[616 chars]    '
+Diff is 1327 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsLocation_10" time="0.787">
+		<error message="&quot;we need to own shares of raytheon in the[375 chars]cks &quot; != ' we need to own shares of #loc     in th[377 chars]ks  '
+Diff is 847 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 91, in test_IsLocation_10
+    self.assertEqual(Actuval, expected)
+AssertionError: "we need to own shares of raytheon in the[375 chars]cks " != ' we need to own shares of #loc     in th[377 chars]ks  '
+Diff is 847 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsLocation_11" time="0.784">
+		<error message="'alaska  which is not included in the term[230 chars]and ' != ' alaska  which is not included in the ter[232 chars]    '
+- alaska  which is not included in the term contiguous united states  is at the northwestern end of north america  separated from the lower 48 by canada  the capital city  washington  district of columbia  is a federal district located on land donated by the state of maryland 
++  alaska  which is not included in the term contiguous #loc   #loc    is at the northwestern end of #loc  #loc     separated from the lower 48 by #loc    the capital city  #loc        #loc     #lo#loc      is a federal district located on land donated by the state of #loc      
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 98, in test_IsLocation_11
+    self.assertEqual(Actuval, expected)
+AssertionError: 'alaska  which is not included in the term[230 chars]and ' != ' alaska  which is not included in the ter[232 chars]    '
+- alaska  which is not included in the term contiguous united states  is at the northwestern end of north america  separated from the lower 48 by canada  the capital city  washington  district of columbia  is a federal district located on land donated by the state of maryland 
++  alaska  which is not included in the term contiguous #loc   #loc    is at the northwestern end of #loc  #loc     separated from the lower 48 by #loc    the capital city  #loc        #loc     #lo#loc      is a federal district located on land donated by the state of #loc      
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsLocation_12" time="0.964">
+		<error message="'located in the western hemisphere on the [1052 chars]mi  ' != ' located in the #loc    #loc       on the[1048 chars]i   '
+Diff is 2197 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 104, in test_IsLocation_12
+    self.assertEqual(Actuval, expected)
+AssertionError: 'located in the western hemisphere on the [1052 chars]mi  ' != ' located in the #loc    #loc       on the[1048 chars]i   '
+Diff is 2197 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsLocation_13" time="0.732">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 109, in test_IsLocation_13
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 16, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 800, in json
+    self.content.decode(encoding), **kwargs
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsLocation_14" time="0.737">
+		<error message="'san jose  calif   is now among the 10 u.s[282 chars]tes ' != ' #loc#loc  #loc    is now among the 10 u.[284 chars]es  '
+Diff is 663 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 117, in test_IsLocation_14
+    self.assertEqual(Actuval, expected)
+AssertionError: 'san jose  calif   is now among the 10 u.s[282 chars]tes ' != ' #loc#loc  #loc    is now among the 10 u.[284 chars]es  '
+Diff is 663 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsLocation_15" time="0.724">
+		<error message="'half of the 10 cities with the largest po[291 chars]els.' != ' half of the 10 cities with the largest p[291 chars]    '
+Diff is 679 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 124, in test_IsLocation_15
+    self.assertEqual(Actuval, expected)
+AssertionError: 'half of the 10 cities with the largest po[291 chars]els.' != ' half of the 10 cities with the largest p[291 chars]    '
+Diff is 679 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsLocation_16" time="0.779">
+		<error message="'the west was home to eight cities among t[474 chars]nts ' != ' the west was home to eight cities among [473 chars]ts  '
+Diff is 1044 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 131, in test_IsLocation_16
+    self.assertEqual(Actuval, expected)
+AssertionError: 'the west was home to eight cities among t[474 chars]nts ' != ' the west was home to eight cities among [473 chars]ts  '
+Diff is 1044 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsLocation_17" time="0.702">
+		<error message="'your connections to request access to the[34 chars]ing ' != ' your connections to request access to th[36 chars]ng  '
+- your connections to request access to the east power website for the following 
+?                                           ^^^^^^ ^^^
++  your connections to request access to the #loc #loc  website for the following  
+? +                                          ^^ ^^^^^^^                           +
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 137, in test_IsLocation_17
+    self.assertEqual(Actuval, expected)
+AssertionError: 'your connections to request access to the[34 chars]ing ' != ' your connections to request access to th[36 chars]ng  '
+- your connections to request access to the east power website for the following 
+?                                           ^^^^^^ ^^^
++  your connections to request access to the #loc #loc  website for the following  
+? +                                          ^^ ^^^^^^^                           +
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsLocation_18" time="0.697">
+		<error message="'i am going to be in san marcos next friday ' != ' i am going to be in #loc#loc   next friday  '
+- i am going to be in san marcos next friday 
+?                     ^^^^^^^  ^
++  i am going to be in #loc#loc   next friday  
+? +                    ^^^ ++ ^^^             +
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 143, in test_IsLocation_18
+    self.assertEqual(Actuval, expected)
+AssertionError: 'i am going to be in san marcos next friday ' != ' i am going to be in #loc#loc   next friday  '
+- i am going to be in san marcos next friday 
+?                     ^^^^^^^  ^
++  i am going to be in #loc#loc   next friday  
+? +                    ^^^ ++ ^^^             +
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsLocation_19" time="0.689">
+		<error message="'estimated payments is   po box 970001  st. louis  mo 63197-0001' != ' estimated payments is   po box 970001   #l c#loc   mo 63197-0001 '
+- estimated payments is   po box 970001  st. louis  mo 63197-0001
+?                                        ^^^^  ^^^
++  estimated payments is   po box 970001   #l c#loc   mo 63197-0001 
+? +                                       ^^^^^^  ^^               +
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 149, in test_IsLocation_19
+    self.assertEqual(Actuval, expected)
+AssertionError: 'estimated payments is   po box 970001  st. louis  mo 63197-0001' != ' estimated payments is   po box 970001   #l c#loc   mo 63197-0001 '
+- estimated payments is   po box 970001  st. louis  mo 63197-0001
+?                                        ^^^^  ^^^
++  estimated payments is   po box 970001   #l c#loc   mo 63197-0001 
+? +                                       ^^^^^^  ^^               +
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsLocation_2" time="0.852">
+		<error message="&quot;up until this point in the year i have on[770 chars]uns &quot; != &quot; up until this point in the year i have o[772 chars]ns  &quot;
+Diff is 3130 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 34, in test_IsLocation_2
+    self.assertEqual(Actuval, expected)
+AssertionError: "up until this point in the year i have on[770 chars]uns " != " up until this point in the year i have o[772 chars]ns  "
+Diff is 3130 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsLocation_20" time="0.671">
+		<error message="'my address is 8855 merlin ct  houston, tx 77055 ' != ' my address is 8855 merlin ct  #loc     tx 77055  '
+- my address is 8855 merlin ct  houston, tx 77055 
+?                               ^ ^^^^^^
++  my address is 8855 merlin ct  #loc     tx 77055  
+? +                              ^^ ^^^^^          +
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 155, in test_IsLocation_20
+    self.assertEqual(Actuval, expected)
+AssertionError: 'my address is 8855 merlin ct  houston, tx 77055 ' != ' my address is 8855 merlin ct  #loc     tx 77055  '
+- my address is 8855 merlin ct  houston, tx 77055 
+?                               ^ ^^^^^^
++  my address is 8855 merlin ct  #loc     tx 77055  
+? +                              ^^ ^^^^^          +
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsLocation_21" time="0.708">
+		<error message="'sheet is an attempt to outline supply   demand in san marcos by unit ' != ' sheet is an attempt to outline supply   demand in #loc#loc   by unit  '
+- sheet is an attempt to outline supply   demand in san marcos by unit 
+?                                                   ^^^^^^^  ^
++  sheet is an attempt to outline supply   demand in #loc#loc   by unit  
+? +                                                  ^^^ ++ ^^^         +
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 161, in test_IsLocation_21
+    self.assertEqual(Actuval, expected)
+AssertionError: 'sheet is an attempt to outline supply   demand in san marcos by unit ' != ' sheet is an attempt to outline supply   demand in #loc#loc   by unit  '
+- sheet is an attempt to outline supply   demand in san marcos by unit 
+?                                                   ^^^^^^^  ^
++  sheet is an attempt to outline supply   demand in #loc#loc   by unit  
+? +                                                  ^^^ ++ ^^^         +
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsLocation_3" time="0.742">
+		<error message="&quot;the earnings for the cheneire energy  lng[527 chars]ing &quot; != &quot; the earnings for the cheneire energy  ln[529 chars]ng  &quot;
+Diff is 1153 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 41, in test_IsLocation_3
+    self.assertEqual(Actuval, expected)
+AssertionError: "the earnings for the cheneire energy  lng[527 chars]ing " != " the earnings for the cheneire energy  ln[529 chars]ng  "
+Diff is 1153 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsLocation_4" time="0.848">
+		<error message="'i have an idea for a portfolio that i wan[843 chars]ant ' != ' i have an idea for a portfolio that i wa[845 chars]nt  '
+Diff is 3177 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 48, in test_IsLocation_4
+    self.assertEqual(Actuval, expected)
+AssertionError: 'i have an idea for a portfolio that i wan[843 chars]ant ' != ' i have an idea for a portfolio that i wa[845 chars]nt  '
+Diff is 3177 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsLocation_5" time="0.912">
+		<error message="&quot;as you see in the economic news  china is[681 chars]ank &quot; != &quot; as you see in the economic news  #loc  i[683 chars]nk  &quot;
+Diff is 2639 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 55, in test_IsLocation_5
+    self.assertEqual(Actuval, expected)
+AssertionError: "as you see in the economic news  china is[681 chars]ank " != " as you see in the economic news  #loc  i[683 chars]nk  "
+Diff is 2639 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsLocation_6" time="0.852">
+		<error message="'i have to say again that you are making a[695 chars]ore ' != ' i have to say again that you are making [697 chars]re  '
+Diff is 1489 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 62, in test_IsLocation_6
+    self.assertEqual(Actuval, expected)
+AssertionError: 'i have to say again that you are making a[695 chars]ore ' != ' i have to say again that you are making [697 chars]re  '
+Diff is 1489 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsLocation_7" time="0.743">
+		<error message="&quot;france initiated their campaign against t[219 chars]gs  &quot; != &quot; #loc   initiated their campaign against [221 chars]s   &quot;
+Diff is 829 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 69, in test_IsLocation_7
+    self.assertEqual(Actuval, expected)
+AssertionError: "france initiated their campaign against t[219 chars]gs  " != " #loc   initiated their campaign against [221 chars]s   "
+Diff is 829 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsLocation_8" time="0.710">
+		<error message="'money from the russian wealth has flooded[275 chars]des ' != ' money from the russian wealth has floode[277 chars]es  '
+Diff is 649 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 76, in test_IsLocation_8
+    self.assertEqual(Actuval, expected)
+AssertionError: 'money from the russian wealth has flooded[275 chars]des ' != ' money from the russian wealth has floode[277 chars]es  '
+Diff is 649 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsLocation_9" time="0.719">
+		<error message="&quot;jim o'neill is selling what he basically [294 chars]wn  &quot; != &quot; jim o'neill is selling what he basically[296 chars]n   &quot;
+Diff is 687 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 83, in test_IsLocation_9
+    self.assertEqual(Actuval, expected)
+AssertionError: "jim o'neill is selling what he basically [294 chars]wn  " != " jim o'neill is selling what he basically[296 chars]n   "
+Diff is 687 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_USATouristPlacesTagger_30" time="0.701">
+		<error message="&quot; disney's hollywood studios  originally [86 chars]ey  &quot; != '  '
+-  disney's hollywood studios  originally disney-mgm studios until 2008) is the third of four theme parks built at the walt disney  
++   
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 168, in test_USATouristPlacesTagger_30
+    self.assertEqual(Actuval, expected)
+AssertionError: " disney's hollywood studios  originally [86 chars]ey  " != '  '
+-  disney's hollywood studios  originally disney-mgm studios until 2008) is the third of four theme parks built at the walt disney  
++   
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

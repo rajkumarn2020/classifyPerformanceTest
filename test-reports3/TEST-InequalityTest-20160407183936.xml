@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="InequalityTest-20160407183936" tests="1" time="27.140">
+	<testcase classname="InequalityTest" name="test_IsClassify_many" time="27.140">
+		<error message="500 != 0" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 37, in test_IsClassify_many
+    self.assertEqual(Actuval, int(expected))
+AssertionError: 500 != 0
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[500
+500
+500
+500
+501
+501
+501
+501
+501
+502
+502
+502
+502
+502
+503
+503
+503
+503
+503
+504
+504
+504
+504
+504
+505
+505
+505
+505
+505
+506
+506
+506
+506
+506
+507
+507
+507
+507
+507
+500
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

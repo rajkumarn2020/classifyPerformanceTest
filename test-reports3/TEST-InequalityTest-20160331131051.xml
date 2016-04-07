@@ -1,0 +1,1385 @@
+<?xml version="1.0" ?>
+<testsuite errors="20" failures="0" name="InequalityTest-20160331131051" tests="20" time="15.676">
+	<testcase classname="InequalityTest" name="test_IsEmail_1" time="0.958">
+		<error message="'hi c[89 chars] by  if you were considering any new clothing [1059 chars]any ' != 'hi c[89 chars] by  If you were considering any new clothing [1059 chars]any '
+Diff is 2411 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 28, in test_IsEmail_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'hi c[89 chars] by  if you were considering any new clothing [1059 chars]any ' != 'hi c[89 chars] by  If you were considering any new clothing [1059 chars]any '
+Diff is 2411 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsEmail_10" time="0.785">
+		<error message="'the attached is the final product of the [528 chars]    ' != '      '
+- the attached is the final product of the discussions which have been occurring between the various consumer groups attempting to keep edsion solvent while retaining some potential for direct access   iep has participated in some of these discussions  iep is being asked to sign this letter  it is time sensitive because of pending puc action on direct access   therefore i am calling an emergency board call for today thursday 6/28/01 3:00 pm pst.  call-in number  1-877-288-4427 participant code  934948      clean draft issues outline 6-27-01.doc     cover letter.doc    
++       
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 73, in test_IsEmail_10
+    self.assertEqual(Actuval, expected)
+AssertionError: 'the attached is the final product of the [528 chars]    ' != '      '
+- the attached is the final product of the discussions which have been occurring between the various consumer groups attempting to keep edsion solvent while retaining some potential for direct access   iep has participated in some of these discussions  iep is being asked to sign this letter  it is time sensitive because of pending puc action on direct access   therefore i am calling an emergency board call for today thursday 6/28/01 3:00 pm pst.  call-in number  1-877-288-4427 participant code  934948      clean draft issues outline 6-27-01.doc     cover letter.doc    
++       
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsEmail_11" time="0.700">
+		<error message="' dear supervisor   please accept this mess[164 chars]be  ' != ' '
+-  dear supervisor   please accept this message as notification that i was unable to work on august 1, 2010 due to personal illness   please let me know if i can provide any further information  sincerely, gabe  
++  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 78, in test_IsEmail_11
+    self.assertEqual(Actuval, expected)
+AssertionError: ' dear supervisor   please accept this mess[164 chars]be  ' != ' '
+-  dear supervisor   please accept this message as notification that i was unable to work on august 1, 2010 due to personal illness   please let me know if i can provide any further information  sincerely, gabe  
++  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsEmail_12" time="0.709">
+		<error message="' dear chris   thank you for your offer of [344 chars]34  ' != ' '
+-  dear chris   thank you for your offer of the position of regional manager of product development for the witten company.i am impressed with the depth of knowledge of your development team  and believe that my experience will help to maximize the profitability of the department.thank you very much for your consideration   sincerely, john email   youremail@gmail.oom phone   555-555-1234  
++  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 84, in test_IsEmail_12
+    self.assertEqual(Actuval, expected)
+AssertionError: ' dear chris   thank you for your offer of [344 chars]34  ' != ' '
+-  dear chris   thank you for your offer of the position of regional manager of product development for the witten company.i am impressed with the depth of knowledge of your development team  and believe that my experience will help to maximize the profitability of the department.thank you very much for your consideration   sincerely, john email   youremail@gmail.oom phone   555-555-1234  
++  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsEmail_13" time="0.756">
+		<error message="' bill   here is the information outstandin[403 chars]ip  ' != ' '
+-  bill   here is the information outstanding from our conversation yesterday   1.assessed value for the leander land   $632  000 2.mortgage on residence   cendant mortgage  loan  2328912 3.ein for bishops corner  l.p.   76 068 5666 4  i will fax you statements from various accounts  let me know what else i can do to be ready to turn around the invitation letter.i am pulling together all the organizational documents for the partnership   phillip  
++  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 90, in test_IsEmail_13
+    self.assertEqual(Actuval, expected)
+AssertionError: ' bill   here is the information outstandin[403 chars]ip  ' != ' '
+-  bill   here is the information outstanding from our conversation yesterday   1.assessed value for the leander land   $632  000 2.mortgage on residence   cendant mortgage  loan  2328912 3.ein for bishops corner  l.p.   76 068 5666 4  i will fax you statements from various accounts  let me know what else i can do to be ready to turn around the invitation letter.i am pulling together all the organizational documents for the partnership   phillip  
++  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsEmail_14" time="0.705">
+		<error message="'  heather   this is exactly what we need.w[210 chars]en  ' != ' '
+-   heather   this is exactly what we need.would it possible to add the prior day for each of the dates below to the pivot table.in order to validate the curve shift on the dates below we also need the prior days ending positions   thank you, phillip allen  
++  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 96, in test_IsEmail_14
+    self.assertEqual(Actuval, expected)
+AssertionError: '  heather   this is exactly what we need.w[210 chars]en  ' != ' '
+-   heather   this is exactly what we need.would it possible to add the prior day for each of the dates below to the pivot table.in order to validate the curve shift on the dates below we also need the prior days ending positions   thank you, phillip allen  
++  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsEmail_15" time="0.736">
+		<error message="&quot; ceci   i received the list of propertie[344 chars]tml &quot; != ' '
+-  ceci   i received the list of properties you mailed.thank you very much.i would like to stay updated on the market in hood river and the surrounding areas in washington as well.i would be interested in lots as well as homes.in case you don't still have it  my address is 8855 merlin ct  houston, tx 77055   thank you, phillip allen   http://www.forbes.com/global/2000/0612/0312072a.html 
++  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 102, in test_IsEmail_15
+    self.assertEqual(Actuval, expected)
+AssertionError: " ceci   i received the list of propertie[344 chars]tml " != ' '
+-  ceci   i received the list of properties you mailed.thank you very much.i would like to stay updated on the market in hood river and the surrounding areas in washington as well.i would be interested in lots as well as homes.in case you don't still have it  my address is 8855 merlin ct  houston, tx 77055   thank you, phillip allen   http://www.forbes.com/global/2000/0612/0312072a.html 
++  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsEmail_16" time="0.742">
+		<error message="' chris   can you use your connections to r[163 chars]lip ' != ' '
+-  chris   can you use your connections to request access to the east power website for the following   hunter shively mike grigsby scott neal john arnold tom martin phillip allen jim schwieger  thanks, phillip 
++  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 108, in test_IsEmail_16
+    self.assertEqual(Actuval, expected)
+AssertionError: ' chris   can you use your connections to r[163 chars]lip ' != ' '
+-  chris   can you use your connections to request access to the east power website for the following   hunter shively mike grigsby scott neal john arnold tom martin phillip allen jim schwieger  thanks, phillip 
++  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsEmail_17" time="0.792">
+		<error message="&quot; greg  this spreadsheet is an attempt to[798 chars]ip  &quot; != ' '
+Diff is 850 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 114, in test_IsEmail_17
+    self.assertEqual(Actuval, expected)
+AssertionError: " greg  this spreadsheet is an attempt to[798 chars]ip  " != ' '
+Diff is 850 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsEmail_18" time="0.809">
+		<error message="' hi gabe   http://www.bridge.com/   http:/[759 chars]716 ' != ' '
+Diff is 813 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 120, in test_IsEmail_18
+    self.assertEqual(Actuval, expected)
+AssertionError: ' hi gabe   http://www.bridge.com/   http:/[759 chars]716 ' != ' '
+Diff is 813 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsEmail_19" time="0.794">
+		<error message="' carrie   i hope you had a great thanksgiv[341 chars]6   ' != ' #g       i hope you had a great thanksgiv[342 chars]    '
+Diff is 1557 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 126, in test_IsEmail_19
+    self.assertEqual(Actuval, expected)
+AssertionError: ' carrie   i hope you had a great thanksgiv[341 chars]6   ' != ' #g       i hope you had a great thanksgiv[342 chars]    '
+Diff is 1557 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsEmail_2" time="0.695">
+		<error message="&quot; sue's presentation    and here are my c[168 chars]jeff&quot; != '      '
+-  sue's presentation    and here are my comments    fyi.   got your message   one set of golf clubs--right-handed--is all that i'll need  well  that and about 100 golf lessons     thanks for your help   best, jeff
++       
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 33, in test_IsEmail_2
+    self.assertEqual(Actuval, expected)
+AssertionError: " sue's presentation    and here are my c[168 chars]jeff" != '      '
+-  sue's presentation    and here are my comments    fyi.   got your message   one set of golf clubs--right-handed--is all that i'll need  well  that and about 100 golf lessons     thanks for your help   best, jeff
++       
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsEmail_20" time="0.759">
+		<error message="' david and bob   we look forward to workin[363 chars]om  ' != ' '
+-  david and bob   we look forward to working with yourselves to identify and create strategic business opportunities for both ebs and compaq. kim godfrey director  enterprise services enron broadband service phone   713 345 8813 cell   713 501 8105 fax   713 853 7354  great   bob jordan rio grande area director compaq computer corporation  tele #281   927   6350 fax #281   514   7220 bob.jordan@compaq.com  
++  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 132, in test_IsEmail_20
+    self.assertEqual(Actuval, expected)
+AssertionError: ' david and bob   we look forward to workin[363 chars]om  ' != ' '
+-  david and bob   we look forward to working with yourselves to identify and create strategic business opportunities for both ebs and compaq. kim godfrey director  enterprise services enron broadband service phone   713 345 8813 cell   713 501 8105 fax   713 853 7354  great   bob jordan rio grande area director compaq computer corporation  tele #281   927   6350 fax #281   514   7220 bob.jordan@compaq.com  
++  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsEmail_3" time="0.691">
+		<error message="&quot;hi lydia   could you let me know what ti[128 chars]jeff&quot; != '      '
+- hi lydia   could you let me know what time in the afternoon of november 13th works with brad's schedule   will need 60 minutes   thanks very much for your help   best, jeff
++       
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 38, in test_IsEmail_3
+    self.assertEqual(Actuval, expected)
+AssertionError: "hi lydia   could you let me know what ti[128 chars]jeff" != '      '
+- hi lydia   could you let me know what time in the afternoon of november 13th works with brad's schedule   will need 60 minutes   thanks very much for your help   best, jeff
++       
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsEmail_4" time="0.832">
+		<error message="&quot; it'[42 chars] the 13th    nice job   in line with your lett[567 chars]jeff&quot; != &quot; it'[42 chars] the #on     nice job   in line with your lett[568 chars]    &quot;
+Diff is 2667 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 43, in test_IsEmail_4
+    self.assertEqual(Actuval, expected)
+AssertionError: " it'[42 chars] the 13th    nice job   in line with your lett[567 chars]jeff" != " it'[42 chars] the #on     nice job   in line with your lett[568 chars]    "
+Diff is 2667 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsEmail_5" time="0.802">
+		<error message="&quot;  hi cynthia   i'm not sure if i'm going[442 chars]jeff&quot; != '      '
+-   hi cynthia   i'm not sure if i'm going about this correctly  but joseph's out today  so i thought i'd give it a shot   i need to rent a car tomorrow tuesday, oct. 30  pick up at 7:30 am and return it on wed. oct. 31 at 7:30 am  want to rent from the hertz outlet on mason street in sf  which is where i always rent    is this something that you folks generally arrange  or do i just do it   is there a corporate account  i'll need if i do it   really appreciate your help   best, jeff
++       
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 48, in test_IsEmail_5
+    self.assertEqual(Actuval, expected)
+AssertionError: "  hi cynthia   i'm not sure if i'm going[442 chars]jeff" != '      '
+-   hi cynthia   i'm not sure if i'm going about this correctly  but joseph's out today  so i thought i'd give it a shot   i need to rent a car tomorrow tuesday, oct. 30  pick up at 7:30 am and return it on wed. oct. 31 at 7:30 am  want to rent from the hertz outlet on mason street in sf  which is where i always rent    is this something that you folks generally arrange  or do i just do it   is there a corporate account  i'll need if i do it   really appreciate your help   best, jeff
++       
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsEmail_6" time="0.764">
+		<error message="'the memo to investors says that a new law[409 chars]854 ' != '      '
+- the memo to investors says that a new law will take effect on aug 13 that puts in place shortened appeal times at the cpuc.  the memo says that the cpuc does not need to act on the key issues  including suspension of da  until aug 13 or later   it also says the bonds are now to be sold in sept-oct  the memo states that the cpuc  governor  treasurer  etc. have agreed with the new timetable   sue mara enron corp. tel: (415) 782-7802 fax:(415  782-7854 
++       
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 53, in test_IsEmail_6
+    self.assertEqual(Actuval, expected)
+AssertionError: 'the memo to investors says that a new law[409 chars]854 ' != '      '
+- the memo to investors says that a new law will take effect on aug 13 that puts in place shortened appeal times at the cpuc.  the memo says that the cpuc does not need to act on the key issues  including suspension of da  until aug 13 or later   it also says the bonds are now to be sold in sept-oct  the memo states that the cpuc  governor  treasurer  etc. have agreed with the new timetable   sue mara enron corp. tel: (415) 782-7802 fax:(415  782-7854 
++       
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsEmail_7" time="0.755">
+		<error message="&quot; it's going to be extremely difficult fo[433 chars]jeff&quot; != '      '
+-  it's going to be extremely difficult for anyone who has consumed electricity to avoid paying for it   it will be particularly difficult for enron to exempt itself from costs incurred by the state on behalf of enron's customers   prior to us pushing amendments on this bill  can we discuss on the 11:30 call today   harry and i have discussed this at length  and i just want to make sure that we don't blow up the whole enchilada by trying to get an amendment here   best, jeff
++       
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 58, in test_IsEmail_7
+    self.assertEqual(Actuval, expected)
+AssertionError: " it's going to be extremely difficult fo[433 chars]jeff" != '      '
+-  it's going to be extremely difficult for anyone who has consumed electricity to avoid paying for it   it will be particularly difficult for enron to exempt itself from costs incurred by the state on behalf of enron's customers   prior to us pushing amendments on this bill  can we discuss on the 11:30 call today   harry and i have discussed this at length  and i just want to make sure that we don't blow up the whole enchilada by trying to get an amendment here   best, jeff
++       
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsEmail_8" time="0.897">
+		<error message="&quot;he is interested in seeing incentive rat[1155 chars]jeff&quot; != '      '
+Diff is 1212 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 63, in test_IsEmail_8
+    self.assertEqual(Actuval, expected)
+AssertionError: "he is interested in seeing incentive rat[1155 chars]jeff" != '      '
+Diff is 1212 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsEmail_9" time="0.994">
+		<error message="' ---------------------- forwarded by james[1786 chars]ott ' != '      '
+Diff is 1845 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 68, in test_IsEmail_9
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by james[1786 chars]ott ' != '      '
+Diff is 1845 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[{
+	"data" : {
+		"bodyS2" : "hi christopher  i was going to be over your way later this week and next   and wanted to stop by  if you were considering any new clothing this season  this might be a great opportunity to earn your business  as i have a couple specials running right now on shirts  suits  sport coats  and casual wear  may i stop by and give you a quick look this thursday the 28th  or 29th or next week on june 3rd or 4th  all the best, arianna a r i a n n a  f e r r a r o tom james company of nyc   custom clothier direct 212.599.1650 ext. 204   email a.ferraro@tomjames.com 28 west 44th street, suite 1100   www.tomjames.com  this e-mail and any attached files are confidential and are intended solely for the addressee  if you are not the intended recipient of this information  you are hereby notified that dissemination or reproduction of this transmission  and any unauthorized use of the information in this transmission  are strictly prohibited  if you have received this transmission in error please promptly notify the sender and then destroy the original  the information or views expressed in this transmission are those of the individual sender and do not necessarily reflect those of tom james company ",
+		"categories" : [
+			{
+			}
+		],
+		"entities" : [
+			{
+				"id" : 27,
+				"startPos" : 502,
+				"text" : "DIRECT 212.599.1650"
+			},
+			{
+				"id" : 22,
+				"startPos" : 459,
+				"text" : "TOM JAMES COMPANY"
+			},
+			{
+				"id" : 22,
+				"startPos" : 1184,
+				"text" : "Tom James Company"
+			},
+			{
+				"id" : 11,
+				"startPos" : 539,
+				"text" : "A.FERRARO@TOMJAMES.COM"
+			},
+			{
+				"id" : 5,
+				"startPos" : 527,
+				"text" : "204"
+			},
+			{
+				"id" : 8,
+				"startPos" : 509,
+				"text" : "212.599.1650"
+			},
+			{
+				"id" : 3,
+				"startPos" : 348,
+				"text" : "Thursday the 28th"
+			},
+			{
+				"id" : 3,
+				"startPos" : 391,
+				"text" : "June 3rd"
+			},
+			{
+				"id" : 28,
+				"startPos" : 0,
+				"text" : "Hi Christopher"
+			},
+			{
+				"id" : 31,
+				"startPos" : 408,
+				"text" : "All the best,\n"
+			},
+			{
+				"id" : 29,
+				"startPos" : 422,
+				"text" : "Arianna"
+			},
+			{
+				"id" : 18,
+				"startPos" : 370,
+				"text" : "29th"
+			},
+			{
+				"id" : 18,
+				"startPos" : 403,
+				"text" : "4th"
+			},
+			{
+				"id" : 10,
+				"startPos" : 596,
+				"text" : "WWW.TOMJAMES.COM"
+			}
+		]
+	},
+	"meta" : {
+		"msgId" : "hello"
+	}
+}
+{
+	"data" : {
+		"bodyS2" : "the attached is the final product of the discussions which have been occurring between the various consumer groups attempting to keep edsion solvent while retaining some potential for direct access   iep has participated in some of these discussions  iep is being asked to sign this letter  it is time sensitive because of pending puc action on direct access   therefore i am calling an emergency board call for today thursday 6/28/01 3:00 pm pst.  call-in number  1-877-288-4427 participant code  934948      clean draft issues outline 6-27-01.doc     cover letter.doc    ",
+		"categories" : [
+			{
+				"id" : 0,
+				"pct" : 90,
+				"type" : 1
+			}
+		],
+		"entities" : [
+			{
+				"id" : 5,
+				"startPos" : 498,
+				"text" : "934948"
+			},
+			{
+				"id" : 4,
+				"startPos" : 435,
+				"text" : "3:00 pm"
+			},
+			{
+				"id" : 8,
+				"startPos" : 465,
+				"text" : "1-877-288-4427"
+			},
+			{
+				"id" : 15,
+				"startPos" : 200,
+				"text" : "IEP"
+			},
+			{
+				"id" : 15,
+				"startPos" : 251,
+				"text" : "IEP"
+			},
+			{
+				"id" : 3,
+				"startPos" : 418,
+				"text" : "THURSDAY"
+			},
+			{
+				"id" : 3,
+				"startPos" : 427,
+				"text" : "6/28/01"
+			}
+		]
+	},
+	"meta" : {
+		"msgId" : "hello"
+	}
+}
+{
+	"data" : {
+		"bodyS2" : " dear supervisor   please accept this message as notification that i was unable to work on august 1, 2010 due to personal illness   please let me know if i can provide any further information  sincerely, gabe  ",
+		"categories" : [
+			{
+				"id" : 0,
+				"pct" : 90,
+				"type" : 1
+			}
+		],
+		"entities" : [
+			{
+				"id" : 29,
+				"startPos" : 204,
+				"text" : "Gabe"
+			},
+			{
+				"id" : 31,
+				"startPos" : 193,
+				"text" : "Sincerely,\n"
+			},
+			{
+				"id" : 3,
+				"startPos" : 91,
+				"text" : "August 1, 2010"
+			}
+		]
+	},
+	"meta" : {
+		"msgId" : "hello"
+	}
+}
+{
+	"data" : {
+		"bodyS2" : " dear chris   thank you for your offer of the position of regional manager of product development for the witten company.i am impressed with the depth of knowledge of your development team  and believe that my experience will help to maximize the profitability of the department.thank you very much for your consideration   sincerely, john email   youremail@gmail.oom phone   555-555-1234  ",
+		"categories" : [
+			{
+				"id" : 0,
+				"pct" : 90,
+				"type" : 1
+			}
+		],
+		"entities" : [
+			{
+				"id" : 8,
+				"startPos" : 376,
+				"text" : "555-555-1234"
+			},
+			{
+				"id" : 29,
+				"startPos" : 335,
+				"text" : "John"
+			},
+			{
+				"id" : 31,
+				"startPos" : 324,
+				"text" : "Sincerely,\n"
+			},
+			{
+				"id" : 28,
+				"startPos" : 1,
+				"text" : "Dear Chris"
+			},
+			{
+				"id" : 23,
+				"startPos" : 58,
+				"text" : "Regional Manager"
+			}
+		]
+	},
+	"meta" : {
+		"msgId" : "hello"
+	}
+}
+{
+	"data" : {
+		"bodyS2" : " bill   here is the information outstanding from our conversation yesterday   1.assessed value for the leander land   $632  000 2.mortgage on residence   cendant mortgage  loan  2328912 3.ein for bishops corner  l.p.   76 068 5666 4  i will fax you statements from various accounts  let me know what else i can do to be ready to turn around the invitation letter.i am pulling together all the organizational documents for the partnership   phillip  ",
+		"categories" : [
+			{
+				"id" : 0,
+				"pct" : 90,
+				"type" : 1
+			}
+		],
+		"entities" : [
+			{
+				"id" : 5,
+				"startPos" : 178,
+				"text" : "2328912"
+			},
+			{
+				"id" : 5,
+				"startPos" : 219,
+				"text" : "76"
+			},
+			{
+				"id" : 5,
+				"startPos" : 226,
+				"text" : "5666"
+			},
+			{
+				"id" : 5,
+				"startPos" : 231,
+				"text" : "4"
+			},
+			{
+				"id" : 36,
+				"startPos" : 124,
+				"text" : "000"
+			},
+			{
+				"id" : 36,
+				"startPos" : 222,
+				"text" : "068"
+			},
+			{
+				"id" : 2,
+				"startPos" : 118,
+				"text" : "$632"
+			},
+			{
+				"id" : 10,
+				"startPos" : 128,
+				"text" : "2.Mortgage"
+			},
+			{
+				"id" : 14,
+				"startPos" : 440,
+				"text" : "Phillip"
+			},
+			{
+				"id" : 28,
+				"startPos" : 1,
+				"text" : "Bill"
+			}
+		]
+	},
+	"meta" : {
+		"msgId" : "hello"
+	}
+}
+{
+	"data" : {
+		"bodyS2" : "  heather   this is exactly what we need.would it possible to add the prior day for each of the dates below to the pivot table.in order to validate the curve shift on the dates below we also need the prior days ending positions   thank you, phillip allen  ",
+		"categories" : [
+			{
+				"id" : 0,
+				"pct" : 90,
+				"type" : 1
+			}
+		],
+		"entities" : [
+			{
+				"id" : 10,
+				"startPos" : 121,
+				"text" : "table.In"
+			},
+			{
+				"id" : 29,
+				"startPos" : 241,
+				"text" : "Phillip Allen"
+			},
+			{
+				"id" : 31,
+				"startPos" : 230,
+				"text" : "Thank you,\n"
+			},
+			{
+				"id" : 28,
+				"startPos" : 2,
+				"text" : "Heather"
+			}
+		]
+	},
+	"meta" : {
+		"msgId" : "hello"
+	}
+}
+{
+	"data" : {
+		"bodyS2" : " ceci   i received the list of properties you mailed.thank you very much.i would like to stay updated on the market in hood river and the surrounding areas in washington as well.i would be interested in lots as well as homes.in case you don't still have it  my address is 8855 merlin ct  houston, tx 77055   thank you, phillip allen   http://www.forbes.com/global/2000/0612/0312072a.html ",
+		"categories" : [
+			{
+				"id" : 0,
+				"pct" : 90,
+				"type" : 1
+			}
+		],
+		"entities" : [
+			{
+				"id" : 10,
+				"startPos" : 219,
+				"text" : "homes.In"
+			},
+			{
+				"id" : 10,
+				"startPos" : 335,
+				"text" : "http://www.forbes.com/global/2000/0612/0312072a.html"
+			},
+			{
+				"id" : 29,
+				"startPos" : 319,
+				"text" : "Phillip Allen"
+			},
+			{
+				"id" : 31,
+				"startPos" : 308,
+				"text" : "Thank you,\n"
+			},
+			{
+				"id" : 28,
+				"startPos" : 1,
+				"text" : "Ceci"
+			},
+			{
+				"id" : 37,
+				"startPos" : 288,
+				"text" : "Houston, TX 77055"
+			}
+		]
+	},
+	"meta" : {
+		"msgId" : "hello"
+	}
+}
+{
+	"data" : {
+		"bodyS2" : " chris   can you use your connections to request access to the east power website for the following   hunter shively mike grigsby scott neal john arnold tom martin phillip allen jim schwieger  thanks, phillip ",
+		"categories" : [
+			{
+				"id" : 0,
+				"pct" : 90,
+				"type" : 1
+			}
+		],
+		"entities" : [
+			{
+				"id" : 14,
+				"startPos" : 122,
+				"text" : "Grigsby"
+			},
+			{
+				"id" : 14,
+				"startPos" : 136,
+				"text" : "Neal"
+			},
+			{
+				"id" : 14,
+				"startPos" : 164,
+				"text" : "Phillip Allen"
+			},
+			{
+				"id" : 14,
+				"startPos" : 178,
+				"text" : "Jim Schwieger"
+			},
+			{
+				"id" : 29,
+				"startPos" : 201,
+				"text" : "Phillip"
+			},
+			{
+				"id" : 31,
+				"startPos" : 193,
+				"text" : "Thanks,\n"
+			},
+			{
+				"id" : 28,
+				"startPos" : 1,
+				"text" : "Chris"
+			}
+		]
+	},
+	"meta" : {
+		"msgId" : "hello"
+	}
+}
+{
+	"data" : {
+		"bodyS2" : " greg  this spreadsheet is an attempt to outline supply   demand in san marcos by unit.next  i want to look at the numbers by bedroom.let's compare numbers   here is a list of questions    1.unit mixes of all proposed projects  2.completion date of  blazer development(220   capstone(270   melrose(202   bonner   carr   186  3.is the capstone 270 units or 270 beds    this spreadsheet illustrates that supply will exceed demand in 2002 but demand will catch up in 2003   2005   san marcos will have over 6  000 units.if the 350 excess units in 2002 were distributed over the entire population that would push occupancy down by 5 % .that would not be a disaster  tomorrow  i would like to refine this spreadsheet and try to support some of the population and job growth assumptions with more current data  let me know what you think  phillip  ",
+		"categories" : [
+			{
+				"id" : 0,
+				"pct" : 90,
+				"type" : 1
+			}
+		],
+		"entities" : [
+			{
+				"id" : 36,
+				"startPos" : 507,
+				"text" : "000"
+			},
+			{
+				"id" : 5,
+				"startPos" : 320,
+				"text" : "186"
+			},
+			{
+				"id" : 5,
+				"startPos" : 343,
+				"text" : "270"
+			},
+			{
+				"id" : 5,
+				"startPos" : 356,
+				"text" : "270"
+			},
+			{
+				"id" : 5,
+				"startPos" : 431,
+				"text" : "2002"
+			},
+			{
+				"id" : 5,
+				"startPos" : 464,
+				"text" : "2003"
+			},
+			{
+				"id" : 5,
+				"startPos" : 471,
+				"text" : "2005"
+			},
+			{
+				"id" : 5,
+				"startPos" : 504,
+				"text" : "6"
+			},
+			{
+				"id" : 5,
+				"startPos" : 524,
+				"text" : "350"
+			},
+			{
+				"id" : 5,
+				"startPos" : 544,
+				"text" : "2002"
+			},
+			{
+				"id" : 1,
+				"startPos" : 627,
+				"text" : "5 %"
+			},
+			{
+				"id" : 10,
+				"startPos" : 325,
+				"text" : "3.Is"
+			},
+			{
+				"id" : 14,
+				"startPos" : 68,
+				"text" : "San Marcos"
+			},
+			{
+				"id" : 14,
+				"startPos" : 833,
+				"text" : "Phillip"
+			},
+			{
+				"id" : 28,
+				"startPos" : 1,
+				"text" : "Greg"
+			}
+		]
+	},
+	"meta" : {
+		"msgId" : "hello"
+	}
+}
+{
+	"data" : {
+		"bodyS2" : " hi gabe   http://www.bridge.com/   http://www.webfn.com/cgi-bin/core.dll?i9=267&s144=index.txt&sfront=1&slogin=0&sframebust=undefined  please check the urls above  and if they take you to the company with the  youre referring to  ill have a better idea what to look for.in the meantime  i am looking into our contracts area to see what  if any  contracts that gss has active(for any part of enron  with any company called bridge  whether it is bridge information systems  or some other bridge.when i have more information  ill call and/or e-mail you  with an update.il also copy kathy and kim   thank you, jeff jeff youngflesh director  business development global strategic sourcing enron corp. 333 clay street, 11th floor houston, tx 7700 t   713   345   5968 f   713   646   2450 c   713   410   6716 ",
+		"categories" : [
+			{
+				"id" : 0,
+				"pct" : 90,
+				"type" : 1
+			}
+		],
+		"entities" : [
+			{
+				"id" : 5,
+				"startPos" : 737,
+				"text" : "7700"
+			},
+			{
+				"id" : 5,
+				"startPos" : 746,
+				"text" : "713"
+			},
+			{
+				"id" : 5,
+				"startPos" : 752,
+				"text" : "345"
+			},
+			{
+				"id" : 5,
+				"startPos" : 758,
+				"text" : "5968"
+			},
+			{
+				"id" : 5,
+				"startPos" : 767,
+				"text" : "713"
+			},
+			{
+				"id" : 5,
+				"startPos" : 773,
+				"text" : "646"
+			},
+			{
+				"id" : 5,
+				"startPos" : 779,
+				"text" : "2450"
+			},
+			{
+				"id" : 5,
+				"startPos" : 788,
+				"text" : "713"
+			},
+			{
+				"id" : 5,
+				"startPos" : 794,
+				"text" : "410"
+			},
+			{
+				"id" : 5,
+				"startPos" : 800,
+				"text" : "6716"
+			},
+			{
+				"id" : 10,
+				"startPos" : 11,
+				"text" : "http://www.bridge.com/"
+			},
+			{
+				"id" : 10,
+				"startPos" : 36,
+				"text" : "http://www.webfn.com/cgi-bin/core.dll?i9=267&s144=index.txt&sfront=1&slogin=0&sframeBust=undefined"
+			},
+			{
+				"id" : 10,
+				"startPos" : 267,
+				"text" : "for.In"
+			},
+			{
+				"id" : 10,
+				"startPos" : 560,
+				"text" : "update.Il"
+			},
+			{
+				"id" : 14,
+				"startPos" : 612,
+				"text" : "Jeff"
+			},
+			{
+				"id" : 31,
+				"startPos" : 596,
+				"text" : "Thank you,\n"
+			},
+			{
+				"id" : 28,
+				"startPos" : 1,
+				"text" : "hi Gabe"
+			},
+			{
+				"id" : 29,
+				"startPos" : 607,
+				"text" : "Jeff"
+			},
+			{
+				"id" : 21,
+				"startPos" : 725,
+				"text" : "Houston, TX"
+			}
+		]
+	},
+	"meta" : {
+		"msgId" : "hello"
+	}
+}
+{
+	"data" : {
+		"bodyS2" : " carrie   i hope you had a great thanksgiving   we would like to change the date for the compaq experience enron request i submitted online.originally the date was 12   13  we would like to reschedule for 12   14 for one hour in the afternoon.jennifer stewart medcalf will give you a call with further details   colleen koenig analyst enron corp global strategic sourcing 713.345.5326   ",
+		"categories" : [
+			{
+				"id" : 0,
+				"pct" : 90,
+				"type" : 1
+			}
+		],
+		"entities" : [
+			{
+				"id" : 5,
+				"startPos" : 164,
+				"text" : "12"
+			},
+			{
+				"id" : 5,
+				"startPos" : 169,
+				"text" : "13"
+			},
+			{
+				"id" : 5,
+				"startPos" : 205,
+				"text" : "12"
+			},
+			{
+				"id" : 5,
+				"startPos" : 210,
+				"text" : "14"
+			},
+			{
+				"id" : 8,
+				"startPos" : 372,
+				"text" : "713.345.5326"
+			},
+			{
+				"id" : 14,
+				"startPos" : 252,
+				"text" : "Stewart Medcalf"
+			},
+			{
+				"id" : 14,
+				"startPos" : 320,
+				"text" : "Koenig"
+			},
+			{
+				"id" : 28,
+				"startPos" : 1,
+				"text" : "Carrie"
+			}
+		]
+	},
+	"meta" : {
+		"msgId" : "hello"
+	}
+}
+{
+	"data" : {
+		"bodyS2" : " sue's presentation    and here are my comments    fyi.   got your message   one set of golf clubs--right-handed--is all that i'll need  well  that and about 100 golf lessons     thanks for your help   best, jeff",
+		"categories" : [
+			{
+				"id" : 0,
+				"pct" : 90,
+				"type" : 1
+			}
+		],
+		"entities" : [
+			{
+				"id" : 5,
+				"startPos" : 158,
+				"text" : "100"
+			},
+			{
+				"id" : 29,
+				"startPos" : 208,
+				"text" : "Jeff"
+			},
+			{
+				"id" : 31,
+				"startPos" : 202,
+				"text" : "Best,\n"
+			}
+		]
+	},
+	"meta" : {
+		"msgId" : "hello"
+	}
+}
+{
+	"data" : {
+		"bodyS2" : " david and bob   we look forward to working with yourselves to identify and create strategic business opportunities for both ebs and compaq. kim godfrey director  enterprise services enron broadband service phone   713 345 8813 cell   713 501 8105 fax   713 853 7354  great   bob jordan rio grande area director compaq computer corporation  tele #281   927   6350 fax #281   514   7220 bob.jordan@compaq.com  ",
+		"categories" : [
+			{
+				"id" : 0,
+				"pct" : 90,
+				"type" : 1
+			}
+		],
+		"entities" : [
+			{
+				"id" : 5,
+				"startPos" : 353,
+				"text" : "927"
+			},
+			{
+				"id" : 5,
+				"startPos" : 359,
+				"text" : "6350"
+			},
+			{
+				"id" : 5,
+				"startPos" : 375,
+				"text" : "514"
+			},
+			{
+				"id" : 5,
+				"startPos" : 381,
+				"text" : "7220"
+			},
+			{
+				"id" : 8,
+				"startPos" : 215,
+				"text" : "713 345 8813"
+			},
+			{
+				"id" : 8,
+				"startPos" : 235,
+				"text" : "713 501 8105"
+			},
+			{
+				"id" : 8,
+				"startPos" : 254,
+				"text" : "713 853 7354"
+			},
+			{
+				"id" : 14,
+				"startPos" : 141,
+				"text" : "Kim Godfrey"
+			},
+			{
+				"id" : 14,
+				"startPos" : 287,
+				"text" : "Rio Grande"
+			},
+			{
+				"id" : 28,
+				"startPos" : 1,
+				"text" : "David and Bob"
+			},
+			{
+				"id" : 11,
+				"startPos" : 386,
+				"text" : "Bob.Jordan@Compaq.com"
+			},
+			{
+				"id" : 23,
+				"startPos" : 298,
+				"text" : "Area Director"
+			}
+		]
+	},
+	"meta" : {
+		"msgId" : "hello"
+	}
+}
+{
+	"data" : {
+		"bodyS2" : "hi lydia   could you let me know what time in the afternoon of november 13th works with brad's schedule   will need 60 minutes   thanks very much for your help   best, jeff",
+		"categories" : [
+			{
+				"id" : 0,
+				"pct" : 90,
+				"type" : 1
+			}
+		],
+		"entities" : [
+			{
+				"id" : 5,
+				"startPos" : 116,
+				"text" : "60"
+			},
+			{
+				"id" : 29,
+				"startPos" : 168,
+				"text" : "Jeff"
+			},
+			{
+				"id" : 31,
+				"startPos" : 162,
+				"text" : "Best,\n"
+			},
+			{
+				"id" : 28,
+				"startPos" : 0,
+				"text" : "Hi Lydia"
+			},
+			{
+				"id" : 3,
+				"startPos" : 63,
+				"text" : "November 13th"
+			}
+		]
+	},
+	"meta" : {
+		"msgId" : "hello"
+	}
+}
+{
+	"data" : {
+		"bodyS2" : " it's going to be sometime in the afternoon on the 13th    nice job   in line with your letter  and in response to wood's questionnaire about rolling the suspension date back to july 1  don't you think it is absolutely necessary to have hearings in order to establish a record prior to any decision  wood throws around the $10 billion number in his questionnaire  ruling  whatever   without any substantiation whatsoever   shouldn't dwr and its rev. req. be thoroughly scrutinized in the hearing room before making a decision   seems logical though 1  logic has prevailed much lately and 2  i'm not a lawyer  so i could be missing the boat completely   best, jeff",
+		"categories" : [
+			{
+				"id" : 0,
+				"pct" : 90,
+				"type" : 1
+			}
+		],
+		"entities" : [
+			{
+				"id" : 5,
+				"startPos" : 549,
+				"text" : "1"
+			},
+			{
+				"id" : 5,
+				"startPos" : 588,
+				"text" : "2"
+			},
+			{
+				"id" : 18,
+				"startPos" : 51,
+				"text" : "13th"
+			},
+			{
+				"id" : 2,
+				"startPos" : 323,
+				"text" : "$10"
+			},
+			{
+				"id" : 29,
+				"startPos" : 659,
+				"text" : "Jeff"
+			},
+			{
+				"id" : 31,
+				"startPos" : 653,
+				"text" : "Best,\n"
+			},
+			{
+				"id" : 3,
+				"startPos" : 178,
+				"text" : "July 1"
+			}
+		]
+	},
+	"meta" : {
+		"msgId" : "hello"
+	}
+}
+{
+	"data" : {
+		"bodyS2" : "  hi cynthia   i'm not sure if i'm going about this correctly  but joseph's out today  so i thought i'd give it a shot   i need to rent a car tomorrow tuesday, oct. 30  pick up at 7:30 am and return it on wed. oct. 31 at 7:30 am  want to rent from the hertz outlet on mason street in sf  which is where i always rent    is this something that you folks generally arrange  or do i just do it   is there a corporate account  i'll need if i do it   really appreciate your help   best, jeff",
+		"categories" : [
+			{
+				"id" : 0,
+				"pct" : 90,
+				"type" : 1
+			}
+		],
+		"entities" : [
+			{
+				"id" : 4,
+				"startPos" : 180,
+				"text" : "7:30 AM"
+			},
+			{
+				"id" : 4,
+				"startPos" : 221,
+				"text" : "7:30 AM"
+			},
+			{
+				"id" : 29,
+				"startPos" : 482,
+				"text" : "Jeff"
+			},
+			{
+				"id" : 31,
+				"startPos" : 476,
+				"text" : "Best,\n"
+			},
+			{
+				"id" : 28,
+				"startPos" : 2,
+				"text" : "Hi Cynthia"
+			},
+			{
+				"id" : 3,
+				"startPos" : 151,
+				"text" : "Tuesday, Oct. 30"
+			},
+			{
+				"id" : 3,
+				"startPos" : 205,
+				"text" : "Wed. Oct. 31"
+			}
+		]
+	},
+	"meta" : {
+		"msgId" : "hello"
+	}
+}
+{
+	"data" : {
+		"bodyS2" : "the memo to investors says that a new law will take effect on aug 13 that puts in place shortened appeal times at the cpuc.  the memo says that the cpuc does not need to act on the key issues  including suspension of da  until aug 13 or later   it also says the bonds are now to be sold in sept-oct  the memo states that the cpuc  governor  treasurer  etc. have agreed with the new timetable   sue mara enron corp. tel: (415) 782-7802 fax:(415  782-7854 ",
+		"categories" : [
+			{
+				"id" : 0,
+				"pct" : 90,
+				"type" : 1
+			}
+		],
+		"entities" : [
+			{
+				"id" : 27,
+				"startPos" : 415,
+				"text" : "Tel: (415) 782-7802"
+			},
+			{
+				"id" : 8,
+				"startPos" : 420,
+				"text" : "(415) 782-7802"
+			},
+			{
+				"id" : 8,
+				"startPos" : 445,
+				"text" : "782-7854"
+			},
+			{
+				"id" : 14,
+				"startPos" : 415,
+				"text" : "Tel"
+			},
+			{
+				"id" : 3,
+				"startPos" : 62,
+				"text" : "Aug 13"
+			},
+			{
+				"id" : 3,
+				"startPos" : 227,
+				"text" : "Aug 13"
+			}
+		]
+	},
+	"meta" : {
+		"msgId" : "hello"
+	}
+}
+{
+	"data" : {
+		"bodyS2" : " it's going to be extremely difficult for anyone who has consumed electricity to avoid paying for it   it will be particularly difficult for enron to exempt itself from costs incurred by the state on behalf of enron's customers   prior to us pushing amendments on this bill  can we discuss on the 11:30 call today   harry and i have discussed this at length  and i just want to make sure that we don't blow up the whole enchilada by trying to get an amendment here   best, jeff",
+		"categories" : [
+			{
+				"id" : 0,
+				"pct" : 90,
+				"type" : 1
+			}
+		],
+		"entities" : [
+			{
+				"id" : 4,
+				"startPos" : 297,
+				"text" : "11:30"
+			},
+			{
+				"id" : 29,
+				"startPos" : 473,
+				"text" : "Jeff"
+			},
+			{
+				"id" : 31,
+				"startPos" : 467,
+				"text" : "Best,\n"
+			}
+		]
+	},
+	"meta" : {
+		"msgId" : "hello"
+	}
+}
+{
+	"data" : {
+		"bodyS2" : "he is interested in seeing incentive rates or more hedging on the part of the ca ldc's so that all their needs are not being served by the spot market   in the current market  hedges  longer term contracting and financial  are being done primarily by the producers and marketers  which results in a thin and probably off-kilter market  the ldcs buying for the customers are not participating    i know we have to square this with the ees positions  but i am not up to speed on what is going on in ca on this issue   phillip also made that point that while the ldcs are focusing on their core load  no one is doing system planning on the macro basis  taking into account the ability of the physical systems to meet the needs of all customers  core and non-core and making sure the system will be adequate   finally  he is very interested in seeing the ca ldc rates unbundled.  any updates we can provide to phillip  and the gas girls  would be appreciated  as well as what our plans are to address these issues   from our side  el paso is having a conference in july and we will be taking up a number of allocation and transportation issues at that time   thanks       8 am  10 am  3 pm    best, jeff",
+		"categories" : [
+			{
+			}
+		],
+		"entities" : [
+			{
+				"id" : 4,
+				"startPos" : 1168,
+				"text" : "8 AM"
+			},
+			{
+				"id" : 4,
+				"startPos" : 1174,
+				"text" : "10 AM"
+			},
+			{
+				"id" : 4,
+				"startPos" : 1181,
+				"text" : "3 PM"
+			},
+			{
+				"id" : 14,
+				"startPos" : 516,
+				"text" : "Phillip"
+			},
+			{
+				"id" : 14,
+				"startPos" : 906,
+				"text" : "Phillip"
+			},
+			{
+				"id" : 14,
+				"startPos" : 1061,
+				"text" : "July"
+			},
+			{
+				"id" : 29,
+				"startPos" : 1195,
+				"text" : "Jeff"
+			},
+			{
+				"id" : 31,
+				"startPos" : 1189,
+				"text" : "Best,\n"
+			}
+		]
+	},
+	"meta" : {
+		"msgId" : "hello"
+	}
+}
+{
+	"data" : {
+		"bodyS2" : " ---------------------- forwarded by james d steffes/na/enron on 07/03/2001 02:30 pm ---------------------------   scott stoness@ees 07/03/2001 09:33 am to:harry kingerski/na/enron@enron cc:don black  james d steffes/na/enron@enron  james w lewis/hou/ees@ees   subject:draft bond legislation language  as discussed  we have two possible approaches  1) home run strategy  the following change  the commission shall  within 30 days from the date of the application  issue a bond financing order establishing a dwr bond charge that shall be applicable to all electric power delivered in california by electric corporations subject to the jurisdiction of the commission  with the exception of electric power delivered by suppliers other than the utility  who contracted for such delivery prior to the effective date of this legislation  we use san diego large customers as our example of customers who should be exempt from a surcharge because they have been off bundled rates for the duration of the turmoil  risk is that our customers will not be fully on until about august 15   thus if the wording gets changed to who are taking delivery as of the effective date of this legislation we have failed  positive is that it removes the cpuc  anti enron  discretion   2  1st base strategy  the following change  c  the commission shall conduct such proceedings as it deems necessary to inform the public of the revenue requirements  and to establish rates to enable the department to recover the revenue requirement   such rates will be designed  i  such that the bond revenue requirements will be recovered  and ii  to reflect the amount of dwr bond costs that the customer or customer class caused  risk is that the cpuc will interpret these words unfavorably to us   ie   if we touch the system once we pay the whole surcharge   scott ",
+		"categories" : [
+			{
+			}
+		],
+		"entities" : [
+			{
+				"id" : 5,
+				"startPos" : 422,
+				"text" : "30"
+			},
+			{
+				"id" : 5,
+				"startPos" : 1262,
+				"text" : "2"
+			},
+			{
+				"id" : 4,
+				"startPos" : 76,
+				"text" : "02:30 PM"
+			},
+			{
+				"id" : 4,
+				"startPos" : 144,
+				"text" : "09:33 AM"
+			},
+			{
+				"id" : 30,
+				"startPos" : 1,
+				"text" : "---------------------- Forwarded by James D Steffes/NA/Enron on 07/03/2001 02:30 PM --------------------------- \n"
+			},
+			{
+				"id" : 18,
+				"startPos" : 1265,
+				"text" : "1st"
+			},
+			{
+				"id" : 14,
+				"startPos" : 840,
+				"text" : "San Diego"
+			},
+			{
+				"id" : 3,
+				"startPos" : 65,
+				"text" : "07/03/2001"
+			},
+			{
+				"id" : 3,
+				"startPos" : 133,
+				"text" : "07/03/2001"
+			},
+			{
+				"id" : 3,
+				"startPos" : 1066,
+				"text" : "August 15"
+			}
+		]
+	},
+	"meta" : {
+		"msgId" : "hello"
+	}
+}
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

@@ -1,0 +1,835 @@
+<?xml version="1.0" ?>
+<testsuite errors="46" failures="0" name="InequalityTest-20160318173320" tests="46" time="26.277">
+	<testcase classname="InequalityTest" name="test_csPhoneNumberWithTextTest_1" time="0.562">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 90, in test_csPhoneNumberWithTextTest_1
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csPhoneNumberWithTextTest_2" time="0.554">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 96, in test_csPhoneNumberWithTextTest_2
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csPhoneNumberWithTextTest_3" time="0.553">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 102, in test_csPhoneNumberWithTextTest_3
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csPhoneNumberWithTextTest_4" time="0.567">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 108, in test_csPhoneNumberWithTextTest_4
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csPhoneNumberWithTextTest_5" time="0.573">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 114, in test_csPhoneNumberWithTextTest_5
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fPhoneNumberWithTextTest_1" time="0.540">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 121, in test_fPhoneNumberWithTextTest_1
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fPhoneNumberWithTextTest_10" time="0.576">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 175, in test_fPhoneNumberWithTextTest_10
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fPhoneNumberWithTextTest_11" time="0.554">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 181, in test_fPhoneNumberWithTextTest_11
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fPhoneNumberWithTextTest_12" time="0.538">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 187, in test_fPhoneNumberWithTextTest_12
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fPhoneNumberWithTextTest_13" time="0.582">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 193, in test_fPhoneNumberWithTextTest_13
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fPhoneNumberWithTextTest_14" time="0.547">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 199, in test_fPhoneNumberWithTextTest_14
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fPhoneNumberWithTextTest_15" time="0.540">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 205, in test_fPhoneNumberWithTextTest_15
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fPhoneNumberWithTextTest_16" time="0.592">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 211, in test_fPhoneNumberWithTextTest_16
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fPhoneNumberWithTextTest_17" time="0.554">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 217, in test_fPhoneNumberWithTextTest_17
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fPhoneNumberWithTextTest_18" time="0.559">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 223, in test_fPhoneNumberWithTextTest_18
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fPhoneNumberWithTextTest_19" time="0.550">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 229, in test_fPhoneNumberWithTextTest_19
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fPhoneNumberWithTextTest_2" time="0.547">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 127, in test_fPhoneNumberWithTextTest_2
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fPhoneNumberWithTextTest_3" time="0.578">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 133, in test_fPhoneNumberWithTextTest_3
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fPhoneNumberWithTextTest_4" time="0.589">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 139, in test_fPhoneNumberWithTextTest_4
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fPhoneNumberWithTextTest_5" time="0.568">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 145, in test_fPhoneNumberWithTextTest_5
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fPhoneNumberWithTextTest_6" time="0.543">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 151, in test_fPhoneNumberWithTextTest_6
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fPhoneNumberWithTextTest_7" time="0.572">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 157, in test_fPhoneNumberWithTextTest_7
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fPhoneNumberWithTextTest_8" time="0.571">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 163, in test_fPhoneNumberWithTextTest_8
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fPhoneNumberWithTextTest_9" time="0.540">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 169, in test_fPhoneNumberWithTextTest_9
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpPhoneNumberWithTextTest_1" time="0.574">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 280, in test_fpPhoneNumberWithTextTest_1
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpPhoneNumberWithTextTest_2" time="0.572">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 286, in test_fpPhoneNumberWithTextTest_2
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpPhoneNumberWithTextTest_3" time="0.570">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 292, in test_fpPhoneNumberWithTextTest_3
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iPhoneNumberWithTextTest_1" time="0.558">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 23, in test_iPhoneNumberWithTextTest_1
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iPhoneNumberWithTextTest_10" time="0.553">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 77, in test_iPhoneNumberWithTextTest_10
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iPhoneNumberWithTextTest_11" time="0.565">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 83, in test_iPhoneNumberWithTextTest_11
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iPhoneNumberWithTextTest_2" time="0.542">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 29, in test_iPhoneNumberWithTextTest_2
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iPhoneNumberWithTextTest_3" time="0.627">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 35, in test_iPhoneNumberWithTextTest_3
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iPhoneNumberWithTextTest_4" time="0.567">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 41, in test_iPhoneNumberWithTextTest_4
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iPhoneNumberWithTextTest_5" time="0.691">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 47, in test_iPhoneNumberWithTextTest_5
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iPhoneNumberWithTextTest_6" time="0.711">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 53, in test_iPhoneNumberWithTextTest_6
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iPhoneNumberWithTextTest_7" time="0.551">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 59, in test_iPhoneNumberWithTextTest_7
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iPhoneNumberWithTextTest_8" time="0.619">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 65, in test_iPhoneNumberWithTextTest_8
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iPhoneNumberWithTextTest_9" time="0.604">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 71, in test_iPhoneNumberWithTextTest_9
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcPhoneNumberWithTextTest_1" time="0.553">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 261, in test_mcPhoneNumberWithTextTest_1
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcPhoneNumberWithTextTest_2" time="0.566">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 267, in test_mcPhoneNumberWithTextTest_2
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcPhoneNumberWithTextTest_3" time="0.588">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 273, in test_mcPhoneNumberWithTextTest_3
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_nlPhoneNumberWithTextTest_1" time="0.585">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 299, in test_nlPhoneNumberWithTextTest_1
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pPhoneNumberWithTextTest_1" time="0.545">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 236, in test_pPhoneNumberWithTextTest_1
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pPhoneNumberWithTextTest_2" time="0.613">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 242, in test_pPhoneNumberWithTextTest_2
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pPhoneNumberWithTextTest_3" time="0.537">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 248, in test_pPhoneNumberWithTextTest_3
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pPhoneNumberWithTextTest_4" time="0.535">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 254, in test_pPhoneNumberWithTextTest_4
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 14, in Ontobi_API
+    j = r.json()
+  File "C:\Users\CHRIS\PycharmProjects\Requests\requests\models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ValueError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

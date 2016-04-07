@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<testsuite errors="8" failures="0" name="InequalityTest-20160407112915" tests="22" time="15.911">
+	<testcase classname="InequalityTest" name="test_IsClassify_1" time="0.694"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_10" time="0.731"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_11" time="0.760"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_12" time="0.691"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_13" time="0.751"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_14" time="0.782"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_2" time="0.759"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_3" time="0.687"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_4" time="0.665"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_5" time="0.697"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_6" time="0.685"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_7" time="0.714"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_8" time="0.710"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_9" time="0.787"/>
+	<testcase classname="InequalityTest" name="test_IsClassify_15" time="0.638">
+		<error message="500 != 502" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 108, in test_IsClassify_15
+    self.assertEqual(Actuval, expected)
+AssertionError: 500 != 502
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsClassify_16" time="0.614">
+		<error message="500 != 502" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 114, in test_IsClassify_16
+    self.assertEqual(Actuval, expected)
+AssertionError: 500 != 502
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsClassify_17" time="0.660">
+		<error message="500 != 503" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 120, in test_IsClassify_17
+    self.assertEqual(Actuval, expected)
+AssertionError: 500 != 503
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsClassify_18" time="0.637">
+		<error message="500 != 503" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 126, in test_IsClassify_18
+    self.assertEqual(Actuval, expected)
+AssertionError: 500 != 503
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsClassify_19" time="1.305">
+		<error message="500 != 503" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 132, in test_IsClassify_19
+    self.assertEqual(Actuval, expected)
+AssertionError: 500 != 503
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsClassify_20" time="0.656">
+		<error message="500 != 503" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 138, in test_IsClassify_20
+    self.assertEqual(Actuval, expected)
+AssertionError: 500 != 503
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsClassify_21" time="0.637">
+		<error message="500 != 503" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 144, in test_IsClassify_21
+    self.assertEqual(Actuval, expected)
+AssertionError: 500 != 503
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_IsClassify_22" time="0.650">
+		<error message="500 != 504" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 150, in test_IsClassify_22
+    self.assertEqual(Actuval, expected)
+AssertionError: 500 != 504
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[500
+501
+501
+502
+502
+502
+500
+500
+500
+500
+500
+500
+500
+500
+500
+500
+500
+500
+500
+501
+501
+501
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

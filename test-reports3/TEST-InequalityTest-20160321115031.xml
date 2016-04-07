@@ -1,0 +1,590 @@
+<?xml version="1.0" ?>
+<testsuite errors="37" failures="0" name="InequalityTest-20160321115031" tests="38" time="50.873">
+	<testcase classname="InequalityTest" name="test_fpUSCityStateTest_2" time="1.350"/>
+	<testcase classname="InequalityTest" name="test_csUSCityStateTest_1" time="1.344">
+		<error message="'welc[34 chars]rks  ketchikan, alaska is located on revillagi[67 chars]mbia' != 'welc[34 chars]rks  #cs               is located on revillagi[67 chars]mbia'
+- welcome to the ketchikan area state parks  ketchikan, alaska is located on revillagigedo island  90 miles  140 km  north of prince rupert  british columbia
+?                                            ^^^ ---------- ^^
++ welcome to the ketchikan area state parks  #cs               is located on revillagigedo island  90 miles  140 km  north of prince rupert  british columbia
+?                                            ^  ^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 177, in test_csUSCityStateTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'welc[34 chars]rks  ketchikan, alaska is located on revillagi[67 chars]mbia' != 'welc[34 chars]rks  #cs               is located on revillagi[67 chars]mbia'
+- welcome to the ketchikan area state parks  ketchikan, alaska is located on revillagigedo island  90 miles  140 km  north of prince rupert  british columbia
+?                                            ^^^ ---------- ^^
++ welcome to the ketchikan area state parks  #cs               is located on revillagigedo island  90 miles  140 km  north of prince rupert  british columbia
+?                                            ^  ^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csUSCityStateTest_2" time="1.345">
+		<error message="'chinatown in los angeles, california is known as a com[23 chars]ese ' != 'chinatown in #cs                     is known as a com[23 chars]ese '
+- chinatown in los angeles, california is known as a commercial center for chinese 
++ chinatown in #cs                     is known as a commercial center for chinese 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 184, in test_csUSCityStateTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'chinatown in los angeles, california is known as a com[23 chars]ese ' != 'chinatown in #cs                     is known as a com[23 chars]ese '
+- chinatown in los angeles, california is known as a commercial center for chinese 
++ chinatown in #cs                     is known as a commercial center for chinese 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csUSCityStateTest_3" time="1.466">
+		<error message="&quot;jobs available in lakewood, wa on indeed.com  an example wo[53 chars]cial&quot; != &quot;jobs available in #cs          on indeed.com  an example wo[53 chars]cial&quot;
+- jobs available in lakewood, wa on indeed.com  an example would be a driver's license or state id along with a social
+?                   ^^^^^^^^^^^^
++ jobs available in #cs          on indeed.com  an example would be a driver's license or state id along with a social
+?                   ^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 190, in test_csUSCityStateTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: "jobs available in lakewood, wa on indeed.com  an example wo[53 chars]cial" != "jobs available in #cs          on indeed.com  an example wo[53 chars]cial"
+- jobs available in lakewood, wa on indeed.com  an example would be a driver's license or state id along with a social
+?                   ^^^^^^^^^^^^
++ jobs available in #cs          on indeed.com  an example would be a driver's license or state id along with a social
+?                   ^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csUSCityStateTest_4" time="1.297">
+		<error message="'stat[24 chars]g in lawton, ok   we offer auto  home  life  a[58 chars]ore ' != 'stat[24 chars]g in #cs          we offer auto  home  life  a[58 chars]ore '
+- state farm agent brad latting in lawton, ok   we offer auto  home  life  and renters insurance  call us at (580) 357-6230 to learn more 
+?                                  ^^^^^^^^^^                                                                ^   ^
++ state farm agent brad latting in #cs          we offer auto  home  life  and renters insurance  call us at  580  357-6230 to learn more 
+?                                  ^^^^^^^^^^                                                                ^   ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 196, in test_csUSCityStateTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: 'stat[24 chars]g in lawton, ok   we offer auto  home  life  a[58 chars]ore ' != 'stat[24 chars]g in #cs          we offer auto  home  life  a[58 chars]ore '
+- state farm agent brad latting in lawton, ok   we offer auto  home  life  and renters insurance  call us at (580) 357-6230 to learn more 
+?                                  ^^^^^^^^^^                                                                ^   ^
++ state farm agent brad latting in #cs          we offer auto  home  life  and renters insurance  call us at  580  357-6230 to learn more 
+?                                  ^^^^^^^^^^                                                                ^   ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csUSCityStateTest_5" time="1.322">
+		<error message="'bellevue state park  wilmington, de 3496 likes   318 talking a[79 chars]s   ' != 'bellevue state park  #cs            3496 likes   318 talking a[79 chars]s   '
+- bellevue state park  wilmington, de 3496 likes   318 talking about this   20293 were here  bellevue hall mansion commands a grand view of this   
+?                      ^^^^^^^^^^^^^^
++ bellevue state park  #cs            3496 likes   318 talking about this   20293 were here  bellevue hall mansion commands a grand view of this   
+?                      ^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 203, in test_csUSCityStateTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: 'bellevue state park  wilmington, de 3496 likes   318 talking a[79 chars]s   ' != 'bellevue state park  #cs            3496 likes   318 talking a[79 chars]s   '
+- bellevue state park  wilmington, de 3496 likes   318 talking about this   20293 were here  bellevue hall mansion commands a grand view of this   
+?                      ^^^^^^^^^^^^^^
++ bellevue state park  #cs            3496 likes   318 talking about this   20293 were here  bellevue hall mansion commands a grand view of this   
+?                      ^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fUSCityStateTest_1" time="1.307">
+		<error message="' a day in   seattle, wa  sea  ' != ' a day in   #cs          sea  '
+-  a day in   seattle, wa  sea  
++  a day in   #cs          sea  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 133, in test_fUSCityStateTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' a day in   seattle, wa  sea  ' != ' a day in   #cs          sea  '
+-  a day in   seattle, wa  sea  
++  a day in   #cs          sea  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fUSCityStateTest_2" time="1.295">
+		<error message="' hilton newark gateway  newark, nj ' != ' hilton newark gateway  #cs        '
+-  hilton newark gateway  newark, nj 
++  hilton newark gateway  #cs        
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 139, in test_fUSCityStateTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' hilton newark gateway  newark, nj ' != ' hilton newark gateway  #cs        '
+-  hilton newark gateway  newark, nj 
++  hilton newark gateway  #cs        
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fUSCityStateTest_3" time="1.347">
+		<error message="' living here at the holiday inn in palmdale california for the past two years ' != ' living here at the holiday inn in #cs                 for the past two years '
+-  living here at the holiday inn in palmdale california for the past two years 
+?                                    ^^^^^^^^^ ^^^   -------
++  living here at the holiday inn in #cs                 for the past two years 
+?                                    ^ ^^^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 145, in test_fUSCityStateTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' living here at the holiday inn in palmdale california for the past two years ' != ' living here at the holiday inn in #cs                 for the past two years '
+-  living here at the holiday inn in palmdale california for the past two years 
+?                                    ^^^^^^^^^ ^^^   -------
++  living here at the holiday inn in #cs                 for the past two years 
+?                                    ^ ^^^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fUSCityStateTest_4" time="1.349">
+		<error message="' interactive map of corona, ca lets you view traffic and satellite images ' != ' interactive map of #cs        lets you view traffic and satellite images '
+-  interactive map of corona, ca lets you view traffic and satellite images 
+?                      ^^^^^^^^^
++  interactive map of #cs        lets you view traffic and satellite images 
+?                     + ^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 151, in test_fUSCityStateTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: ' interactive map of corona, ca lets you view traffic and satellite images ' != ' interactive map of #cs        lets you view traffic and satellite images '
+-  interactive map of corona, ca lets you view traffic and satellite images 
+?                      ^^^^^^^^^
++  interactive map of #cs        lets you view traffic and satellite images 
+?                     + ^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fUSCityStateTest_5" time="1.342">
+		<error message="' lat[16 chars] weather in sunnyvale ca along with updates about temperature ' != ' lat[16 chars] weather in #cs          along with updates about temperature '
+-  latest forecast for weather in sunnyvale ca along with updates about temperature 
+?                                  ^^^^^^^^^^^
++  latest forecast for weather in #cs          along with updates about temperature 
+?                                 ++ ^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 157, in test_fUSCityStateTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: ' lat[16 chars] weather in sunnyvale ca along with updates about temperature ' != ' lat[16 chars] weather in #cs          along with updates about temperature '
+-  latest forecast for weather in sunnyvale ca along with updates about temperature 
+?                                  ^^^^^^^^^^^
++  latest forecast for weather in #cs          along with updates about temperature 
+?                                 ++ ^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fUSCityStateTest_6" time="1.347">
+		<error message="' boo[21 chars] for the top things to do in savannah, georgia on tripadvisor ' != ' boo[21 chars] for the top things to do in #cs               on tripadvisor '
+-  book your tickets online for the top things to do in savannah, georgia on tripadvisor 
+?                                                        ^^^^^^^^^^^^^^^^
++  book your tickets online for the top things to do in #cs               on tripadvisor 
+?                                                       ++ ^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 163, in test_fUSCityStateTest_6
+    self.assertEqual(Actuval, expected)
+AssertionError: ' boo[21 chars] for the top things to do in savannah, georgia on tripadvisor ' != ' boo[21 chars] for the top things to do in #cs               on tripadvisor '
+-  book your tickets online for the top things to do in savannah, georgia on tripadvisor 
+?                                                        ^^^^^^^^^^^^^^^^
++  book your tickets online for the top things to do in #cs               on tripadvisor 
+?                                                       ++ ^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fUSCityStateTest_7" time="1.339">
+		<error message="' stay at our hotel in olathe, ks and enjoy free wireless internet ' != ' stay at our hotel in #cs        and enjoy free wireless internet '
+-  stay at our hotel in olathe, ks and enjoy free wireless internet 
+?                       ^^^^^^^^^
++  stay at our hotel in #cs        and enjoy free wireless internet 
+?                       ^^ +++++++
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 169, in test_fUSCityStateTest_7
+    self.assertEqual(Actuval, expected)
+AssertionError: ' stay at our hotel in olathe, ks and enjoy free wireless internet ' != ' stay at our hotel in #cs        and enjoy free wireless internet '
+-  stay at our hotel in olathe, ks and enjoy free wireless internet 
+?                       ^^^^^^^^^
++  stay at our hotel in #cs        and enjoy free wireless internet 
+?                       ^^ +++++++
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iUSCityStateTest_1" time="1.343">
+		<error message="' from jacksonville, fl ' != ' from #cs              '
+-  from jacksonville, fl 
++  from #cs              
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 24, in test_iUSCityStateTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' from jacksonville, fl ' != ' from #cs              '
+-  from jacksonville, fl 
++  from #cs              
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iUSCityStateTest_10" time="1.392">
+		<error message="' des moines, iowa ' != ' #cs              '
+-  des moines, iowa 
++  #cs              
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 78, in test_iUSCityStateTest_10
+    self.assertEqual(Actuval, expected)
+AssertionError: ' des moines, iowa ' != ' #cs              '
+-  des moines, iowa 
++  #cs              
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iUSCityStateTest_11" time="1.416">
+		<error message="' tallahassee, florida ' != ' #cs                  '
+-  tallahassee, florida 
++  #cs                  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 84, in test_iUSCityStateTest_11
+    self.assertEqual(Actuval, expected)
+AssertionError: ' tallahassee, florida ' != ' #cs                  '
+-  tallahassee, florida 
++  #cs                  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iUSCityStateTest_12" time="1.292">
+		<error message="' davenport, iowa ' != ' #cs             '
+-  davenport, iowa 
++  #cs             
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 90, in test_iUSCityStateTest_12
+    self.assertEqual(Actuval, expected)
+AssertionError: ' davenport, iowa ' != ' #cs             '
+-  davenport, iowa 
++  #cs             
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iUSCityStateTest_13" time="1.354">
+		<error message="' midland, mi ' != ' #cs         '
+-  midland, mi 
++  #cs         
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 96, in test_iUSCityStateTest_13
+    self.assertEqual(Actuval, expected)
+AssertionError: ' midland, mi ' != ' #cs         '
+-  midland, mi 
++  #cs         
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iUSCityStateTest_14" time="1.330">
+		<error message="' blue bell, pa ' != ' #cs           '
+-  blue bell, pa 
++  #cs           
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 102, in test_iUSCityStateTest_14
+    self.assertEqual(Actuval, expected)
+AssertionError: ' blue bell, pa ' != ' #cs           '
+-  blue bell, pa 
++  #cs           
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iUSCityStateTest_15" time="1.346">
+		<error message="' fort lee, nj ' != ' #cs          '
+-  fort lee, nj 
++  #cs          
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 108, in test_iUSCityStateTest_15
+    self.assertEqual(Actuval, expected)
+AssertionError: ' fort lee, nj ' != ' #cs          '
+-  fort lee, nj 
++  #cs          
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iUSCityStateTest_16" time="1.426">
+		<error message="' charlotte, nc ' != ' #cs           '
+-  charlotte, nc 
++  #cs           
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 114, in test_iUSCityStateTest_16
+    self.assertEqual(Actuval, expected)
+AssertionError: ' charlotte, nc ' != ' #cs           '
+-  charlotte, nc 
++  #cs           
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iUSCityStateTest_17" time="1.341">
+		<error message="' independence, oh ' != ' #cs              '
+-  independence, oh 
++  #cs              
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 120, in test_iUSCityStateTest_17
+    self.assertEqual(Actuval, expected)
+AssertionError: ' independence, oh ' != ' #cs              '
+-  independence, oh 
++  #cs              
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iUSCityStateTest_18" time="1.351">
+		<error message="' plymouth meeting, pa ' != ' #cs                  '
+-  plymouth meeting, pa 
++  #cs                  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 126, in test_iUSCityStateTest_18
+    self.assertEqual(Actuval, expected)
+AssertionError: ' plymouth meeting, pa ' != ' #cs                  '
+-  plymouth meeting, pa 
++  #cs                  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iUSCityStateTest_2" time="1.304">
+		<error message="' oklahoma city, ok ' != ' #cs               '
+-  oklahoma city, ok 
++  #cs               
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 30, in test_iUSCityStateTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' oklahoma city, ok ' != ' #cs               '
+-  oklahoma city, ok 
++  #cs               
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iUSCityStateTest_3" time="1.297">
+		<error message="' albany, ny ' != ' #cs        '
+-  albany, ny 
++  #cs        
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 36, in test_iUSCityStateTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' albany, ny ' != ' #cs        '
+-  albany, ny 
++  #cs        
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iUSCityStateTest_4" time="1.296">
+		<error message="' austin, tx ' != ' #cs        '
+-  austin, tx 
++  #cs        
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 42, in test_iUSCityStateTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: ' austin, tx ' != ' #cs        '
+-  austin, tx 
++  #cs        
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iUSCityStateTest_5" time="1.272">
+		<error message="' fort worth, texas ' != ' #cs               '
+-  fort worth, texas 
++  #cs               
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 48, in test_iUSCityStateTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: ' fort worth, texas ' != ' #cs               '
+-  fort worth, texas 
++  #cs               
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iUSCityStateTest_6" time="1.306">
+		<error message="' portland, oregon ' != ' #cs              '
+-  portland, oregon 
++  #cs              
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 54, in test_iUSCityStateTest_6
+    self.assertEqual(Actuval, expected)
+AssertionError: ' portland, oregon ' != ' #cs              '
+-  portland, oregon 
++  #cs              
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iUSCityStateTest_7" time="1.308">
+		<error message="' las vegas, nevada ' != ' #cs               '
+-  las vegas, nevada 
++  #cs               
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 60, in test_iUSCityStateTest_7
+    self.assertEqual(Actuval, expected)
+AssertionError: ' las vegas, nevada ' != ' #cs               '
+-  las vegas, nevada 
++  #cs               
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iUSCityStateTest_8" time="1.428">
+		<error message="' corpus christi, texas ' != ' #cs                   '
+-  corpus christi, texas 
++  #cs                   
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 66, in test_iUSCityStateTest_8
+    self.assertEqual(Actuval, expected)
+AssertionError: ' corpus christi, texas ' != ' #cs                   '
+-  corpus christi, texas 
++  #cs                   
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iUSCityStateTest_9" time="1.281">
+		<error message="' henderson, nevada ' != ' #cs               '
+-  henderson, nevada 
++  #cs               
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 72, in test_iUSCityStateTest_9
+    self.assertEqual(Actuval, expected)
+AssertionError: ' henderson, nevada ' != ' #cs               '
+-  henderson, nevada 
++  #cs               
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcUSCityStateTest_1" time="1.326">
+		<error message="' get[23 chars] in  arvada, co  save on xfinity high speed in[60 chars]ce  ' != ' get[23 chars] in  #cs         save on xfinity high speed in[60 chars]ce  '
+-  get the best comcast deals in  arvada, co  save on xfinity high speed internet  digital cable tv  home phone and home security service  
+?                                 ^^^^^^^^ ^
++  get the best comcast deals in  #cs         save on xfinity high speed internet  digital cable tv  home phone and home security service  
+?                                 ^ ^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 236, in test_mcUSCityStateTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' get[23 chars] in  arvada, co  save on xfinity high speed in[60 chars]ce  ' != ' get[23 chars] in  #cs         save on xfinity high speed in[60 chars]ce  '
+-  get the best comcast deals in  arvada, co  save on xfinity high speed internet  digital cable tv  home phone and home security service  
+?                                 ^^^^^^^^ ^
++  get the best comcast deals in  #cs         save on xfinity high speed internet  digital cable tv  home phone and home security service  
+?                                 ^ ^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcUSCityStateTest_2" time="1.294">
+		<error message="' this data from weather forecast  odessa, tx  ' != ' this data from weather forecast  #cs         '
+-  this data from weather forecast  odessa, tx  
+?                                   ^^^ ^^^^^^
++  this data from weather forecast  #cs         
+?                                   ^^ ^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 242, in test_mcUSCityStateTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' this data from weather forecast  odessa, tx  ' != ' this data from weather forecast  #cs         '
+-  this data from weather forecast  odessa, tx  
+?                                   ^^^ ^^^^^^
++  this data from weather forecast  #cs         
+?                                   ^^ ^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcUSCityStateTest_3" time="1.308">
+		<error message="' the[44 chars]e and services in  davenport, iowa  and the surrounding area  ' != ' the[44 chars]e and services in  #cs              and the surrounding area  '
+-  the good samaritan society providing senior care and services in  davenport, iowa  and the surrounding area  
+?                                                                    ^^^^^^^^^^^^^^^
++  the good samaritan society providing senior care and services in  #cs              and the surrounding area  
+?                                                                    ^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 248, in test_mcUSCityStateTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' the[44 chars]e and services in  davenport, iowa  and the surrounding area  ' != ' the[44 chars]e and services in  #cs              and the surrounding area  '
+-  the good samaritan society providing senior care and services in  davenport, iowa  and the surrounding area  
+?                                                                    ^^^^^^^^^^^^^^^
++  the good samaritan society providing senior care and services in  #cs              and the surrounding area  
+?                                                                    ^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pUSCityStateTest_2" time="1.386">
+		<error message="'people quickfacts  little rock, arkansas  population definit[63 chars]369 ' != 'people quickfacts  #cs                    population definit[63 chars]369 '
+- people quickfacts  little rock, arkansas  population definition and source info  population  2014 estimate  197,706  2,966,369 
+?                    ^^^^^^^^^ -------- ^^
++ people quickfacts  #cs                    population definition and source info  population  2014 estimate  197,706  2,966,369 
+?                    ^  ^^^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 210, in test_pUSCityStateTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'people quickfacts  little rock, arkansas  population definit[63 chars]369 ' != 'people quickfacts  #cs                    population definit[63 chars]369 '
+- people quickfacts  little rock, arkansas  population definition and source info  population  2014 estimate  197,706  2,966,369 
+?                    ^^^^^^^^^ -------- ^^
++ people quickfacts  #cs                    population definition and source info  population  2014 estimate  197,706  2,966,369 
+?                    ^  ^^^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pUSCityStateTest_3" time="1.321">
+		<error message="'unt [50 chars]located in denton, texas  as one of texas largest universities' != 'unt [50 chars]located in #cs            as one of texas largest universities'
+- unt is a student focused  public  research university located in denton, texas  as one of texas largest universities
+?                                                                  ^^^^  ^      -----------------
++ unt is a student focused  public  research university located in #cs            as one of texas largest universities
+?                                                                  ^^^^^^^^^^^^^^^^^^  ^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 216, in test_pUSCityStateTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'unt [50 chars]located in denton, texas  as one of texas largest universities' != 'unt [50 chars]located in #cs            as one of texas largest universities'
+- unt is a student focused  public  research university located in denton, texas  as one of texas largest universities
+?                                                                  ^^^^  ^      -----------------
++ unt is a student focused  public  research university located in #cs            as one of texas largest universities
+?                                                                  ^^^^^^^^^^^^^^^^^^  ^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pUSCityStateTest_4" time="1.351">
+		<error message="'be p[46 chars] for vallejo, ca  with highs  lows  chance of [36 chars]com ' != 'be p[46 chars] for #cs          with highs  lows  chance of [36 chars]com '
+- be prepared with the most accurate 10 day forecast for vallejo, ca  with highs  lows  chance of precipitation and more from weather.com 
+?                                                        ^^^^^^^^^ ^
++ be prepared with the most accurate 10 day forecast for #cs          with highs  lows  chance of precipitation and more from weather.com 
+?                                                        ^ ^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 222, in test_pUSCityStateTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: 'be p[46 chars] for vallejo, ca  with highs  lows  chance of [36 chars]com ' != 'be p[46 chars] for #cs          with highs  lows  chance of [36 chars]com '
+- be prepared with the most accurate 10 day forecast for vallejo, ca  with highs  lows  chance of precipitation and more from weather.com 
+?                                                        ^^^^^^^^^ ^
++ be prepared with the most accurate 10 day forecast for #cs          with highs  lows  chance of precipitation and more from weather.com 
+?                                                        ^ ^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pUSCityStateTest_5" time="1.351">
+		<error message="'flag[13 chars]urrent local time in phoenix, arizona  u.s.a   5:01:21 pm mst.' != 'flag[13 chars]urrent local time in #cs               u.s.a   5:01:21 pm mst.'
+- flag for u.s.a. current local time in phoenix, arizona  u.s.a   5:01:21 pm mst.
+?                                       ^^^^^^^^^^^^^^^^
++ flag for u.s.a. current local time in #cs               u.s.a   5:01:21 pm mst.
+?                                       ^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 228, in test_pUSCityStateTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: 'flag[13 chars]urrent local time in phoenix, arizona  u.s.a   5:01:21 pm mst.' != 'flag[13 chars]urrent local time in #cs               u.s.a   5:01:21 pm mst.'
+- flag for u.s.a. current local time in phoenix, arizona  u.s.a   5:01:21 pm mst.
+?                                       ^^^^^^^^^^^^^^^^
++ flag for u.s.a. current local time in #cs               u.s.a   5:01:21 pm mst.
+?                                       ^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

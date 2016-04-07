@@ -1,0 +1,237 @@
+<?xml version="1.0" ?>
+<testsuite errors="15" failures="0" name="InequalityTest-20160328173453" tests="15" time="11.456">
+	<testcase classname="InequalityTest" name="test_csPhoneInSignatureTagger_1" time="0.785">
+		<error message="' got[42 chars]7137583558  telephone 713-758-3558 location   person details  ' != ' got[42 chars]7137583558  #hsig                  location   person details  '
+-  got a missed call  sms or want to know about 7137583558  telephone 713-758-3558 location   person details  
+?                                                           ^^^^^ ^^^^^^^^^^^^^^^^
++  got a missed call  sms or want to know about 7137583558  #hsig                  location   person details  
+?                                                           ^ ^^^^^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 53, in test_csPhoneInSignatureTagger_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' got[42 chars]7137583558  telephone 713-758-3558 location   person details  ' != ' got[42 chars]7137583558  #hsig                  location   person details  '
+-  got a missed call  sms or want to know about 7137583558  telephone 713-758-3558 location   person details  
+?                                                           ^^^^^ ^^^^^^^^^^^^^^^^
++  got a missed call  sms or want to know about 7137583558  #hsig                  location   person details  
+?                                                           ^ ^^^^^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csPhoneInSignatureTagger_2" time="0.609">
+		<error message="' ple[25 chars]s by telephone 212-310-8000 and destroy the or[13 chars]ge  ' != ' ple[25 chars]s by #hsig                  and destroy the or[13 chars]ge  '
+-  please immediately  notify us by telephone 212-310-8000 and destroy the original  message  
+?                                   ^^^^^ ^^^^^^^^^^^^^^^^
++  please immediately  notify us by #hsig                  and destroy the original  message  
+?                                   ^ ^^^^^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 59, in test_csPhoneInSignatureTagger_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ple[25 chars]s by telephone 212-310-8000 and destroy the or[13 chars]ge  ' != ' ple[25 chars]s by #hsig                  and destroy the or[13 chars]ge  '
+-  please immediately  notify us by telephone 212-310-8000 and destroy the original  message  
+?                                   ^^^^^ ^^^^^^^^^^^^^^^^
++  please immediately  notify us by #hsig                  and destroy the original  message  
+?                                   ^ ^^^^^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csPhoneInSignatureTagger_3" time="0.729">
+		<error message="' phone number 713-222-3242 is located near[41 chars]ll  ' != ' #hsig                     is located near[41 chars]ll  '
+-  phone number 713-222-3242 is located near houston, tx  serviced by southwestern bell  
++  #hsig                     is located near houston  tx  serviced by southwestern bell  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 65, in test_csPhoneInSignatureTagger_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' phone number 713-222-3242 is located near[41 chars]ll  ' != ' #hsig                     is located near[41 chars]ll  '
+-  phone number 713-222-3242 is located near houston, tx  serviced by southwestern bell  
++  #hsig                     is located near houston  tx  serviced by southwestern bell  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csPhoneInSignatureTagger_5" time="1.634">
+		<error message="' add[74 chars]heir 415-533-3802 cell phone numbers as a remi[18 chars]er  ' != ' add[74 chars]heir #hsig                   numbers as a remi[18 chars]er  '
+-  adding to the problem  many san francisco residents who move elsewhere keep their 415-533-3802 cell phone numbers as a reminder of their former  
+?                                                                                    ^^^^^^^^^^^^^^^^^^^ ^^^
++  adding to the problem  many san francisco residents who move elsewhere keep their #hsig                   numbers as a reminder of their former  
+?                                                                                    ^ ^^^^^^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 71, in test_csPhoneInSignatureTagger_5
+    self.assertEqual(Actuval, expected)
+AssertionError: ' add[74 chars]heir 415-533-3802 cell phone numbers as a remi[18 chars]er  ' != ' add[74 chars]heir #hsig                   numbers as a remi[18 chars]er  '
+-  adding to the problem  many san francisco residents who move elsewhere keep their 415-533-3802 cell phone numbers as a reminder of their former  
+?                                                                                    ^^^^^^^^^^^^^^^^^^^ ^^^
++  adding to the problem  many san francisco residents who move elsewhere keep their #hsig                   numbers as a reminder of their former  
+?                                                                                    ^ ^^^^^^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fPhoneInSignatureTagger_3" time="0.893">
+		<error message="' toll-free  (888) 762-8736 recognized by market analysts ' != ' #hsig                     recognized by market analysts '
+-  toll-free  (888) 762-8736 recognized by market analysts 
++  #hsig                     recognized by market analysts 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 78, in test_fPhoneInSignatureTagger_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' toll-free  (888) 762-8736 recognized by market analysts ' != ' #hsig                     recognized by market analysts '
+-  toll-free  (888) 762-8736 recognized by market analysts 
++  #hsig                     recognized by market analysts 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fPhoneInSignatureTagger_5" time="0.776">
+		<error message="' gopal 698563 tel:(916  654-4880 698564 fax:(916  654-4685 698565 ' != ' gopal 698563 #hsig              698564 #hsig              698565 '
+-  gopal 698563 tel:(916  654-4880 698564 fax:(916  654-4685 698565 
++  gopal 698563 #hsig              698564 #hsig              698565 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 84, in test_fPhoneInSignatureTagger_5
+    self.assertEqual(Actuval, expected)
+AssertionError: ' gopal 698563 tel:(916  654-4880 698564 fax:(916  654-4685 698565 ' != ' gopal 698563 #hsig              698564 #hsig              698565 '
+-  gopal 698563 tel:(916  654-4880 698564 fax:(916  654-4685 698565 
++  gopal 698563 #hsig              698564 #hsig              698565 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iPhoneInSignatureTagger_1" time="1.157">
+		<error message="'  work   (713) 837-5984 cell   (281) 788-6907  ' != '  #hsig                 #hsig                  '
+-   work   (713) 837-5984 cell   (281) 788-6907  
++   #hsig                 #hsig                  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 27, in test_iPhoneInSignatureTagger_1
+    self.assertEqual(Actuval, expected)
+AssertionError: '  work   (713) 837-5984 cell   (281) 788-6907  ' != '  #hsig                 #hsig                  '
+-   work   (713) 837-5984 cell   (281) 788-6907  
++   #hsig                 #hsig                  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iPhoneInSignatureTagger_2" time="0.587">
+		<error message="' (707) 251-4870  phone  ' != ' #hsig                  '
+-  (707) 251-4870  phone  
++  #hsig                  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 33, in test_iPhoneInSignatureTagger_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' (707) 251-4870  phone  ' != ' #hsig                  '
+-  (707) 251-4870  phone  
++  #hsig                  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iPhoneInSignatureTagger_4" time="0.561">
+		<error message="' tel:(408  853-9326 ' != ' #hsig              '
+-  tel:(408  853-9326 
++  #hsig              
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 39, in test_iPhoneInSignatureTagger_4
+    self.assertEqual(Actuval, expected)
+AssertionError: ' tel:(408  853-9326 ' != ' #hsig              '
+-  tel:(408  853-9326 
++  #hsig              
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iPhoneInSignatureTagger_5" time="0.781">
+		<error message="' fax:(408  527-7789 ' != ' #hsig              '
+-  fax:(408  527-7789 
++  #hsig              
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 45, in test_iPhoneInSignatureTagger_5
+    self.assertEqual(Actuval, expected)
+AssertionError: ' fax:(408  527-7789 ' != ' #hsig              '
+-  fax:(408  527-7789 
++  #hsig              
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcPhoneInSignatureTagger_1" time="0.599">
+		<error message="' glo[43 chars]treet, suite 2025  houston, texas 77002   tele[17 chars]65  ' != ' glo[43 chars]treet  suite 2025  houston  texas 77002   #hsi[17 chars]    '
+-  global employee services enron corp 333 clay street, suite 2025  houston, texas 77002   telephone  713.646.9565  
+?                                                     ^                    ^               ^^^^^ ^^^^^^^^^^^^^^^^^
++  global employee services enron corp 333 clay street  suite 2025  houston  texas 77002   #hsig                    
+?                                                     ^                    ^               ^ ^^^^^^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 104, in test_mcPhoneInSignatureTagger_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' glo[43 chars]treet, suite 2025  houston, texas 77002   tele[17 chars]65  ' != ' glo[43 chars]treet  suite 2025  houston  texas 77002   #hsi[17 chars]    '
+-  global employee services enron corp 333 clay street, suite 2025  houston, texas 77002   telephone  713.646.9565  
+?                                                     ^                    ^               ^^^^^ ^^^^^^^^^^^^^^^^^
++  global employee services enron corp 333 clay street  suite 2025  houston  texas 77002   #hsig                    
+?                                                     ^                    ^               ^ ^^^^^^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcPhoneInSignatureTagger_2" time="0.614">
+		<error message="' rhi[17 chars]mball, tx 77377-8460  cell phone  (281)382-194[37 chars]71  ' != ' rhi[17 chars]mball  tx 77377-8460  #hsig                   [37 chars]71  '
+-  rhinefield street tomball, tx 77377-8460  cell phone  (281)382-1943   social security number  634-10-9471  
+?                           ^                ^^^^^^ ^^^^^^^^^^^^^^^^^^
++  rhinefield street tomball  tx 77377-8460  #hsig                       social security number  634-10-9471  
+?                           ^                ^ ^^^^^^^^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 110, in test_mcPhoneInSignatureTagger_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' rhi[17 chars]mball, tx 77377-8460  cell phone  (281)382-194[37 chars]71  ' != ' rhi[17 chars]mball  tx 77377-8460  #hsig                   [37 chars]71  '
+-  rhinefield street tomball, tx 77377-8460  cell phone  (281)382-1943   social security number  634-10-9471  
+?                           ^                ^^^^^^ ^^^^^^^^^^^^^^^^^^
++  rhinefield street tomball  tx 77377-8460  #hsig                       social security number  634-10-9471  
+?                           ^                ^ ^^^^^^^^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcPhoneInSignatureTagger_3" time="0.567">
+		<error message="' attend the above meeting tomorrow by email or  phone (713) 853-7172  ' != ' attend the above meeting tomorrow by email or  #hsig                 '
+-  attend the above meeting tomorrow by email or  phone (713) 853-7172  
++  attend the above meeting tomorrow by email or  #hsig                 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 116, in test_mcPhoneInSignatureTagger_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' attend the above meeting tomorrow by email or  phone (713) 853-7172  ' != ' attend the above meeting tomorrow by email or  #hsig                 '
+-  attend the above meeting tomorrow by email or  phone (713) 853-7172  
++  attend the above meeting tomorrow by email or  #hsig                 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pPhoneInSignatureTagger_2" time="0.578">
+		<error message="' did you get an unwanted call (713) 568-5165   ' != ' did you get an unwanted #hsig                 '
+-  did you get an unwanted call (713) 568-5165   
++  did you get an unwanted #hsig                 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 91, in test_pPhoneInSignatureTagger_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' did you get an unwanted call (713) 568-5165   ' != ' did you get an unwanted #hsig                 '
+-  did you get an unwanted call (713) 568-5165   
++  did you get an unwanted #hsig                 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pPhoneInSignatureTagger_3" time="0.585">
+		<error message="' reverse phone lookup information  phone number  949-798-6699 ' != ' reverse phone lookup information  #hsig                       '
+-  reverse phone lookup information  phone number  949-798-6699 
++  reverse phone lookup information  #hsig                       
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 97, in test_pPhoneInSignatureTagger_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' reverse phone lookup information  phone number  949-798-6699 ' != ' reverse phone lookup information  #hsig                       '
+-  reverse phone lookup information  phone number  949-798-6699 
++  reverse phone lookup information  #hsig                       
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

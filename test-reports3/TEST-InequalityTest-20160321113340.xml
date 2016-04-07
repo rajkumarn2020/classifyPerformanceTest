@@ -1,0 +1,422 @@
+<?xml version="1.0" ?>
+<testsuite errors="25" failures="0" name="InequalityTest-20160321113340" tests="30" time="17.430">
+	<testcase classname="InequalityTest" name="test_fpDigitsTest_1" time="0.579"/>
+	<testcase classname="InequalityTest" name="test_fpDigitsTest_2" time="0.590"/>
+	<testcase classname="InequalityTest" name="test_fpDigitsTest_3" time="0.563"/>
+	<testcase classname="InequalityTest" name="test_fpDigitsTest_4" time="0.580"/>
+	<testcase classname="InequalityTest" name="test_nlPhoneNumberWithTextTest_1" time="0.561"/>
+	<testcase classname="InequalityTest" name="test_csDigitsTest_1" time="0.801">
+		<error message="' eve[37 chars] big 030 party on the grounds of kulturbrauere[45 chars]rs  ' != ' eve[37 chars] big #d  party on the grounds of kulturbrauere[45 chars]rs  '
+-  every year since august 2004  there is a big 030 party on the grounds of kulturbrauerei in prenzlauer berg with about 10,000 visitors  
+?                                               ^^^
++  every year since august 2004  there is a big #d  party on the grounds of kulturbrauerei in prenzlauer berg with about 10,000 visitors  
+?                                               ^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 55, in test_csDigitsTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' eve[37 chars] big 030 party on the grounds of kulturbrauere[45 chars]rs  ' != ' eve[37 chars] big #d  party on the grounds of kulturbrauere[45 chars]rs  '
+-  every year since august 2004  there is a big 030 party on the grounds of kulturbrauerei in prenzlauer berg with about 10,000 visitors  
+?                                               ^^^
++  every year since august 2004  there is a big #d  party on the grounds of kulturbrauerei in prenzlauer berg with about 10,000 visitors  
+?                                               ^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csDigitsTest_2" time="0.592">
+		<error message="' upd[16 chars] for 0001 including 0001 stock price today  ea[18 chars]es  ' != ' upd[16 chars] for #d   including #d   stock price today  ea[18 chars]es  '
+-  updated stock quote for 0001 including 0001 stock price today  earnings and estimates  
+?                          ^^^^           ^^^^
++  updated stock quote for #d   including #d   stock price today  earnings and estimates  
+?                          ^^^^           ^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 61, in test_csDigitsTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' upd[16 chars] for 0001 including 0001 stock price today  ea[18 chars]es  ' != ' upd[16 chars] for #d   including #d   stock price today  ea[18 chars]es  '
+-  updated stock quote for 0001 including 0001 stock price today  earnings and estimates  
+?                          ^^^^           ^^^^
++  updated stock quote for #d   including #d   stock price today  earnings and estimates  
+?                          ^^^^           ^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csDigitsTest_3" time="0.580">
+		<error message="' sim[49 chars]call by 00373 or 011373 if you make call from canada and usa. ' != ' sim[49 chars]call by #d    or #d     if you make call from canada and usa. '
+-  simply replace the 0 before the telephone number to call by 00373 or 011373 if you make call from canada and usa. 
+?                                                              ^^^^^    ^^^^^^
++  simply replace the 0 before the telephone number to call by #d    or #d     if you make call from canada and usa. 
+?                                                              ^^^^^    ^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 67, in test_csDigitsTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' sim[49 chars]call by 00373 or 011373 if you make call from canada and usa. ' != ' sim[49 chars]call by #d    or #d     if you make call from canada and usa. '
+-  simply replace the 0 before the telephone number to call by 00373 or 011373 if you make call from canada and usa. 
+?                                                              ^^^^^    ^^^^^^
++  simply replace the 0 before the telephone number to call by #d    or #d     if you make call from canada and usa. 
+?                                                              ^^^^^    ^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csDigitsTest_4" time="0.620">
+		<error message="' boo[15 chars] no. 01005 and 01025 on special charges  will [101 chars]ed  ' != ' boo[15 chars] no. #d    and #d    on special charges  will [101 chars]ed  '
+-  bookings for train no. 01005 and 01025 on special charges  will open from august 14 and panvel-chiplun demu specials will run as unreserved specials  the release added  
+?                         ^^^^^     ^^^^^
++  bookings for train no. #d    and #d    on special charges  will open from august 14 and panvel-chiplun demu specials will run as unreserved specials  the release added  
+?                         ^^^^^     ^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 73, in test_csDigitsTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: ' boo[15 chars] no. 01005 and 01025 on special charges  will [101 chars]ed  ' != ' boo[15 chars] no. #d    and #d    on special charges  will [101 chars]ed  '
+-  bookings for train no. 01005 and 01025 on special charges  will open from august 14 and panvel-chiplun demu specials will run as unreserved specials  the release added  
+?                         ^^^^^     ^^^^^
++  bookings for train no. #d    and #d    on special charges  will open from august 14 and panvel-chiplun demu specials will run as unreserved specials  the release added  
+?                         ^^^^^     ^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csDigitsTest_5" time="0.603">
+		<error message="' the[15 chars]ne code  09977 is assigned a 2 of seven locations in germany  ' != ' the[15 chars]ne code  #d    is assigned a 2 of seven locations in germany  '
+-  the area code  phone code  09977 is assigned a 2 of seven locations in germany  
+?                             ^^^^^
++  the area code  phone code  #d    is assigned a 2 of seven locations in germany  
+?                             ^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 79, in test_csDigitsTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: ' the[15 chars]ne code  09977 is assigned a 2 of seven locations in germany  ' != ' the[15 chars]ne code  #d    is assigned a 2 of seven locations in germany  '
+-  the area code  phone code  09977 is assigned a 2 of seven locations in germany  
+?                             ^^^^^
++  the area code  phone code  #d    is assigned a 2 of seven locations in germany  
+?                             ^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fDigitsTest_1" time="0.584">
+		<error message="' pho[19 chars] with 93 or 0093 or 01193  and you want to know which country ' != ' pho[19 chars] with 93 or #d   or #d     and you want to know which country '
+-  phone number beginning with 93 or 0093 or 01193  and you want to know which country 
+?                                    ^^^^    ^^^^^
++  phone number beginning with 93 or #d   or #d     and you want to know which country 
+?                                    ^^^^    ^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 86, in test_fDigitsTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' pho[19 chars] with 93 or 0093 or 01193  and you want to know which country ' != ' pho[19 chars] with 93 or #d   or #d     and you want to know which country '
+-  phone number beginning with 93 or 0093 or 01193  and you want to know which country 
+?                                    ^^^^    ^^^^^
++  phone number beginning with 93 or #d   or #d     and you want to know which country 
+?                                    ^^^^    ^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fDigitsTest_2" time="0.554">
+		<error message="' conversion of 0034 to 12 and 24-hour clock ' != ' conversion of #d   to 12 and 24-hour clock '
+-  conversion of 0034 to 12 and 24-hour clock 
+?                ^^^^
++  conversion of #d   to 12 and 24-hour clock 
+?                ^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 92, in test_fDigitsTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' conversion of 0034 to 12 and 24-hour clock ' != ' conversion of #d   to 12 and 24-hour clock '
+-  conversion of 0034 to 12 and 24-hour clock 
+?                ^^^^
++  conversion of #d   to 12 and 24-hour clock 
+?                ^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fDigitsTest_3" time="0.571">
+		<error message="' view the basic 0089 hk stock chart on yahoo  finance ' != ' view the basic #d   hk stock chart on yahoo  finance '
+-  view the basic 0089 hk stock chart on yahoo  finance 
+?                 ^^^^
++  view the basic #d   hk stock chart on yahoo  finance 
+?                 ^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 98, in test_fDigitsTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' view the basic 0089 hk stock chart on yahoo  finance ' != ' view the basic #d   hk stock chart on yahoo  finance '
+-  view the basic 0089 hk stock chart on yahoo  finance 
+?                 ^^^^
++  view the basic #d   hk stock chart on yahoo  finance 
+?                 ^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fDigitsTest_4" time="0.599">
+		<error message="'  including 0699 stock price today  earnings and esti[56 chars]ata ' != '  including #d   stock price today  earnings and esti[56 chars]ata '
+-   including 0699 stock price today  earnings and estimates  stock charts  news  futures and other investing data 
+?             ^^^^
++   including #d   stock price today  earnings and estimates  stock charts  news  futures and other investing data 
+?             ^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 104, in test_fDigitsTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: '  including 0699 stock price today  earnings and esti[56 chars]ata ' != '  including #d   stock price today  earnings and esti[56 chars]ata '
+-   including 0699 stock price today  earnings and estimates  stock charts  news  futures and other investing data 
+?             ^^^^
++   including #d   stock price today  earnings and estimates  stock charts  news  futures and other investing data 
+?             ^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fDigitsTest_5" time="0.598">
+		<error message="' chance of precipitation for rockaway, nj 07866 from accuweather.com ' != ' chance of precipitation for rockaway  nj #d    from accuweather.com '
+-  chance of precipitation for rockaway, nj 07866 from accuweather.com 
+?                                      ^    ^^^^^
++  chance of precipitation for rockaway  nj #d    from accuweather.com 
+?                                      ^    ^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 110, in test_fDigitsTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: ' chance of precipitation for rockaway, nj 07866 from accuweather.com ' != ' chance of precipitation for rockaway  nj #d    from accuweather.com '
+-  chance of precipitation for rockaway, nj 07866 from accuweather.com 
+?                                      ^    ^^^^^
++  chance of precipitation for rockaway  nj #d    from accuweather.com 
+?                                      ^    ^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iDigitsTest_1" time="0.557">
+		<error message="' 000 ' != ' #d  '
+-  000 
++  #d  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 24, in test_iDigitsTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' 000 ' != ' #d  '
+-  000 
++  #d  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iDigitsTest_2" time="0.590">
+		<error message="' 01 ' != ' #d '
+-  01 
++  #d 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 30, in test_iDigitsTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' 01 ' != ' #d '
+-  01 
++  #d 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iDigitsTest_3" time="0.544">
+		<error message="' 012345678900 ' != ' #d           '
+-  012345678900 
++  #d           
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 36, in test_iDigitsTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' 012345678900 ' != ' #d           '
+-  012345678900 
++  #d           
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iDigitsTest_4" time="0.544">
+		<error message="' 0000001 ' != ' #d      '
+-  0000001 
++  #d      
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 42, in test_iDigitsTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: ' 0000001 ' != ' #d      '
+-  0000001 
++  #d      
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iDigitsTest_5" time="0.563">
+		<error message="' 020 ' != ' #d  '
+-  020 
++  #d  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 48, in test_iDigitsTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: ' 020 ' != ' #d  '
+-  020 
++  #d  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcDigitsTest_2" time="0.559">
+		<error message="'  01  ' != '  #d  '
+-   01  
++   #d  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 148, in test_mcDigitsTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: '  01  ' != '  #d  '
+-   01  
++   #d  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcDigitsTest_3" time="0.565">
+		<error message="'  012345678900  ' != '  #d            '
+-   012345678900  
++   #d            
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 154, in test_mcDigitsTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: '  012345678900  ' != '  #d            '
+-   012345678900  
++   #d            
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcDigitsTest_4" time="0.574">
+		<error message="'  0000001  ' != '  #d       '
+-   0000001  
++   #d       
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 160, in test_mcDigitsTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: '  0000001  ' != '  #d       '
+-   0000001  
++   #d       
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcDigitsTest_5" time="0.544">
+		<error message="'  020  ' != '  #d   '
+-   020  
++   #d   
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 166, in test_mcDigitsTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: '  020  ' != '  #d   '
+-   020  
++   #d   
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcigitsTest_1" time="0.582">
+		<error message="'  000  ' != '  #d   '
+-   000  
++   #d   
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 142, in test_mcigitsTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: '  000  ' != '  #d   '
+-   000  
++   #d   
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_nlDigitsTest_1" time="0.553">
+		<error message="' telephone landline code of tekkali is 08945 ' != ' telephone landline code of tekkali is #d    '
+-  telephone landline code of tekkali is 08945 
+?                                        ^^^^^
++  telephone landline code of tekkali is #d    
+?                                        ^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 198, in test_nlDigitsTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' telephone landline code of tekkali is 08945 ' != ' telephone landline code of tekkali is #d    '
+-  telephone landline code of tekkali is 08945 
+?                                        ^^^^^
++  telephone landline code of tekkali is #d    
+?                                        ^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pDigitsTest_1" time="0.560">
+		<error message="' for[63 chars]ode that usually begins with 00  then the national area code  ' != ' for[63 chars]ode that usually begins with #d  then the national area code  '
+-  for international calls  one has to start by dialing the country code that usually begins with 00  then the national area code  
+?                                                                                                 ^^
++  for international calls  one has to start by dialing the country code that usually begins with #d  then the national area code  
+?                                                                                                 ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 117, in test_pDigitsTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' for[63 chars]ode that usually begins with 00  then the national area code  ' != ' for[63 chars]ode that usually begins with #d  then the national area code  '
+-  for international calls  one has to start by dialing the country code that usually begins with 00  then the national area code  
+?                                                                                                 ^^
++  for international calls  one has to start by dialing the country code that usually begins with #d  then the national area code  
+?                                                                                                 ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pDigitsTest_2" time="0.545">
+		<error message="' what sim is 0939  ' != ' what sim is #d    '
+-  what sim is 0939  
+?              ^^^^
++  what sim is #d    
+?              ^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 123, in test_pDigitsTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' what sim is 0939  ' != ' what sim is #d    '
+-  what sim is 0939  
+?              ^^^^
++  what sim is #d    
+?              ^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pDigitsTest_3" time="0.575">
+		<error message="' the asteroid 6131 towen 003 its related to jas also known as jas bond  ' != ' the asteroid 6131 towen #d   its related to jas also known as jas bond  '
+-  the asteroid 6131 towen 003 its related to jas also known as jas bond  
+?                          ^^^
++  the asteroid 6131 towen #d   its related to jas also known as jas bond  
+?                          ^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 129, in test_pDigitsTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' the asteroid 6131 towen 003 its related to jas also known as jas bond  ' != ' the asteroid 6131 towen #d   its related to jas also known as jas bond  '
+-  the asteroid 6131 towen 003 its related to jas also known as jas bond  
+?                          ^^^
++  the asteroid 6131 towen #d   its related to jas also known as jas bond  
+?                          ^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pDigitsTest_4" time="0.599">
+		<error message="' bes[37 chars]ou can reach the following places using the phone code 09977  ' != ' bes[37 chars]ou can reach the following places using the phone code #d     '
+-  besides weiding  kreis cham  oberpfalz you can reach the following places using the phone code 09977  
+?                                                                                                 ^^^^^
++  besides weiding  kreis cham  oberpfalz you can reach the following places using the phone code #d     
+?                                                                                                 ^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 135, in test_pDigitsTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: ' bes[37 chars]ou can reach the following places using the phone code 09977  ' != ' bes[37 chars]ou can reach the following places using the phone code #d     '
+-  besides weiding  kreis cham  oberpfalz you can reach the following places using the phone code 09977  
+?                                                                                                 ^^^^^
++  besides weiding  kreis cham  oberpfalz you can reach the following places using the phone code #d     
+?                                                                                                 ^^^^^
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

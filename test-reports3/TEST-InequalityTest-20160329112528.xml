@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="InequalityTest-20160329112528" tests="1" time="0.792">
+	<testcase classname="InequalityTest" name="test_iPhoneNumberWithTextTest_1" time="0.792">
+		<error message="' 1-877-score-11 ' != ' #pt            '
+-  1-877-score-11 
++  #pt            
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 27, in test_iPhoneNumberWithTextTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' 1-877-score-11 ' != ' #pt            '
+-  1-877-score-11 
++  #pt            
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

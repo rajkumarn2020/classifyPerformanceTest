@@ -1,0 +1,658 @@
+<?xml version="1.0" ?>
+<testsuite errors="41" failures="0" name="InequalityTest-20160316111218" tests="50" time="33.388">
+	<testcase classname="InequalityTest" name="test_fpJobTitleTagger_1" time="0.610"/>
+	<testcase classname="InequalityTest" name="test_fpJobTitleTagger_2" time="0.649"/>
+	<testcase classname="InequalityTest" name="test_fpJobTitleTagger_3" time="0.653"/>
+	<testcase classname="InequalityTest" name="test_fpJobTitleTagger_4" time="0.671"/>
+	<testcase classname="InequalityTest" name="test_fpJobTitleTagger_5" time="0.623"/>
+	<testcase classname="InequalityTest" name="test_fpJobTitleTagger_6" time="0.665"/>
+	<testcase classname="InequalityTest" name="test_fpJobTitleTagger_7" time="0.628"/>
+	<testcase classname="InequalityTest" name="test_fpJobTitleTagger_8" time="0.655"/>
+	<testcase classname="InequalityTest" name="test_fpJobTitleTagger_9" time="0.637"/>
+	<testcase classname="InequalityTest" name="test_csJobTitleTagger_5" time="0.731">
+		<error message="' er/studio data architect is an industry-leading dat[35 chars]ol  ' != ' er/studio #jt            is an industry-leading dat[35 chars]ol  '
+-  er/studio data architect is an industry-leading data modeling and data architecture tool  
+?            ^^ ^^^^^^^^^^^
++  er/studio #jt            is an industry-leading data modeling and data architecture tool  
+?            ^^ ^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 94, in test_csJobTitleTagger_5
+    self.assertEqual(Actuval, expected)
+AssertionError: ' er/studio data architect is an industry-leading dat[35 chars]ol  ' != ' er/studio #jt            is an industry-leading dat[35 chars]ol  '
+-  er/studio data architect is an industry-leading data modeling and data architecture tool  
+?            ^^ ^^^^^^^^^^^
++  er/studio #jt            is an industry-leading data modeling and data architecture tool  
+?            ^^ ^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csJobTitleTagger_6" time="0.645">
+		<error message="' the contract administrator is the individual [53 chars]ct  ' != ' the #jt                    is the individual [53 chars]ct  '
+-  the contract administrator is the individual responsible for administering the construction contract  
+?      ^^^ ^^^^^^^^^^  ---------
++  the #jt                    is the individual responsible for administering the construction contract  
+?      ^^ ^^^^^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 100, in test_csJobTitleTagger_6
+    self.assertEqual(Actuval, expected)
+AssertionError: ' the contract administrator is the individual [53 chars]ct  ' != ' the #jt                    is the individual [53 chars]ct  '
+-  the contract administrator is the individual responsible for administering the construction contract  
+?      ^^^ ^^^^^^^^^^  ---------
++  the #jt                    is the individual responsible for administering the construction contract  
+?      ^^ ^^^^^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csJobTitleTagger_7" time="1.312">
+		<error message="' materials planner jobs are usually found within the manufacturing industry  ' != ' #jt               jobs are usually found within the manufacturing industry  '
+-  materials planner jobs are usually found within the manufacturing industry  
+?  ^^ ^^^^^^^^^^^^^^
++  #jt               jobs are usually found within the manufacturing industry  
+?  ^^ ^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 106, in test_csJobTitleTagger_7
+    self.assertEqual(Actuval, expected)
+AssertionError: ' materials planner jobs are usually found within the manufacturing industry  ' != ' #jt               jobs are usually found within the manufacturing industry  '
+-  materials planner jobs are usually found within the manufacturing industry  
+?  ^^ ^^^^^^^^^^^^^^
++  #jt               jobs are usually found within the manufacturing industry  
+?  ^^ ^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csJobTitleTest_1" time="0.666">
+		<error message="' learn about what a budget analyst is and what budget analysts do  ' != ' learn about what a #jt            is and what budget analysts do  '
+-  learn about what a budget analyst is and what budget analysts do  
++  learn about what a #jt            is and what budget analysts do  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 70, in test_csJobTitleTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' learn about what a budget analyst is and what budget analysts do  ' != ' learn about what a #jt            is and what budget analysts do  '
+-  learn about what a budget analyst is and what budget analysts do  
++  learn about what a #jt            is and what budget analysts do  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csJobTitleTest_2" time="0.657">
+		<error message="' average revenue cycle administrator salaries for [28 chars]dc. ' != ' average #jt                         salaries for [28 chars]dc. '
+-  average revenue cycle administrator salaries for job postings in washington  dc. 
++  average #jt                         salaries for job postings in washington  dc. 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 76, in test_csJobTitleTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' average revenue cycle administrator salaries for [28 chars]dc. ' != ' average #jt                         salaries for [28 chars]dc. '
+-  average revenue cycle administrator salaries for job postings in washington  dc. 
++  average #jt                         salaries for job postings in washington  dc. 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csJobTitleTest_3" time="0.654">
+		<error message="' this construction supervisor sample job descri[112 chars]ob  ' != ' this #jt                     sample job descri[112 chars]ob  '
+-  this construction supervisor sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job  
+?       ^^^^ ^^^^^^^^^^^^^^^^^^
++  this #jt                     sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job  
+?       ^^ ^^^^^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 82, in test_csJobTitleTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' this construction supervisor sample job descri[112 chars]ob  ' != ' this #jt                     sample job descri[112 chars]ob  '
+-  this construction supervisor sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job  
+?       ^^^^ ^^^^^^^^^^^^^^^^^^
++  this #jt                     sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job  
+?       ^^ ^^^^^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csJobTitleTest_4" time="0.620">
+		<error message="&quot; dep[19 chars]yer  software engineer education degree requir[58 chars]ee  &quot; != &quot; dep[19 chars]yer  #jt               education degree requir[58 chars]ee  &quot;
+-  depending on the employer  software engineer education degree requirements range from an associate's degree to a master's degree  
+?                             ^^^ ^^^^^^^^^^^^^
++  depending on the employer  #jt               education degree requirements range from an associate's degree to a master's degree  
+?                             ^^ ^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 88, in test_csJobTitleTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: " dep[19 chars]yer  software engineer education degree requir[58 chars]ee  " != " dep[19 chars]yer  #jt               education degree requir[58 chars]ee  "
+-  depending on the employer  software engineer education degree requirements range from an associate's degree to a master's degree  
+?                             ^^^ ^^^^^^^^^^^^^
++  depending on the employer  #jt               education degree requirements range from an associate's degree to a master's degree  
+?                             ^^ ^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fJobTitleTagger_12" time="0.623">
+		<error message="' indicate that most subway operator positions only require a high ' != ' indicate that most #jt             positions only require a high '
+-  indicate that most subway operator positions only require a high 
+?                     ^^^^^^^^^^^^ ^^
++  indicate that most #jt             positions only require a high 
+?                     ^^ ^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 179, in test_fJobTitleTagger_12
+    self.assertEqual(Actuval, expected)
+AssertionError: ' indicate that most subway operator positions only require a high ' != ' indicate that most #jt             positions only require a high '
+-  indicate that most subway operator positions only require a high 
+?                     ^^^^^^^^^^^^ ^^
++  indicate that most #jt             positions only require a high 
+?                     ^^ ^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fJobTitleTagger_13" time="0.620">
+		<error message="' benefits information for transportation director jobs in the united states ' != ' benefits information for #jt                     jobs in the united states '
+-  benefits information for transportation director jobs in the united states 
++  benefits information for #jt                     jobs in the united states 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 185, in test_fJobTitleTagger_13
+    self.assertEqual(Actuval, expected)
+AssertionError: ' benefits information for transportation director jobs in the united states ' != ' benefits information for #jt                     jobs in the united states '
+-  benefits information for transportation director jobs in the united states 
++  benefits information for #jt                     jobs in the united states 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fJobTitleTagger_14" time="0.607">
+		<error message="' descriptions for marine cargo inspector and hundreds of other jobs ' != ' descriptions for #jt                    and hundreds of other jobs '
+-  descriptions for marine cargo inspector and hundreds of other jobs 
++  descriptions for #jt                    and hundreds of other jobs 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 191, in test_fJobTitleTagger_14
+    self.assertEqual(Actuval, expected)
+AssertionError: ' descriptions for marine cargo inspector and hundreds of other jobs ' != ' descriptions for #jt                    and hundreds of other jobs '
+-  descriptions for marine cargo inspector and hundreds of other jobs 
++  descriptions for #jt                    and hundreds of other jobs 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fJobTitleTest_1" time="0.618">
+		<error message="' alexander tabarrok  research director ' != ' alexander tabarrok  #jt               '
+-  alexander tabarrok  research director 
++  alexander tabarrok  #jt               
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 113, in test_fJobTitleTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' alexander tabarrok  research director ' != ' alexander tabarrok  #jt               '
+-  alexander tabarrok  research director 
++  alexander tabarrok  #jt               
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fJobTitleTest_10" time="0.644">
+		<error message="'executive vice president ' != ' executive #jt            '
+- executive vice president 
++  executive #jt            
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 167, in test_fJobTitleTest_10
+    self.assertEqual(Actuval, expected)
+AssertionError: 'executive vice president ' != ' executive #jt            '
+- executive vice president 
++  executive #jt            
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fJobTitleTest_11" time="0.609">
+		<error message="' top #  branch manager profiles on linkedin ' != ' top 25 #jt            profiles on linkedin '
+-  top #  branch manager profiles on linkedin 
++  top 25 #jt            profiles on linkedin 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 173, in test_fJobTitleTest_11
+    self.assertEqual(Actuval, expected)
+AssertionError: ' top #  branch manager profiles on linkedin ' != ' top 25 #jt            profiles on linkedin '
+-  top #  branch manager profiles on linkedin 
++  top 25 #jt            profiles on linkedin 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fJobTitleTest_2" time="0.595">
+		<error message="' founder  chief executive officer ' != ' founder  #jt                     '
+-  founder  chief executive officer 
++  founder  #jt                     
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 119, in test_fJobTitleTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' founder  chief executive officer ' != ' founder  #jt                     '
+-  founder  chief executive officer 
++  founder  #jt                     
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fJobTitleTest_3" time="0.592">
+		<error message="' area conference coordinator names ' != ' area #jt                    names '
+-  area conference coordinator names 
++  area #jt                    names 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 125, in test_fJobTitleTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' area conference coordinator names ' != ' area #jt                    names '
+-  area conference coordinator names 
++  area #jt                    names 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fJobTitleTest_4" time="0.623">
+		<error message="' dare ask the flight attendant for a glass ' != ' dare ask the #jt              for a glass '
+-  dare ask the flight attendant for a glass 
++  dare ask the #jt              for a glass 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 131, in test_fJobTitleTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: ' dare ask the flight attendant for a glass ' != ' dare ask the #jt              for a glass '
+-  dare ask the flight attendant for a glass 
++  dare ask the #jt              for a glass 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fJobTitleTest_5" time="0.611">
+		<error message="' please contact the mapp transaction coordinator ' != ' Please contact the MAPP #jt                     '
+-  please contact the mapp transaction coordinator 
++  Please contact the MAPP #jt                     
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 137, in test_fJobTitleTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: ' please contact the mapp transaction coordinator ' != ' Please contact the MAPP #jt                     '
+-  please contact the mapp transaction coordinator 
++  Please contact the MAPP #jt                     
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fJobTitleTest_6" time="0.618">
+		<error message="' area junior software engineer names ' != ' area #jt                      names '
+-  area junior software engineer names 
++  area #jt                      names 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 143, in test_fJobTitleTest_6
+    self.assertEqual(Actuval, expected)
+AssertionError: ' area junior software engineer names ' != ' area #jt                      names '
+-  area junior software engineer names 
++  area #jt                      names 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fJobTitleTest_7" time="0.613">
+		<error message="' facility manager as a permanent ' != ' #jt              as a permanent '
+-  facility manager as a permanent 
++  #jt              as a permanent 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 149, in test_fJobTitleTest_7
+    self.assertEqual(Actuval, expected)
+AssertionError: ' facility manager as a permanent ' != ' #jt              as a permanent '
+-  facility manager as a permanent 
++  #jt              as a permanent 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fJobTitleTest_8" time="0.644">
+		<error message="' vice president and treasurer ' != ' #jt            and Treasurer '
+-  vice president and treasurer 
++  #jt            and Treasurer 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 155, in test_fJobTitleTest_8
+    self.assertEqual(Actuval, expected)
+AssertionError: ' vice president and treasurer ' != ' #jt            and Treasurer '
+-  vice president and treasurer 
++  #jt            and Treasurer 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fJobTitleTest_9" time="0.610">
+		<error message="' #n              regional sales manager ' != ' james thompson  #jt                    '
+-  #n              regional sales manager 
++  james thompson  #jt                    
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 161, in test_fJobTitleTest_9
+    self.assertEqual(Actuval, expected)
+AssertionError: ' #n              regional sales manager ' != ' james thompson  #jt                    '
+-  #n              regional sales manager 
++  james thompson  #jt                    
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iJobTitleTest_1" time="0.633">
+		<error message="' senior financial analyst ' != ' #jt                      '
+-  senior financial analyst 
++  #jt                      
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 27, in test_iJobTitleTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' senior financial analyst ' != ' #jt                      '
+-  senior financial analyst 
++  #jt                      
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iJobTitleTest_2" time="0.601">
+		<error message="' digital media planner ' != ' #jt                   '
+-  digital media planner 
++  #jt                   
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 33, in test_iJobTitleTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' digital media planner ' != ' #jt                   '
+-  digital media planner 
++  #jt                   
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iJobTitleTest_3" time="0.601">
+		<error message="' cost engineer ' != ' #jt           '
+-  cost engineer 
++  #jt           
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 39, in test_iJobTitleTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' cost engineer ' != ' #jt           '
+-  cost engineer 
++  #jt           
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iJobTitleTest_4" time="0.635">
+		<error message="' inventory planner ' != ' #jt               '
+-  inventory planner 
++  #jt               
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 45, in test_iJobTitleTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: ' inventory planner ' != ' #jt               '
+-  inventory planner 
++  #jt               
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iJobTitleTest_5" time="0.608">
+		<error message="' materials analyst ' != ' #jt               '
+-  materials analyst 
++  #jt               
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 51, in test_iJobTitleTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: ' materials analyst ' != ' #jt               '
+-  materials analyst 
++  #jt               
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iJobTitleTest_6" time="0.640">
+		<error message="' financial analyst ' != ' #jt               '
+-  financial analyst 
++  #jt               
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 57, in test_iJobTitleTest_6
+    self.assertEqual(Actuval, expected)
+AssertionError: ' financial analyst ' != ' #jt               '
+-  financial analyst 
++  #jt               
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iJobTitleTest_7" time="0.594">
+		<error message="' internal auditor ' != ' #jt              '
+-  internal auditor 
++  #jt              
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 63, in test_iJobTitleTest_7
+    self.assertEqual(Actuval, expected)
+AssertionError: ' internal auditor ' != ' #jt              '
+-  internal auditor 
++  #jt              
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcJobTitleTagger_3" time="0.633">
+		<error message="' as [28 chars] for an  estimating manager  is $22.38/hr or $80105 annually  ' != ' as [28 chars] for an  #jt                 is $22.38/hr or  80105 annually  '
+-  as of sep 2015  the average pay for an  estimating manager  is $22.38/hr or $80105 annually  
+?                                          ^^ ^^^^^^^^^^^^^^^                  ^
++  as of sep 2015  the average pay for an  #jt                 is $22.38/hr or  80105 annually  
+?                                          ^^ ^^^^^^^^^^^^^^^                  ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 260, in test_mcJobTitleTagger_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' as [28 chars] for an  estimating manager  is $22.38/hr or $80105 annually  ' != ' as [28 chars] for an  #jt                 is $22.38/hr or  80105 annually  '
+-  as of sep 2015  the average pay for an  estimating manager  is $22.38/hr or $80105 annually  
+?                                          ^^ ^^^^^^^^^^^^^^^                  ^
++  as of sep 2015  the average pay for an  #jt                 is $22.38/hr or  80105 annually  
+?                                          ^^ ^^^^^^^^^^^^^^^                  ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcJobTitleTagger_4" time="0.672">
+		<error message="' a  park ranger  can be best defined as a pro[51 chars]on  ' != ' a  #jt          can be best defined as a pro[51 chars]on  '
+-  a  park ranger  can be best defined as a professional whose work revolves around the conservation  
+?     ^^^^^^^^^^^
++  a  #jt          can be best defined as a professional whose work revolves around the conservation  
+?     ^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 266, in test_mcJobTitleTagger_4
+    self.assertEqual(Actuval, expected)
+AssertionError: ' a  park ranger  can be best defined as a pro[51 chars]on  ' != ' a  #jt          can be best defined as a pro[51 chars]on  '
+-  a  park ranger  can be best defined as a professional whose work revolves around the conservation  
+?     ^^^^^^^^^^^
++  a  #jt          can be best defined as a professional whose work revolves around the conservation  
+?     ^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcJobTitleTest_1" time="0.638">
+		<error message="' a buyer  senior buyer  earns an average salary of r298,610 per year  ' != ' a buyer  #jt           earns an average salary of r298,610 per year  '
+-  a buyer  senior buyer  earns an average salary of r298,610 per year  
+?           ^^^^^^^^^^^^
++  a buyer  #jt           earns an average salary of r298,610 per year  
+?           ^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 248, in test_mcJobTitleTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' a buyer  senior buyer  earns an average salary of r298,610 per year  ' != ' a buyer  #jt           earns an average salary of r298,610 per year  '
+-  a buyer  senior buyer  earns an average salary of r298,610 per year  
+?           ^^^^^^^^^^^^
++  a buyer  #jt           earns an average salary of r298,610 per year  
+?           ^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcJobTitleTest_2" time="1.821">
+		<error message="&quot; as a  sales representative  or  rep   it would [53 chars]es  &quot; != &quot; as a  #jt                   or  rep   it would [53 chars]es  &quot;
+-  as a  sales representative  or  rep   it would be your job to sell your company's products or services  
+?        ^^^^^    --------------------
++  as a  #jt                   or  rep   it would be your job to sell your company's products or services  
+?        ^^^^^^^^^^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 254, in test_mcJobTitleTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: " as a  sales representative  or  rep   it would [53 chars]es  " != " as a  #jt                   or  rep   it would [53 chars]es  "
+-  as a  sales representative  or  rep   it would be your job to sell your company's products or services  
+?        ^^^^^    --------------------
++  as a  #jt                   or  rep   it would be your job to sell your company's products or services  
+?        ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_nlJobTitleTagger_1" time="0.649">
+		<error message="' due[42 chars] require a production scheduler  to join the spray shop team  ' != ' due[42 chars] require a #jt                   to join the spray shop team  '
+-  due to the expansion of our spray shop we now require a production scheduler  to join the spray shop team  
+?                                                          ^^^^^^ ^^^^^^^^^^^^^
++  due to the expansion of our spray shop we now require a #jt                   to join the spray shop team  
+?                                                          ^^ ^^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 328, in test_nlJobTitleTagger_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' due[42 chars] require a production scheduler  to join the spray shop team  ' != ' due[42 chars] require a #jt                   to join the spray shop team  '
+-  due to the expansion of our spray shop we now require a production scheduler  to join the spray shop team  
+?                                                          ^^^^^^ ^^^^^^^^^^^^^
++  due to the expansion of our spray shop we now require a #jt                   to join the spray shop team  
+?                                                          ^^ ^^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pJobTitleTagger_7" time="0.629">
+		<error message="' the[15 chars] of  safety manager  the safety solution of ex[49 chars]on. ' != ' the[15 chars] of  #jt             the safety solution of ex[49 chars]on. '
+-  the latest version of  safety manager  the safety solution of experion pks  offers better integration with experion. 
+?                               --------------------
++  the latest version of  #jt             the safety solution of experion pks  offers better integration with experion. 
+?                        ++++++++++++++++++++
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 235, in test_pJobTitleTagger_7
+    self.assertEqual(Actuval, expected)
+AssertionError: ' the[15 chars] of  safety manager  the safety solution of ex[49 chars]on. ' != ' the[15 chars] of  #jt             the safety solution of ex[49 chars]on. '
+-  the latest version of  safety manager  the safety solution of experion pks  offers better integration with experion. 
+?                               --------------------
++  the latest version of  #jt             the safety solution of experion pks  offers better integration with experion. 
+?                        ++++++++++++++++++++
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pJobTitleTagger_8" time="0.650">
+		<error message="' pro[30 chars] for locomotive engineer  job description  dut[18 chars]ts  ' != ' pro[30 chars] for #jt                  job description  dut[18 chars]ts  '
+-  prospective students who searched for locomotive engineer  job description  duties and requirements  
+?                                        ^^^^^^ ^^^^^^^^^^^^
++  prospective students who searched for #jt                  job description  duties and requirements  
+?                                        ^^ ^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 241, in test_pJobTitleTagger_8
+    self.assertEqual(Actuval, expected)
+AssertionError: ' pro[30 chars] for locomotive engineer  job description  dut[18 chars]ts  ' != ' pro[30 chars] for #jt                  job description  dut[18 chars]ts  '
+-  prospective students who searched for locomotive engineer  job description  duties and requirements  
+?                                        ^^^^^^ ^^^^^^^^^^^^
++  prospective students who searched for #jt                  job description  duties and requirements  
+?                                        ^^ ^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pJobTitleTest_1" time="0.610">
+		<error message="' here are some typical job functions for a cm test engineer  ' != ' here are some typical job functions for a cm #jt            '
+-  here are some typical job functions for a cm test engineer  
+?                                                ^^^^^^^^^^^^
++  here are some typical job functions for a cm #jt            
+?                                               ++ ^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 199, in test_pJobTitleTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' here are some typical job functions for a cm test engineer  ' != ' here are some typical job functions for a cm #jt            '
+-  here are some typical job functions for a cm test engineer  
+?                                                ^^^^^^^^^^^^
++  here are some typical job functions for a cm #jt            
+?                                               ++ ^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pJobTitleTest_2" time="0.619">
+		<error message="&quot; if [25 chars]se you are an inventor  you are basically a product engineer  &quot; != &quot; if [25 chars]se you are an inventor  you are basically a #jt               &quot;
+-  if you're reading this because you are an inventor  you are basically a product engineer  
+?                                                                          ^^^^^^  ^^^^^^^^
++  if you're reading this because you are an inventor  you are basically a #jt               
+?                                                                          ^^  ^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 205, in test_pJobTitleTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: " if [25 chars]se you are an inventor  you are basically a product engineer  " != " if [25 chars]se you are an inventor  you are basically a #jt               "
+-  if you're reading this because you are an inventor  you are basically a product engineer  
+?                                                                          ^^^^^^  ^^^^^^^^
++  if you're reading this because you are an inventor  you are basically a #jt               
+?                                                                          ^^  ^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pJobTitleTest_3" time="0.621">
+		<error message="' 10+[35 chars]nce  mechanical engineer  project manager  pe [15 chars]ta  ' != ' 10+[35 chars]nce  #jt                  #jt              pe [15 chars]ta  '
+-  10+ years of mechanical design experience  mechanical engineer  project manager  pe   for our atlanta  
++  10+ years of mechanical design experience  #jt                  #jt              pe   for our atlanta  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 211, in test_pJobTitleTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' 10+[35 chars]nce  mechanical engineer  project manager  pe [15 chars]ta  ' != ' 10+[35 chars]nce  #jt                  #jt              pe [15 chars]ta  '
+-  10+ years of mechanical design experience  mechanical engineer  project manager  pe   for our atlanta  
++  10+ years of mechanical design experience  #jt                  #jt              pe   for our atlanta  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pJobTitleTest_4" time="0.592">
+		<error message="' what does a medical lab technician  ' != ' what does a medical #jt             '
+-  what does a medical lab technician  
++  what does a medical #jt             
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 217, in test_pJobTitleTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: ' what does a medical lab technician  ' != ' what does a medical #jt             '
+-  what does a medical lab technician  
++  what does a medical #jt             
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pJobTitleTest_5" time="0.620">
+		<error message="' the  junior writer  awards  jwa  is an english[86 chars]au. ' != ' the  #jt            awards  jwa  is an english[86 chars]au. '
+-  the  junior writer  awards  jwa  is an english literacy writing competition for secondary school students based in #n        and macau. 
+?        --------- ^^                                                                                                 ^ ^^^^^^^
++  the  #jt            awards  jwa  is an english literacy writing competition for secondary school students based in hong kong and macau. 
+?       +  ^^^^^^^^^^                                                                                                 ^^ ^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 223, in test_pJobTitleTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: ' the  junior writer  awards  jwa  is an english[86 chars]au. ' != ' the  #jt            awards  jwa  is an english[86 chars]au. '
+-  the  junior writer  awards  jwa  is an english literacy writing competition for secondary school students based in #n        and macau. 
+?        --------- ^^                                                                                                 ^ ^^^^^^^
++  the  #jt            awards  jwa  is an english literacy writing competition for secondary school students based in hong kong and macau. 
+?       +  ^^^^^^^^^^                                                                                                 ^^ ^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pJobTitleTest_6" time="0.617">
+		<error message="' a  purchasing manager  buys products for organizations to use or resell  ' != ' a  #jt                 buys products for organizations to use or resell  '
+-  a  purchasing manager  buys products for organizations to use or resell  
+?     ^^^^^^^^^^^^^^^^^^
++  a  #jt                 buys products for organizations to use or resell  
+?     ^^^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 229, in test_pJobTitleTest_6
+    self.assertEqual(Actuval, expected)
+AssertionError: ' a  purchasing manager  buys products for organizations to use or resell  ' != ' a  #jt                 buys products for organizations to use or resell  '
+-  a  purchasing manager  buys products for organizations to use or resell  
+?     ^^^^^^^^^^^^^^^^^^
++  a  #jt                 buys products for organizations to use or resell  
+?     ^^^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

@@ -1,0 +1,223 @@
+<?xml version="1.0" ?>
+<testsuite errors="12" failures="0" name="InequalityTest-20160328125402" tests="12" time="13.095">
+	<testcase classname="InequalityTest" name="test_fp32ndsPrice_1" time="1.528">
+		<error message="'row b  seat #fp your delivery' != 'row b  seat 5-6 your delivery'
+- row b  seat #fp your delivery
+?             ^^^
++ row b  seat 5-6 your delivery
+?             ^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 27, in test_fp32ndsPrice_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'row b  seat #fp your delivery' != 'row b  seat 5-6 your delivery'
+- row b  seat #fp your delivery
+?             ^^^
++ row b  seat 5-6 your delivery
+?             ^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fp32ndsPrice_10" time="1.634">
+		<error message="'homecoming 2001  october #fp   ' != 'homecoming 2001  october 12-13 '
+- homecoming 2001  october #fp   
+?                          ^^^^^
++ homecoming 2001  october 12-13 
+?                          ^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 81, in test_fp32ndsPrice_10
+    self.assertEqual(Actuval, expected)
+AssertionError: 'homecoming 2001  october #fp   ' != 'homecoming 2001  october 12-13 '
+- homecoming 2001  october #fp   
+?                          ^^^^^
++ homecoming 2001  october 12-13 
+?                          ^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fp32ndsPrice_11" time="0.893">
+		<error message="'weekend is october #fp    2002' != 'weekend is october 25-26  2002'
+- weekend is october #fp    2002
+?                    ^^^^^
++ weekend is october 25-26  2002
+?                    ^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 87, in test_fp32ndsPrice_11
+    self.assertEqual(Actuval, expected)
+AssertionError: 'weekend is october #fp    2002' != 'weekend is october 25-26  2002'
+- weekend is october #fp    2002
+?                    ^^^^^
++ weekend is october 25-26  2002
+?                    ^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fp32ndsPrice_12" time="1.066">
+		<error message="'complement of #fp   officers' != 'complement of 22-24 officers'
+- complement of #fp   officers
+?               ^^^^^
++ complement of 22-24 officers
+?               ^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 93, in test_fp32ndsPrice_12
+    self.assertEqual(Actuval, expected)
+AssertionError: 'complement of #fp   officers' != 'complement of 22-24 officers'
+- complement of #fp   officers
+?               ^^^^^
++ complement of 22-24 officers
+?               ^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fp32ndsPrice_2" time="1.327">
+		<error message="'week  march #fp    2002  mccormic' != 'week  march 18-21  2002  mccormic'
+- week  march #fp    2002  mccormic
+?             ^^^^^
++ week  march 18-21  2002  mccormic
+?             ^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 33, in test_fp32ndsPrice_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'week  march #fp    2002  mccormic' != 'week  march 18-21  2002  mccormic'
+- week  march #fp    2002  mccormic
+?             ^^^^^
++ week  march 18-21  2002  mccormic
+?             ^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fp32ndsPrice_3" time="1.596">
+		<error message="'well for at least #fp   years ' != 'well for at least 10-12 years '
+- well for at least #fp   years 
+?                   ^^^^^
++ well for at least 10-12 years 
+?                   ^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 39, in test_fp32ndsPrice_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'well for at least #fp   years ' != 'well for at least 10-12 years '
+- well for at least #fp   years 
+?                   ^^^^^
++ well for at least 10-12 years 
+?                   ^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fp32ndsPrice_4" time="1.595">
+		<error message="'10:19 et zoran sees #fp   pct fourth-quarter' != '10:19 et zoran sees 10-15 pct fourth-quarter'
+- 10:19 et zoran sees #fp   pct fourth-quarter
+?                     ^^^^^
++ 10:19 et zoran sees 10-15 pct fourth-quarter
+?                     ^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 45, in test_fp32ndsPrice_4
+    self.assertEqual(Actuval, expected)
+AssertionError: '10:19 et zoran sees #fp   pct fourth-quarter' != '10:19 et zoran sees 10-15 pct fourth-quarter'
+- 10:19 et zoran sees #fp   pct fourth-quarter
+?                     ^^^^^
++ 10:19 et zoran sees 10-15 pct fourth-quarter
+?                     ^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fp32ndsPrice_5" time="0.743">
+		<error message="&quot;wouldn't been #fp    instead bet&quot; != &quot;wouldn't been 11-1   instead bet&quot;
+- wouldn't been #fp    instead bet
+?               ^^^^
++ wouldn't been 11-1   instead bet
+?               ^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 51, in test_fp32ndsPrice_5
+    self.assertEqual(Actuval, expected)
+AssertionError: "wouldn't been #fp    instead bet" != "wouldn't been 11-1   instead bet"
+- wouldn't been #fp    instead bet
+?               ^^^^
++ wouldn't been 11-1   instead bet
+?               ^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fp32ndsPrice_6" time="0.711">
+		<error message="'it over the next #fp   years ' != 'it over the next 10-15 years '
+- it over the next #fp   years 
+?                  ^^^^^
++ it over the next 10-15 years 
+?                  ^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 57, in test_fp32ndsPrice_6
+    self.assertEqual(Actuval, expected)
+AssertionError: 'it over the next #fp   years ' != 'it over the next 10-15 years '
+- it over the next #fp   years 
+?                  ^^^^^
++ it over the next 10-15 years 
+?                  ^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fp32ndsPrice_7" time="0.799">
+		<error message="'during its first #fp years to take' != 'during its first 6-7 years to take'
+- during its first #fp years to take
+?                  ^^^
++ during its first 6-7 years to take
+?                  ^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 63, in test_fp32ndsPrice_7
+    self.assertEqual(Actuval, expected)
+AssertionError: 'during its first #fp years to take' != 'during its first 6-7 years to take'
+- during its first #fp years to take
+?                  ^^^
++ during its first 6-7 years to take
+?                  ^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fp32ndsPrice_8" time="0.611">
+		<error message="&quot;the usa's historic #fp win against colom&quot; != &quot;the usa's historic 2-1 win against colom&quot;
+- the usa's historic #fp win against colom
+?                    ^^^
++ the usa's historic 2-1 win against colom
+?                    ^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 69, in test_fp32ndsPrice_8
+    self.assertEqual(Actuval, expected)
+AssertionError: "the usa's historic #fp win against colom" != "the usa's historic 2-1 win against colom"
+- the usa's historic #fp win against colom
+?                    ^^^
++ the usa's historic 2-1 win against colom
+?                    ^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fp32ndsPrice_9" time="0.591">
+		<error message="'before losing #fp in overtime' != 'before losing 2-1 in overtime'
+- before losing #fp in overtime
+?               ^^^
++ before losing 2-1 in overtime
+?               ^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 75, in test_fp32ndsPrice_9
+    self.assertEqual(Actuval, expected)
+AssertionError: 'before losing #fp in overtime' != 'before losing 2-1 in overtime'
+- before losing #fp in overtime
+?               ^^^
++ before losing 2-1 in overtime
+?               ^^^
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

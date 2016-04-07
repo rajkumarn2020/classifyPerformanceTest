@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<testsuite errors="3" failures="0" name="InequalityTest-20160328120835" tests="3" time="4.106">
+	<testcase classname="InequalityTest" name="test_csAddressLine1Tagger2" time="1.065">
+		<error message="'#addr1              is worth about  #addr1        located in grapevine  tx.' != '#addr1              is worth about $225900 and is located in grapevine  tx.'
+- #addr1              is worth about  #addr1        located in grapevine  tx.
+?                                    ^^  ^^^^^^^^^^
++ #addr1              is worth about $225900 and is located in grapevine  tx.
+?                                    ^^^^^^^^ + ^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 35, in test_csAddressLine1Tagger2
+    self.assertEqual(Actuval, expected)
+AssertionError: '#addr1              is worth about  #addr1        located in grapevine  tx.' != '#addr1              is worth about $225900 and is located in grapevine  tx.'
+- #addr1              is worth about  #addr1        located in grapevine  tx.
+?                                    ^^  ^^^^^^^^^^
++ #addr1              is worth about $225900 and is located in grapevine  tx.
+?                                    ^^^^^^^^ + ^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csAddressLine1Tagger5" time="2.138">
+		<error message="'prop[25 chars]         rd  azle, tx 76020 can be acquired on realtor.com(r  ' != 'prop[25 chars]             azle  tx 76020 can be acquired on realtor.com(r  '
+- property records for #addr1           rd  azle, tx 76020 can be acquired on realtor.com(r  
+?                                       ^^      ^
++ property records for #addr1               azle  tx 76020 can be acquired on realtor.com(r  
+?                                       ^^      ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 41, in test_csAddressLine1Tagger5
+    self.assertEqual(Actuval, expected)
+AssertionError: 'prop[25 chars]         rd  azle, tx 76020 can be acquired on realtor.com(r  ' != 'prop[25 chars]             azle  tx 76020 can be acquired on realtor.com(r  '
+- property records for #addr1           rd  azle, tx 76020 can be acquired on realtor.com(r  
+?                                       ^^      ^
++ property records for #addr1               azle  tx 76020 can be acquired on realtor.com(r  
+?                                       ^^      ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fAddressLine1Tagger2" time="0.903">
+		<error message="'whit[52 chars] york, new york 10279   phone: (646) 723-6228 [87 chars]5226' != 'whit[52 chars] york  new york 10279   phone   646  723-6228 [87 chars]5226'
+Diff is 767 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 27, in test_fAddressLine1Tagger2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'whit[52 chars] york, new york 10279   phone: (646) 723-6228 [87 chars]5226' != 'whit[52 chars] york  new york 10279   phone   646  723-6228 [87 chars]5226'
+Diff is 767 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

@@ -1,0 +1,718 @@
+<?xml version="1.0" ?>
+<testsuite errors="45" failures="0" name="InequalityTest-20160314131754" tests="66" time="40.160">
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_11" time="0.606"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_12" time="0.560"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_13" time="0.571"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_14" time="0.628"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_15" time="0.591"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_17" time="0.556"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_18" time="0.556"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_20" time="0.610"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_23" time="0.597"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_24" time="0.571"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_25" time="0.549"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_26" time="0.557"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_27" time="0.580"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_28" time="0.566"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_29" time="0.659"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_30" time="0.660"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_4" time="0.652"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_5" time="0.593"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_6" time="0.583"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_8" time="0.641"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_9" time="0.692"/>
+	<testcase classname="InequalityTest" name="test_csCompanyTest_1" time="0.593">
+		<error message="&quot; the[48 chars]orce overstock.com, inc to disclose documents [79 chars]ed  &quot; != &quot; the[48 chars]orce #co                to disclose documents [79 chars]ed  &quot;
+-  the u.k. serious fraud office will ask a judge to force overstock.com, inc to disclose documents linked to the bank's #    fundraising that the lender says are legally privileged  
+?                                                           ^^^^  --------------                                         ^^^^
++  the u.k. serious fraud office will ask a judge to force #co                to disclose documents linked to the bank's 2008 fundraising that the lender says are legally privileged  
+?                                                          ++ ^^^^^^^^^^^^^^^^                                           ^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 168, in test_csCompanyTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: " the[48 chars]orce overstock.com, inc to disclose documents [79 chars]ed  " != " the[48 chars]orce #co                to disclose documents [79 chars]ed  "
+-  the u.k. serious fraud office will ask a judge to force overstock.com, inc to disclose documents linked to the bank's #    fundraising that the lender says are legally privileged  
+?                                                           ^^^^  --------------                                         ^^^^
++  the u.k. serious fraud office will ask a judge to force #co                to disclose documents linked to the bank's 2008 fundraising that the lender says are legally privileged  
+?                                                          ++ ^^^^^^^^^^^^^^^^                                           ^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csCompanyTest_2" time="0.547">
+		<error message="'dbss renamed itself to cognizant technology solutions ' != 'dbss renamed itself to #co                            '
+- dbss renamed itself to cognizant technology solutions 
++ dbss renamed itself to #co                            
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 174, in test_csCompanyTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'dbss renamed itself to cognizant technology solutions ' != 'dbss renamed itself to #co                            '
+- dbss renamed itself to cognizant technology solutions 
++ dbss renamed itself to #co                            
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csCompanyTest_3" time="0.572">
+		<error message="'microchip technology inc. is a leading pr[93 chars]ent ' != '#co                       is a leading pr[93 chars]ent '
+- microchip technology inc. is a leading provider of microcontroller  analog and flash-ip solutions  providing low-risk product development 
+? ^^ - ^^^^^^^^^^^^^^^^^^^^
++ #co                       is a leading provider of microcontroller  analog and flash-ip solutions  providing low-risk product development 
+? ^  ^^^^^^^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 180, in test_csCompanyTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'microchip technology inc. is a leading pr[93 chars]ent ' != '#co                       is a leading pr[93 chars]ent '
+- microchip technology inc. is a leading provider of microcontroller  analog and flash-ip solutions  providing low-risk product development 
+? ^^ - ^^^^^^^^^^^^^^^^^^^^
++ #co                       is a leading provider of microcontroller  analog and flash-ip solutions  providing low-risk product development 
+? ^  ^^^^^^^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csCompanyTest_4" time="0.641">
+		<error message="'at microsoft corporation our mission and val[34 chars]ses ' != 'at #co                   our mission and val[34 chars]ses '
+- at microsoft corporation our mission and values are to help people and businesses 
+?    ^^^^^^^^^^  ^^^^^^^^^
++ at #co                   our mission and values are to help people and businesses 
+?    ^  ^^^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 186, in test_csCompanyTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: 'at microsoft corporation our mission and val[34 chars]ses ' != 'at #co                   our mission and val[34 chars]ses '
+- at microsoft corporation our mission and values are to help people and businesses 
+?    ^^^^^^^^^^  ^^^^^^^^^
++ at #co                   our mission and values are to help people and businesses 
+?    ^  ^^^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csCompanyTest_5" time="0.615">
+		<error message="'deloitte &amp; touche llp offers auditing  accounting  financial advisory ' != '#co                   offers auditing  accounting  financial advisory '
+- deloitte &amp; touche llp offers auditing  accounting  financial advisory 
++ #co                   offers auditing  accounting  financial advisory 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 192, in test_csCompanyTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: 'deloitte & touche llp offers auditing  accounting  financial advisory ' != '#co                   offers auditing  accounting  financial advisory '
+- deloitte & touche llp offers auditing  accounting  financial advisory 
++ #co                   offers auditing  accounting  financial advisory 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fCompanyTest_1" time="0.572">
+		<error message="&quot; in #    bissell, inc built the company's fir[35 chars]ids &quot; != &quot; in 1883 #co          built the company's fir[35 chars]ids &quot;
+-  in #    bissell, inc built the company's first manufacturing plant in grand rapids 
+?      ---------------
++  in 1883 #co          built the company's first manufacturing plant in grand rapids 
+?     +++++  ++++++++++
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 137, in test_fCompanyTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: " in #    bissell, inc built the company's fir[35 chars]ids " != " in 1883 #co          built the company's fir[35 chars]ids "
+-  in #    bissell, inc built the company's first manufacturing plant in grand rapids 
+?      ---------------
++  in 1883 #co          built the company's first manufacturing plant in grand rapids 
+?     +++++  ++++++++++
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fCompanyTest_2" time="0.617">
+		<error message="'and compare boston scientific corporation c against other companies' != 'and compare #co                           c against other companies'
+- and compare boston scientific corporation c against other companies
++ and compare #co                           c against other companies
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 143, in test_fCompanyTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'and compare boston scientific corporation c against other companies' != 'and compare #co                           c against other companies'
+- and compare boston scientific corporation c against other companies
++ and compare #co                           c against other companies
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fCompanyTest_3" time="0.803">
+		<error message="'anadarko petroleum corporation is an american oil and gas exploration company' != '#co                            is an american oil and gas exploration company'
+- anadarko petroleum corporation is an american oil and gas exploration company
++ #co                            is an american oil and gas exploration company
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 149, in test_fCompanyTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'anadarko petroleum corporation is an american oil and gas exploration company' != '#co                            is an american oil and gas exploration company'
+- anadarko petroleum corporation is an american oil and gas exploration company
++ #co                            is an american oil and gas exploration company
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fCompanyTest_4" time="0.688">
+		<error message="'stock analysis for metropolitan transportation authority including stock price' != 'stock analysis for #co                                   including stock price'
+- stock analysis for metropolitan transportation authority including stock price
++ stock analysis for #co                                   including stock price
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 155, in test_fCompanyTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: 'stock analysis for metropolitan transportation authority including stock price' != 'stock analysis for #co                                   including stock price'
+- stock analysis for metropolitan transportation authority including stock price
++ stock analysis for #co                                   including stock price
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fCompanyTest_5" time="0.846">
+		<error message="'belief or current expectations of calpine corporation the company' != 'belief or current expectations of #co                 the company'
+- belief or current expectations of calpine corporation the company
++ belief or current expectations of #co                 the company
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 161, in test_fCompanyTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: 'belief or current expectations of calpine corporation the company' != 'belief or current expectations of #co                 the company'
+- belief or current expectations of calpine corporation the company
++ belief or current expectations of #co                 the company
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_1" time="0.735">
+		<error message="' ocz[35 chars]r of solid state drives  ssds  based in san jose, california  ' != ' ocz[35 chars]r of solid state drives  ssds  based in san jose  california  '
+-  ocz-storage solutions is a manufacturer of solid state drives  ssds  based in san jose, california  
+?                                                                                        ^
++  ocz-storage solutions is a manufacturer of solid state drives  ssds  based in san jose  california  
+?                                                                                        ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 237, in test_fpCompanyTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ocz[35 chars]r of solid state drives  ssds  based in san jose, california  ' != ' ocz[35 chars]r of solid state drives  ssds  based in san jose  california  '
+-  ocz-storage solutions is a manufacturer of solid state drives  ssds  based in san jose, california  
+?                                                                                        ^
++  ocz-storage solutions is a manufacturer of solid state drives  ssds  based in san jose  california  
+?                                                                                        ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_10" time="0.560">
+		<error message="' from   #n            ' != ' from   william kelly '
+-  from   #n            
++  from   william kelly 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 291, in test_fpCompanyTest_10
+    self.assertEqual(Actuval, expected)
+AssertionError: ' from   #n            ' != ' from   william kelly '
+-  from   #n            
++  from   william kelly 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_16" time="0.587">
+		<error message="' stions you can call #n    hunter at x5622 ' != ' stions you can call karen hunter at x5622 '
+-  stions you can call #n    hunter at x5622 
+?                      ^ ---
++  stions you can call karen hunter at x5622 
+?                      ^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 327, in test_fpCompanyTest_16
+    self.assertEqual(Actuval, expected)
+AssertionError: ' stions you can call #n    hunter at x5622 ' != ' stions you can call karen hunter at x5622 '
+-  stions you can call #n    hunter at x5622 
+?                      ^ ---
++  stions you can call karen hunter at x5622 
+?                      ^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_19" time="0.578">
+		<error message="' # pm^^bruce  harry  alan:^^jennifer stewa ' != ' 3 pm^^bruce  harry  alan:^^jennifer stewa '
+-  # pm^^bruce  harry  alan:^^jennifer stewa 
+?  ^
++  3 pm^^bruce  harry  alan:^^jennifer stewa 
+?  ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 345, in test_fpCompanyTest_19
+    self.assertEqual(Actuval, expected)
+AssertionError: ' # pm^^bruce  harry  alan:^^jennifer stewa ' != ' 3 pm^^bruce  harry  alan:^^jennifer stewa '
+-  # pm^^bruce  harry  alan:^^jennifer stewa 
+?  ^
++  3 pm^^bruce  harry  alan:^^jennifer stewa 
+?  ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_2" time="0.590">
+		<error message="' markets #n    inc is a chain of #   supermarkets [28 chars]ia. ' != ' markets weis  inc is a chain of 163 supermarkets [28 chars]ia. '
+-  markets #n    inc is a chain of #   supermarkets based in sunbury  pennsylvania. 
+?          ^^^^                    ^^^
++  markets weis  inc is a chain of 163 supermarkets based in sunbury  pennsylvania. 
+?          ^^^^                    ^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 243, in test_fpCompanyTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' markets #n    inc is a chain of #   supermarkets [28 chars]ia. ' != ' markets weis  inc is a chain of 163 supermarkets [28 chars]ia. '
+-  markets #n    inc is a chain of #   supermarkets based in sunbury  pennsylvania. 
+?          ^^^^                    ^^^
++  markets weis  inc is a chain of 163 supermarkets based in sunbury  pennsylvania. 
+?          ^^^^                    ^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_21" time="0.548">
+		<error message="' #n            and #n          are all p ' != ' alan engberg  and gary taylor are all p '
+-  #n            and #n          are all p 
++  alan engberg  and gary taylor are all p 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 357, in test_fpCompanyTest_21
+    self.assertEqual(Actuval, expected)
+AssertionError: ' #n            and #n          are all p ' != ' alan engberg  and gary taylor are all p '
+-  #n            and #n          are all p 
++  alan engberg  and gary taylor are all p 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_22" time="0.575">
+		<error message="' any  the corporate ^services group  has # ' != ' any  the corporate ^services group  has 3 '
+-  any  the corporate ^services group  has # 
+?                                          ^
++  any  the corporate ^services group  has 3 
+?                                          ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 363, in test_fpCompanyTest_22
+    self.assertEqual(Actuval, expected)
+AssertionError: ' any  the corporate ^services group  has # ' != ' any  the corporate ^services group  has 3 '
+-  any  the corporate ^services group  has # 
+?                                          ^
++  any  the corporate ^services group  has 3 
+?                                          ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_3" time="0.556">
+		<error message="' will make sure that matt smith and #n    ' != ' will make sure that matt smith and jason '
+-  will make sure that matt smith and #n    
+?                                     ^  ---
++  will make sure that matt smith and jason 
+?                                     ^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 249, in test_fpCompanyTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' will make sure that matt smith and #n    ' != ' will make sure that matt smith and jason '
+-  will make sure that matt smith and #n    
+?                                     ^  ---
++  will make sure that matt smith and jason 
+?                                     ^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_7" time="0.576">
+		<error message="' friday by me at the state bank^  #   no m ' != ' friday by me at the state bank^  4   no m '
+-  friday by me at the state bank^  #   no m 
+?                                   ^
++  friday by me at the state bank^  4   no m 
+?                                   ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 273, in test_fpCompanyTest_7
+    self.assertEqual(Actuval, expected)
+AssertionError: ' friday by me at the state bank^  #   no m ' != ' friday by me at the state bank^  4   no m '
+-  friday by me at the state bank^  #   no m 
+?                                   ^
++  friday by me at the state bank^  4   no m 
+?                                   ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iCompanyTest_1" time="0.566">
+		<error message="' wellpoint, inc. ' != ' #co             '
+-  wellpoint, inc. 
++  #co             
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 28, in test_iCompanyTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' wellpoint, inc. ' != ' #co             '
+-  wellpoint, inc. 
++  #co             
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iCompanyTest_10" time="0.558">
+		<error message="' alden research, llc ' != ' #co                 '
+-  alden research, llc 
++  #co                 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 70, in test_iCompanyTest_10
+    self.assertEqual(Actuval, expected)
+AssertionError: ' alden research, llc ' != ' #co                 '
+-  alden research, llc 
++  #co                 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iCompanyTest_11" time="0.557">
+		<error message="' weddingwire, inc. ' != ' #co               '
+-  weddingwire, inc. 
++  #co               
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 76, in test_iCompanyTest_11
+    self.assertEqual(Actuval, expected)
+AssertionError: ' weddingwire, inc. ' != ' #co               '
+-  weddingwire, inc. 
++  #co               
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iCompanyTest_12" time="0.577">
+		<error message="' college sports online, inc ' != ' #co                        '
+-  college sports online, inc 
++  #co                        
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 82, in test_iCompanyTest_12
+    self.assertEqual(Actuval, expected)
+AssertionError: ' college sports online, inc ' != ' #co                        '
+-  college sports online, inc 
++  #co                        
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iCompanyTest_13" time="0.542">
+		<error message="' bargainspots.com inc. ' != ' #co                   '
+-  bargainspots.com inc. 
++  #co                   
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 88, in test_iCompanyTest_13
+    self.assertEqual(Actuval, expected)
+AssertionError: ' bargainspots.com inc. ' != ' #co                   '
+-  bargainspots.com inc. 
++  #co                   
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iCompanyTest_14" time="0.576">
+		<error message="' national life insurance company ' != ' #co                             '
+-  national life insurance company 
++  #co                             
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 94, in test_iCompanyTest_14
+    self.assertEqual(Actuval, expected)
+AssertionError: ' national life insurance company ' != ' #co                             '
+-  national life insurance company 
++  #co                             
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iCompanyTest_15" time="0.614">
+		<error message="' startsampling, inc. ' != ' #co                 '
+-  startsampling, inc. 
++  #co                 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 100, in test_iCompanyTest_15
+    self.assertEqual(Actuval, expected)
+AssertionError: ' startsampling, inc. ' != ' #co                 '
+-  startsampling, inc. 
++  #co                 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iCompanyTest_16" time="0.560">
+		<error message="' calpine corporation ' != ' #co                 '
+-  calpine corporation 
++  #co                 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 106, in test_iCompanyTest_16
+    self.assertEqual(Actuval, expected)
+AssertionError: ' calpine corporation ' != ' #co                 '
+-  calpine corporation 
++  #co                 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iCompanyTest_17" time="0.722">
+		<error message="' fair isaac corporation ' != ' #co                    '
+-  fair isaac corporation 
++  #co                    
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 112, in test_iCompanyTest_17
+    self.assertEqual(Actuval, expected)
+AssertionError: ' fair isaac corporation ' != ' #co                    '
+-  fair isaac corporation 
++  #co                    
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iCompanyTest_18" time="0.723">
+		<error message="' rosetta stone inc. ' != ' #co                '
+-  rosetta stone inc. 
++  #co                
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 118, in test_iCompanyTest_18
+    self.assertEqual(Actuval, expected)
+AssertionError: ' rosetta stone inc. ' != ' #co                '
+-  rosetta stone inc. 
++  #co                
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iCompanyTest_19" time="0.691">
+		<error message="' robinson helicopter company ' != ' #co                         '
+-  robinson helicopter company 
++  #co                         
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 124, in test_iCompanyTest_19
+    self.assertEqual(Actuval, expected)
+AssertionError: ' robinson helicopter company ' != ' #co                         '
+-  robinson helicopter company 
++  #co                         
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iCompanyTest_2" time="0.734">
+		<error message="' blockbuster llc. ' != ' #co              '
+-  blockbuster llc. 
++  #co              
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 34, in test_iCompanyTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' blockbuster llc. ' != ' #co              '
+-  blockbuster llc. 
++  #co              
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iCompanyTest_20" time="0.792">
+		<error message="' monro muffler brake, inc. ' != ' #co                       '
+-  monro muffler brake, inc. 
++  #co                       
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 130, in test_iCompanyTest_20
+    self.assertEqual(Actuval, expected)
+AssertionError: ' monro muffler brake, inc. ' != ' #co                       '
+-  monro muffler brake, inc. 
++  #co                       
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iCompanyTest_4" time="0.625">
+		<error message="' smarter living, inc. ' != ' #co                  '
+-  smarter living, inc. 
++  #co                  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 40, in test_iCompanyTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: ' smarter living, inc. ' != ' #co                  '
+-  smarter living, inc. 
++  #co                  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iCompanyTest_5" time="0.549">
+		<error message="' ez publishing, inc. ' != ' #co                 '
+-  ez publishing, inc. 
++  #co                 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 46, in test_iCompanyTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ez publishing, inc. ' != ' #co                 '
+-  ez publishing, inc. 
++  #co                 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iCompanyTest_6" time="0.589">
+		<error message="' chicos f.a.s. inc. ' != ' #co                '
+-  chicos f.a.s. inc. 
++  #co                
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 52, in test_iCompanyTest_6
+    self.assertEqual(Actuval, expected)
+AssertionError: ' chicos f.a.s. inc. ' != ' #co                '
+-  chicos f.a.s. inc. 
++  #co                
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iCompanyTest_7" time="0.591">
+		<error message="' continental airlines, inc. ' != ' #co                        '
+-  continental airlines, inc. 
++  #co                        
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 58, in test_iCompanyTest_7
+    self.assertEqual(Actuval, expected)
+AssertionError: ' continental airlines, inc. ' != ' #co                        '
+-  continental airlines, inc. 
++  #co                        
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iCompanyTest_8" time="0.616">
+		<error message="' northwestern corporation ' != ' #co                      '
+-  northwestern corporation 
++  #co                      
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 64, in test_iCompanyTest_8
+    self.assertEqual(Actuval, expected)
+AssertionError: ' northwestern corporation ' != ' #co                      '
+-  northwestern corporation 
++  #co                      
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcCompanyTest_1" time="0.569">
+		<error message="'  blockbuster llc.  ' != '  #co               '
+-   blockbuster llc.  
++   #co               
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 218, in test_mcCompanyTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: '  blockbuster llc.  ' != '  #co               '
+-   blockbuster llc.  
++   #co               
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcCompanyTest_2" time="0.577">
+		<error message="'next  century media inc.  is a company formed a[52 chars]ing ' != 'next  #co                 is a company formed a[52 chars]ing '
+- next  century media inc.  is a company formed and nurtured by some of the brightest minds in marketing 
+?        ^^^^^^^^^^^^^^^^^
++ next  #co                 is a company formed and nurtured by some of the brightest minds in marketing 
+?       + ^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 224, in test_mcCompanyTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'next  century media inc.  is a company formed a[52 chars]ing ' != 'next  #co                 is a company formed a[52 chars]ing '
+- next  century media inc.  is a company formed and nurtured by some of the brightest minds in marketing 
+?        ^^^^^^^^^^^^^^^^^
++ next  #co                 is a company formed and nurtured by some of the brightest minds in marketing 
+?       + ^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcCompanyTest_3" time="0.588">
+		<error message="' networks, inc.  is a valued-added reselle[34 chars]gns ' != ' #co             is a valued-added reselle[34 chars]gns '
+-  networks, inc.  is a valued-added reseller and systems integrator that designs 
+?  ^^^^ ^^^^^^^^^
++  #co             is a valued-added reseller and systems integrator that designs 
+?  ^^ ^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 230, in test_mcCompanyTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' networks, inc.  is a valued-added reselle[34 chars]gns ' != ' #co             is a valued-added reselle[34 chars]gns '
+-  networks, inc.  is a valued-added reseller and systems integrator that designs 
+?  ^^^^ ^^^^^^^^^
++  #co             is a valued-added reseller and systems integrator that designs 
+?  ^^ ^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_nlCompanyTest_1" time="0.582">
+		<error message="' in #     cabot corporation  was selected as [76 chars]ds  ' != ' in 2012  #co                was selected as [76 chars]ds  '
+-  in #     cabot corporation  was selected as a bronze winner for the ninth annual team massachusetts economic impact awards  
+?      -----------  ^^^^^^^^^
++  in 2012  #co                was selected as a bronze winner for the ninth annual team massachusetts economic impact awards  
+?     ++++++   ^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 418, in test_nlCompanyTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' in #     cabot corporation  was selected as [76 chars]ds  ' != ' in 2012  #co                was selected as [76 chars]ds  '
+-  in #     cabot corporation  was selected as a bronze winner for the ninth annual team massachusetts economic impact awards  
+?      -----------  ^^^^^^^^^
++  in 2012  #co                was selected as a bronze winner for the ninth annual team massachusetts economic impact awards  
+?     ++++++   ^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_nlCompanyTest_2" time="0.590">
+		<error message="' drs technologies, inc.  drs  is a us-based  d[122 chars]08  ' != ' drs #co                 drs  is a us-based  d[122 chars]08  '
+-  drs technologies, inc.  drs  is a us-based  defense contractor  previously traded on the nyse  the company was purchased by the italian firm finmeccanica in october 2008  
+?      ^^ -- ^^^^^^^^^^^^
++  drs #co                 drs  is a us-based  defense contractor  previously traded on the nyse  the company was purchased by the italian firm finmeccanica in october 2008  
+?      ^  ^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 424, in test_nlCompanyTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' drs technologies, inc.  drs  is a us-based  d[122 chars]08  ' != ' drs #co                 drs  is a us-based  d[122 chars]08  '
+-  drs technologies, inc.  drs  is a us-based  defense contractor  previously traded on the nyse  the company was purchased by the italian firm finmeccanica in october 2008  
+?      ^^ -- ^^^^^^^^^^^^
++  drs #co                 drs  is a us-based  defense contractor  previously traded on the nyse  the company was purchased by the italian firm finmeccanica in october 2008  
+?      ^  ^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pCompanyTest_1" time="0.571">
+		<error message="' wellpoint, inc.  ' != ' #co              '
+-  wellpoint, inc.  
++  #co              
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 199, in test_pCompanyTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' wellpoint, inc.  ' != ' #co              '
+-  wellpoint, inc.  
++  #co              
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pCompanyTest_2" time="0.571">
+		<error message="'  smarter living, inc.  ' != '  #co                   '
+-   smarter living, inc.  
++   #co                   
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 205, in test_pCompanyTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: '  smarter living, inc.  ' != '  #co                   '
+-   smarter living, inc.  
++   #co                   
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pCompanyTest_3" time="0.551">
+		<error message="' alden research, llc  ' != ' #co                  '
+-  alden research, llc  
++  #co                  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 211, in test_pCompanyTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' alden research, llc  ' != ' #co                  '
+-  alden research, llc  
++  #co                  
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

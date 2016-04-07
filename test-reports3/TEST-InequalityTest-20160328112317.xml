@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="InequalityTest-20160328112317" tests="2" time="7.708">
+	<testcase classname="InequalityTest" name="test_SampleOrdinalTest_1" time="3.429"/>
+	<testcase classname="InequalityTest" name="test_fpOrdinalTest_3" time="4.279">
+		<error message="'  this alert gives notice to citizens residing in the #on   district  ' != '  this alert gives notice to citizens residing in the 003rd district  '
+-   this alert gives notice to citizens residing in the #on   district  
+?                                                       ^^^^^
++   this alert gives notice to citizens residing in the 003rd district  
+?                                                       ^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 36, in test_fpOrdinalTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: '  this alert gives notice to citizens residing in the #on   district  ' != '  this alert gives notice to citizens residing in the 003rd district  '
+-   this alert gives notice to citizens residing in the #on   district  
+?                                                       ^^^^^
++   this alert gives notice to citizens residing in the 003rd district  
+?                                                       ^^^^^
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

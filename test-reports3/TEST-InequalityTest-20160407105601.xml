@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="InequalityTest-20160407105601" tests="1" time="0.721">
+	<testcase classname="InequalityTest" name="test_IsClassify_1" time="0.721">
+		<error message="[{'pct': 90, 'type': 1, 'id': 500}] != 500" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 24, in test_IsClassify_1
+    self.assertEqual(Actuval, expected)
+AssertionError: [{'pct': 90, 'type': 1, 'id': 500}] != 500
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[[{'pct': 90, 'type': 1, 'id': 500}]
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

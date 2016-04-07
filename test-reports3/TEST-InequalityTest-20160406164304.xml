@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="InequalityTest-20160406164304" tests="1" time="0.681">
+	<testcase classname="InequalityTest" name="test_IsClassify_1" time="0.681">
+		<error message="'damn girl   you looked good in that skir[179 chars]ple ' != 500" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 24, in test_IsClassify_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'damn girl   you looked good in that skir[179 chars]ple ' != 500
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[200
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

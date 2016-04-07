@@ -1,0 +1,203 @@
+<?xml version="1.0" ?>
+<testsuite errors="12" failures="0" name="InequalityTest-20160328115817" tests="12" time="16.733">
+	<testcase classname="InequalityTest" name="test_csGreetingTest_3" time="1.507">
+		<error message="&quot;dear friends and colleagues  it's been a [86 chars]bye &quot; != &quot;#g                           it's been a [86 chars]bye &quot;
+- dear friends and colleagues  it's been a great run at enron and houston  but after three wonderful years  it's time to say goodbye 
+? ^^^^^^^^^^^^^^^^^^^^^^^ ^^^
++ #g                           it's been a great run at enron and houston  but after three wonderful years  it's time to say goodbye 
+? ^ ^^^^^^^^^^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 58, in test_csGreetingTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: "dear friends and colleagues  it's been a [86 chars]bye " != "#g                           it's been a [86 chars]bye "
+- dear friends and colleagues  it's been a great run at enron and houston  but after three wonderful years  it's time to say goodbye 
+? ^^^^^^^^^^^^^^^^^^^^^^^ ^^^
++ #g                           it's been a great run at enron and houston  but after three wonderful years  it's time to say goodbye 
+? ^ ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csGreetingTest_4" time="1.191">
+		<error message="'dear mr/mr/mrs  jimmy carter  the below i[93 chars]oon ' != '#g                            the below i[93 chars]oon '
+- dear mr/mr/mrs  jimmy carter  the below interviews have been rescheduled from monday, october 29 to thursday, november 1 in the afternoon 
+? ^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                        ^                       ^
++ #g                            the below interviews have been rescheduled from monday  october 29 to thursday  november 1 in the afternoon 
+? ^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                        ^                       ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 64, in test_csGreetingTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: 'dear mr/mr/mrs  jimmy carter  the below i[93 chars]oon ' != '#g                            the below i[93 chars]oon '
+- dear mr/mr/mrs  jimmy carter  the below interviews have been rescheduled from monday, october 29 to thursday, november 1 in the afternoon 
+? ^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                        ^                       ^
++ #g                            the below interviews have been rescheduled from monday  october 29 to thursday  november 1 in the afternoon 
+? ^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                        ^                       ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fGreetingTest_5" time="1.273">
+		<error message="'dear mr. president  here is the pjm train[50 chars] ott' != '#g                  here is the pjm train[50 chars] ott'
+- dear mr. president  here is the pjm training information from the presentation made by andy ott
+? ^^^^^^^^^^^^^^^^^^
++ #g                  here is the pjm training information from the presentation made by andy ott
+? ^^^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 71, in test_fGreetingTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: 'dear mr. president  here is the pjm train[50 chars] ott' != '#g                  here is the pjm train[50 chars] ott'
+- dear mr. president  here is the pjm training information from the presentation made by andy ott
+? ^^^^^^^^^^^^^^^^^^
++ #g                  here is the pjm training information from the presentation made by andy ott
+? ^^^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iGreetingTest_10" time="1.290">
+		<error message="'dear participants  ' != '#g                 '
+- dear participants  
++ #g                 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 51, in test_iGreetingTest_10
+    self.assertEqual(Actuval, expected)
+AssertionError: 'dear participants  ' != '#g                 '
+- dear participants  
++ #g                 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iGreetingTest_5" time="0.787">
+		<error message="'dear sir/madam  ' != '#g              '
+- dear sir/madam  
++ #g              
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 27, in test_iGreetingTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: 'dear sir/madam  ' != '#g              '
+- dear sir/madam  
++ #g              
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iGreetingTest_6" time="1.223">
+		<error message="'hello my friends     ' != '#g                   '
+- hello my friends     
++ #g                   
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 33, in test_iGreetingTest_6
+    self.assertEqual(Actuval, expected)
+AssertionError: 'hello my friends     ' != '#g                   '
+- hello my friends     
++ #g                   
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iGreetingTest_7" time="1.379">
+		<error message="'hello to all  ' != '#g            '
+- hello to all  
++ #g            
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 39, in test_iGreetingTest_7
+    self.assertEqual(Actuval, expected)
+AssertionError: 'hello to all  ' != '#g            '
+- hello to all  
++ #g            
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iGreetingTest_8" time="1.402">
+		<error message="'hello ladies  ' != '#g            '
+- hello ladies  
++ #g            
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 45, in test_iGreetingTest_8
+    self.assertEqual(Actuval, expected)
+AssertionError: 'hello ladies  ' != '#g            '
+- hello ladies  
++ #g            
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcGreetingTest_1" time="1.398">
+		<error message="'dear larry  and bob    please plan to att[73 chars] 22 ' != '#g                    please plan to atte[72 chars] 22 '
+- dear larry  and bob    please plan to attend the quarterly managing director meeting scheduled for monday, october 22 
+? ^^^^^^^^^^^^^^^^^^^                                                                                      ^
++ #g                    please plan to attend the quarterly managing director meeting scheduled for monday  october 22 
+? ^^^^^^^^^^^^^^^^^^                                                                                      ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 85, in test_mcGreetingTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'dear larry  and bob    please plan to att[73 chars] 22 ' != '#g                    please plan to atte[72 chars] 22 '
+- dear larry  and bob    please plan to attend the quarterly managing director meeting scheduled for monday, october 22 
+? ^^^^^^^^^^^^^^^^^^^                                                                                      ^
++ #g                    please plan to attend the quarterly managing director meeting scheduled for monday  october 22 
+? ^^^^^^^^^^^^^^^^^^                                                                                      ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcGreetingTest_2" time="1.350">
+		<error message="'dear rick  buy    according to the policy[84 chars]cro ' != '#g               according to the policy [83 chars]cro '
+- dear rick  buy    according to the policy  all commodities traded within a business unit should have a limit approved by the cro 
+? ^^^^^^^^^^^^^^
++ #g               according to the policy  all commodities traded within a business unit should have a limit approved by the cro 
+? ^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 91, in test_mcGreetingTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'dear rick  buy    according to the policy[84 chars]cro ' != '#g               according to the policy [83 chars]cro '
+- dear rick  buy    according to the policy  all commodities traded within a business unit should have a limit approved by the cro 
+? ^^^^^^^^^^^^^^
++ #g               according to the policy  all commodities traded within a business unit should have a limit approved by the cro 
+? ^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcGreetingTest_3" time="1.528">
+		<error message="'dear mr. buy[john    we are having techni[48 chars]me  ' != '#g                   we are having techni[48 chars]me  '
+- dear mr. buy[john    we are having technical difficulties with the erv website at this time  
+? ^^^^^^^^^^^^^^^^^
++ #g                   we are having technical difficulties with the erv website at this time  
+? ^^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 97, in test_mcGreetingTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'dear mr. buy[john    we are having techni[48 chars]me  ' != '#g                   we are having techni[48 chars]me  '
+- dear mr. buy[john    we are having technical difficulties with the erv website at this time  
+? ^^^^^^^^^^^^^^^^^
++ #g                   we are having technical difficulties with the erv website at this time  
+? ^^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pGreetingTest_3" time="2.404">
+		<error message="'hi everyone   as it turns out  january 18[38 chars]ing ' != '#g            as it turns out  january 18[38 chars]ing '
+- hi everyone   as it turns out  january 18th does not work for the extended meeting 
+? ^^^^^^^^^^^
++ #g            as it turns out  january 18th does not work for the extended meeting 
+? ^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 78, in test_pGreetingTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'hi everyone   as it turns out  january 18[38 chars]ing ' != '#g            as it turns out  january 18[38 chars]ing '
+- hi everyone   as it turns out  january 18th does not work for the extended meeting 
+? ^^^^^^^^^^^
++ #g            as it turns out  january 18th does not work for the extended meeting 
+? ^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

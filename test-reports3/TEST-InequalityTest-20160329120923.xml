@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<testsuite errors="2" failures="0" name="InequalityTest-20160329120923" tests="2" time="1.148">
+	<testcase classname="InequalityTest" name="test_fpUrlTest_1" time="0.588">
+		<error message="' che[41 chars]bum and our new product clips  #url                           ' != ' che[41 chars]bum and our new product clips  www.facebook.commanukahoneyusa '
+-  check out the beautiful new zealand photo album and our new product clips  #url                           
++  check out the beautiful new zealand photo album and our new product clips  www.facebook.commanukahoneyusa 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 34, in test_fpUrlTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' che[41 chars]bum and our new product clips  #url                           ' != ' che[41 chars]bum and our new product clips  www.facebook.commanukahoneyusa '
+-  check out the beautiful new zealand photo album and our new product clips  #url                           
++  check out the beautiful new zealand photo album and our new product clips  www.facebook.commanukahoneyusa 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iUrlTest_2" time="0.560">
+		<error message="' pic.twitter.com/qut4hcstwh ' != ' #url                       '
+-  pic.twitter.com/qut4hcstwh 
++  #url                       
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 27, in test_iUrlTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' pic.twitter.com/qut4hcstwh ' != ' #url                       '
+-  pic.twitter.com/qut4hcstwh 
++  #url                       
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

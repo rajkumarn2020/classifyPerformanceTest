@@ -1,0 +1,361 @@
+<?xml version="1.0" ?>
+<testsuite errors="25" failures="0" name="InequalityTest-20160324140706" tests="25" time="15.086">
+	<testcase classname="InequalityTest" name="test_csSignPrefaceTest_1" time="0.650">
+		<error message="'hect[14 chars] to repeat history  hope to see you all there sheila ferrarini' != 'hect[14 chars] to repeat history  #z                        #s              '
+- hector   feel free to repeat history  hope to see you all there sheila ferrarini
++ hector   feel free to repeat history  #z                        #s              
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 112, in test_csSignPrefaceTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'hect[14 chars] to repeat history  hope to see you all there sheila ferrarini' != 'hect[14 chars] to repeat history  #z                        #s              '
+- hector   feel free to repeat history  hope to see you all there sheila ferrarini
++ hector   feel free to repeat history  #z                        #s              
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csSignPrefaceTest_2" time="0.606">
+		<error message="'i hope to hear from you in the near future  best regards nicole fallon' != 'i hope to hear from you in the near future  #z           #s           '
+- i hope to hear from you in the near future  best regards nicole fallon
++ i hope to hear from you in the near future  #z           #s           
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 118, in test_csSignPrefaceTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'i hope to hear from you in the near future  best regards nicole fallon' != 'i hope to hear from you in the near future  #z           #s           '
+- i hope to hear from you in the near future  best regards nicole fallon
++ i hope to hear from you in the near future  #z           #s           
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csSignPrefaceTest_3" time="0.573">
+		<error message="'than[15 chars] the lovely present  and happy new year  with much love anna' != 'than[15 chars] the lovely present  and happy new year  #z             #s    '
+- thank you again for the lovely present  and happy new year  with much love anna
+?                                                             ^^^^^^^^^^^^^^^^^^^
++ thank you again for the lovely present  and happy new year  #z             #s    
+?                                                             ^^^^^^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 124, in test_csSignPrefaceTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'than[15 chars] the lovely present  and happy new year  with much love anna' != 'than[15 chars] the lovely present  and happy new year  #z             #s    '
+- thank you again for the lovely present  and happy new year  with much love anna
+?                                                             ^^^^^^^^^^^^^^^^^^^
++ thank you again for the lovely present  and happy new year  #z             #s    
+?                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csSignPrefaceTest_4" time="0.574">
+		<error message="'than[21 chars]me a copy of the report  its really appreciated  regards sally' != 'than[21 chars]me a copy of the report  its really appreciated  #z      #s   '
+- thanks a lot for sending me a copy of the report  its really appreciated  regards sally
+?                                                                           ^^^^^^  ^^^^^
++ thanks a lot for sending me a copy of the report  its really appreciated  #z      #s   
+?                                                                           ^^^^^^^^^  ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 130, in test_csSignPrefaceTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: 'than[21 chars]me a copy of the report  its really appreciated  regards sally' != 'than[21 chars]me a copy of the report  its really appreciated  #z      #s   '
+- thanks a lot for sending me a copy of the report  its really appreciated  regards sally
+?                                                                           ^^^^^^  ^^^^^
++ thanks a lot for sending me a copy of the report  its really appreciated  #z      #s   
+?                                                                           ^^^^^^^^^  ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csSignPrefaceTest_5" time="0.605">
+		<error message="'this wouldnt have been possible without you  thank you ron lowe' != 'this wouldnt have been possible without you  #z        #s      '
+- this wouldnt have been possible without you  thank you ron lowe
++ this wouldnt have been possible without you  #z        #s      
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 136, in test_csSignPrefaceTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: 'this wouldnt have been possible without you  thank you ron lowe' != 'this wouldnt have been possible without you  #z        #s      '
+- this wouldnt have been possible without you  thank you ron lowe
++ this wouldnt have been possible without you  #z        #s      
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csSignPrefaceTest_6" time="0.567">
+		<error message="'once again  thank you for the visit  yours sincerely eric banner' != 'once again  thank you for the visit  #z              #s         '
+- once again  thank you for the visit  yours sincerely eric banner
++ once again  thank you for the visit  #z              #s         
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 142, in test_csSignPrefaceTest_6
+    self.assertEqual(Actuval, expected)
+AssertionError: 'once again  thank you for the visit  yours sincerely eric banner' != 'once again  thank you for the visit  #z              #s         '
+- once again  thank you for the visit  yours sincerely eric banner
++ once again  thank you for the visit  #z              #s         
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fSignPrefaceTest_3" time="0.601">
+		<error message="'we o[23 chars] deal thanks and call if you have any questions perry a.piazza' != 'we o[23 chars] deal #z                                        #s            '
+- we originally discussed the deal thanks and call if you have any questions perry a.piazza
++ we originally discussed the deal #z                                        #s            
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 27, in test_fSignPrefaceTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'we o[23 chars] deal thanks and call if you have any questions perry a.piazza' != 'we o[23 chars] deal #z                                        #s            '
+- we originally discussed the deal thanks and call if you have any questions perry a.piazza
++ we originally discussed the deal #z                                        #s            
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fSignPrefaceTest_4" time="0.615">
+		<error message="' right now   thanks in advance     barry' != ' right now   #z                    #s   '
+-  right now   thanks in advance     barry
++  right now   #z                    #s   
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 33, in test_fSignPrefaceTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: ' right now   thanks in advance     barry' != ' right now   #z                    #s   '
+-  right now   thanks in advance     barry
++  right now   #z                    #s   
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fSignPrefaceTest_5" time="0.598">
+		<error message="' gas traders  thanks for your help  tom wilbeck' != ' gas traders  #z                    #s         '
+-  gas traders  thanks for your help  tom wilbeck
++  gas traders  #z                    #s         
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 39, in test_fSignPrefaceTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: ' gas traders  thanks for your help  tom wilbeck' != ' gas traders  #z                    #s         '
+-  gas traders  thanks for your help  tom wilbeck
++  gas traders  #z                    #s         
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpSignPrefaceTest_2" time="0.623">
+		<error message="'i ap[118 chars]ew is completed  again  thank you  very truly yours  bill daly' != 'i ap[118 chars]ew is completed  again  thank you  very truly yours,bill daly'
+Diff is 729 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 177, in test_fpSignPrefaceTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'i ap[118 chars]ew is completed  again  thank you  very truly yours  bill daly' != 'i ap[118 chars]ew is completed  again  thank you  very truly yours,bill daly'
+Diff is 729 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iSignPrefaceTest_1" time="0.638">
+		<error message="'  thank you and best regards, herve' != '  #z                          #s   '
+-   thank you and best regards, herve
++   #z                          #s   
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 49, in test_iSignPrefaceTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: '  thank you and best regards, herve' != '  #z                          #s   '
+-   thank you and best regards, herve
++   #z                          #s   
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iSignPrefaceTest_10" time="0.571">
+		<error message="' x36499  thanks! andrea  ' != ' x36499  #z      #s      '
+-  x36499  thanks! andrea  
++  x36499  #z      #s      
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 104, in test_iSignPrefaceTest_10
+    self.assertEqual(Actuval, expected)
+AssertionError: ' x36499  thanks! andrea  ' != ' x36499  #z      #s      '
+-  x36499  thanks! andrea  
++  x36499  #z      #s      
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iSignPrefaceTest_2" time="0.574">
+		<error message="'  thanks   regards ' != '  #z               '
+-   thanks   regards 
++   #z               
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 55, in test_iSignPrefaceTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: '  thanks   regards ' != '  #z               '
+-   thanks   regards 
++   #z               
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iSignPrefaceTest_3" time="0.606">
+		<error message="'  thanks for you help  ' != '  #z                   '
+-   thanks for you help  
++   #z                   
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 61, in test_iSignPrefaceTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: '  thanks for you help  ' != '  #z                   '
+-   thanks for you help  
++   #z                   
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iSignPrefaceTest_4" time="0.615">
+		<error message="'  thanks for the assistance  ' != '  #z                         '
+-   thanks for the assistance  
++   #z                         
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 67, in test_iSignPrefaceTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: '  thanks for the assistance  ' != '  #z                         '
+-   thanks for the assistance  
++   #z                         
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iSignPrefaceTest_5" time="0.596">
+		<error message="'  yours sincerely  philip revzin publisher ' != '  #z               #s            publisher '
+-   yours sincerely  philip revzin publisher 
++   #z               #s            publisher 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 73, in test_iSignPrefaceTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: '  yours sincerely  philip revzin publisher ' != '  #z               #s            publisher '
+-   yours sincerely  philip revzin publisher 
++   #z               #s            publisher 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iSignPrefaceTest_6" time="0.622">
+		<error message="'  thank you and sorry again  herve  ' != '  #z                         #s   '
+-   thank you and sorry again  herve  
++   #z                         #s   
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 79, in test_iSignPrefaceTest_6
+    self.assertEqual(Actuval, expected)
+AssertionError: '  thank you and sorry again  herve  ' != '  #z                         #s   '
+-   thank you and sorry again  herve  
++   #z                         #s   
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iSignPrefaceTest_7" time="0.639">
+		<error message="'  sincerely  john arnold  ' != '  #z         #s           '
+-   sincerely  john arnold  
++   #z         #s           
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 86, in test_iSignPrefaceTest_7
+    self.assertEqual(Actuval, expected)
+AssertionError: '  sincerely  john arnold  ' != '  #z         #s           '
+-   sincerely  john arnold  
++   #z         #s           
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iSignPrefaceTest_8" time="0.614">
+		<error message="'  thank you again, jeff  ' != '  #z               #s    '
+-   thank you again, jeff  
++   #z               #s    
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 92, in test_iSignPrefaceTest_8
+    self.assertEqual(Actuval, expected)
+AssertionError: '  thank you again, jeff  ' != '  #z               #s    '
+-   thank you again, jeff  
++   #z               #s    
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iSignPrefaceTest_9" time="0.576">
+		<error message="'  thanks very much! debbie nowak  ' != '  #z                #s            '
+-   thanks very much! debbie nowak  
++   #z                #s            
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 98, in test_iSignPrefaceTest_9
+    self.assertEqual(Actuval, expected)
+AssertionError: '  thanks very much! debbie nowak  ' != '  #z                #s            '
+-   thanks very much! debbie nowak  
++   #z                #s            
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcSignPrefaceTest_1" time="0.619">
+		<error message="'if y[50 chars]me on mobile 07995 348236  yours sincerely   mrs sally boswell' != 'if y[50 chars]me on mobile 07995 348236 #z                 #s               '
+- if you have any questions  do not hesitate to contact me on mobile 07995 348236  yours sincerely   mrs sally boswell
++ if you have any questions  do not hesitate to contact me on mobile 07995 348236 #z                 #s               
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 158, in test_mcSignPrefaceTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'if y[50 chars]me on mobile 07995 348236  yours sincerely   mrs sally boswell' != 'if y[50 chars]me on mobile 07995 348236 #z                 #s               '
+- if you have any questions  do not hesitate to contact me on mobile 07995 348236  yours sincerely   mrs sally boswell
++ if you have any questions  do not hesitate to contact me on mobile 07995 348236 #z                 #s               
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcSignPrefaceTest_2" time="0.612">
+		<error message="'thank you for your time and consideration   yours faithfully   juan cruz' != 'thank you for your time and consideration  #z                  #s         '
+- thank you for your time and consideration   yours faithfully   juan cruz
++ thank you for your time and consideration  #z                  #s         
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 164, in test_mcSignPrefaceTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'thank you for your time and consideration   yours faithfully   juan cruz' != 'thank you for your time and consideration  #z                  #s         '
+- thank you for your time and consideration   yours faithfully   juan cruz
++ thank you for your time and consideration  #z                  #s         
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcSignPrefaceTest_3" time="0.596">
+		<error message="'i ex[79 chars]e going to resolve this issue   yours sincerely   craig smith ' != 'i ex[79 chars]e going to resolve this issue  #z                 #s          '
+- i expect an email from yourself by 5pm today at the latest  to inform me how you are going to resolve this issue   yours sincerely   craig smith 
+?                                                                                                                   ^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^
++ i expect an email from yourself by 5pm today at the latest  to inform me how you are going to resolve this issue  #z                 #s          
+?                                                                                                                   ^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 170, in test_mcSignPrefaceTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'i ex[79 chars]e going to resolve this issue   yours sincerely   craig smith ' != 'i ex[79 chars]e going to resolve this issue  #z                 #s          '
+- i expect an email from yourself by 5pm today at the latest  to inform me how you are going to resolve this issue   yours sincerely   craig smith 
+?                                                                                                                   ^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^
++ i expect an email from yourself by 5pm today at the latest  to inform me how you are going to resolve this issue  #z                 #s          
+?                                                                                                                   ^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_nlSignPrefaceTest_1" time="0.631">
+		<error message="'shal[109 chars] 1949 geneva conventions iv  yours faithfully   nicholas wood ' != 'shal[109 chars] 1949 geneva conventions iv  #z                #w             '
+Diff is 711 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 184, in test_nlSignPrefaceTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'shal[109 chars] 1949 geneva conventions iv  yours faithfully   nicholas wood ' != 'shal[109 chars] 1949 geneva conventions iv  #z                #w             '
+Diff is 711 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pSignPrefaceTest_2" time="0.564">
+		<error message="'i look forward to hearing from you  yours sincerely  david mitchell' != 'i look forward to hearing from you  #z               #s            '
+- i look forward to hearing from you  yours sincerely  david mitchell
++ i look forward to hearing from you  #z               #s            
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 150, in test_pSignPrefaceTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'i look forward to hearing from you  yours sincerely  david mitchell' != 'i look forward to hearing from you  #z               #s            '
+- i look forward to hearing from you  yours sincerely  david mitchell
++ i look forward to hearing from you  #z               #s            
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

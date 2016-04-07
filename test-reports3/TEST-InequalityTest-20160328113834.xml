@@ -1,0 +1,398 @@
+<?xml version="1.0" ?>
+<testsuite errors="23" failures="0" name="InequalityTest-20160328113834" tests="28" time="17.751">
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_1" time="0.932"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_13" time="0.920"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_34" time="0.596"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_37" time="0.574"/>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_38" time="0.581"/>
+	<testcase classname="InequalityTest" name="test_csCompanyTest_1" time="0.590">
+		<error message="' the first launched its womenswear spring/summer 2016 collection on snapchat. ' != ' the first launched its womenswear spring/summer 2016 collection on #co       '
+-  the first launched its womenswear spring/summer 2016 collection on snapchat. 
+?                                                                     ^^^^ ^^^^
++  the first launched its womenswear spring/summer 2016 collection on #co       
+?                                                                     ^ ^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 71, in test_csCompanyTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' the first launched its womenswear spring/summer 2016 collection on snapchat. ' != ' the first launched its womenswear spring/summer 2016 collection on #co       '
+-  the first launched its womenswear spring/summer 2016 collection on snapchat. 
+?                                                                     ^^^^ ^^^^
++  the first launched its womenswear spring/summer 2016 collection on #co       
+?                                                                     ^ ^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csCompanyTest_2" time="0.620">
+		<error message="' pro[22 chars]ided uber european headquarters in amsterdam i[114 chars]ds. ' != ' pro[22 chars]ided #co  european headquarters in amsterdam i[114 chars]ds. '
+-  prosecutors on tuesday raided uber european headquarters in amsterdam in a criminal investigation into whether the car-hailing company is offering illegal taxi services in the netherlands. 
+?                                ^^^^
++  prosecutors on tuesday raided #co  european headquarters in amsterdam in a criminal investigation into whether the car-hailing company is offering illegal taxi services in the netherlands. 
+?                                ^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 78, in test_csCompanyTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' pro[22 chars]ided uber european headquarters in amsterdam i[114 chars]ds. ' != ' pro[22 chars]ided #co  european headquarters in amsterdam i[114 chars]ds. '
+-  prosecutors on tuesday raided uber european headquarters in amsterdam in a criminal investigation into whether the car-hailing company is offering illegal taxi services in the netherlands. 
+?                                ^^^^
++  prosecutors on tuesday raided #co  european headquarters in amsterdam in a criminal investigation into whether the car-hailing company is offering illegal taxi services in the netherlands. 
+?                                ^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csCompanyTest_3" time="0.610">
+		<error message="' north sails the new york city-based farm-[135 chars]ng  ' != ' #co         the new york city-based farm-[135 chars]ng  '
+Diff is 673 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 84, in test_csCompanyTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' north sails the new york city-based farm-[135 chars]ng  ' != ' #co         the new york city-based farm-[135 chars]ng  '
+Diff is 673 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csCompanyTest_4" time="0.580">
+		<error message="&quot; as [41 chars]and  xplane has collaborated with milan's anto[108 chars]rk  &quot; != &quot; as [41 chars]and  #co    has collaborated with milan's anto[108 chars]rk  &quot;
+-  as part of the continued evolution of the brand  xplane has collaborated with milan's antonia fashion boutique to showcase their cruise 2016 collection  presented earlier this year in june in new york  
+?                                                   ^^^^^^^^^^
++  as part of the continued evolution of the brand  #co    has collaborated with milan's antonia fashion boutique to showcase their cruise 2016 collection  presented earlier this year in june in new york  
+?                                                   ^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 91, in test_csCompanyTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: " as [41 chars]and  xplane has collaborated with milan's anto[108 chars]rk  " != " as [41 chars]and  #co    has collaborated with milan's anto[108 chars]rk  "
+-  as part of the continued evolution of the brand  xplane has collaborated with milan's antonia fashion boutique to showcase their cruise 2016 collection  presented earlier this year in june in new york  
+?                                                   ^^^^^^^^^^
++  as part of the continued evolution of the brand  #co    has collaborated with milan's antonia fashion boutique to showcase their cruise 2016 collection  presented earlier this year in june in new york  
+?                                                   ^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csCompanyTest_5" time="0.594">
+		<error message="' petsmart already has sold its services to[38 chars]ns  ' != ' #co      already has sold its services to[38 chars]ns  '
+-  petsmart already has sold its services to several big-name national retail chains  
+?  ^^^^^^^^
++  #co      already has sold its services to several big-name national retail chains  
+?  ^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 97, in test_csCompanyTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: ' petsmart already has sold its services to[38 chars]ns  ' != ' #co      already has sold its services to[38 chars]ns  '
+-  petsmart already has sold its services to several big-name national retail chains  
+?  ^^^^^^^^
++  #co      already has sold its services to several big-name national retail chains  
+?  ^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csCompanyTest_6" time="0.630">
+		<error message="&quot; it's why apple now has multiple sized iphones and ipads. &quot; != &quot; it's why #co   now has multiple sized iphones and ipads  &quot;
+-  it's why apple now has multiple sized iphones and ipads. 
+?           ^^^^^                                         ^
++  it's why #co   now has multiple sized iphones and ipads  
+?           ^^^^^                                         ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 103, in test_csCompanyTest_6
+    self.assertEqual(Actuval, expected)
+AssertionError: " it's why apple now has multiple sized iphones and ipads. " != " it's why #co   now has multiple sized iphones and ipads  "
+-  it's why apple now has multiple sized iphones and ipads. 
+?           ^^^^^                                         ^
++  it's why #co   now has multiple sized iphones and ipads  
+?           ^^^^^                                         ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fCompanyTest_1" time="0.609">
+		<error message="' vot[24 chars]ad by journal times readers  panera bread is a national chain ' != ' vot[24 chars]ad by journal times readers  #co          is a national chain '
+-  voted the best spot for salad by journal times readers  panera bread is a national chain 
+?                                                          ^^^^^^^^^^^^
++  voted the best spot for salad by journal times readers  #co          is a national chain 
+?                                                          ^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 123, in test_fCompanyTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' vot[24 chars]ad by journal times readers  panera bread is a national chain ' != ' vot[24 chars]ad by journal times readers  #co          is a national chain '
+-  voted the best spot for salad by journal times readers  panera bread is a national chain 
+?                                                          ^^^^^^^^^^^^
++  voted the best spot for salad by journal times readers  #co          is a national chain 
+?                                                          ^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fCompanyTest_2" time="0.597">
+		<error message="' bob evans farms inc. intends to sell and lease back ' != ' #co                  intends to sell and lease back '
+-  bob evans farms inc. intends to sell and lease back 
++  #co                  intends to sell and lease back 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 129, in test_fCompanyTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' bob evans farms inc. intends to sell and lease back ' != ' #co                  intends to sell and lease back '
+-  bob evans farms inc. intends to sell and lease back 
++  #co                  intends to sell and lease back 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fCompanyTest_3" time="0.593">
+		<error message="' westinghouse digital llc is a us company [33 chars]ons ' != ' #co                      is a us company [33 chars]ons '
+-  westinghouse digital llc is a us company that markets lcd and led televisions 
++  #co                      is a us company that markets lcd and led televisions 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 135, in test_fCompanyTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' westinghouse digital llc is a us company [33 chars]ons ' != ' #co                      is a us company [33 chars]ons '
+-  westinghouse digital llc is a us company that markets lcd and led televisions 
++  #co                      is a us company that markets lcd and led televisions 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fCompanyTest_4" time="0.778">
+		<error message="' for[52 chars]  see products   services  agilent technologies and solutions ' != ' for[52 chars]  see products   services  #co                  and solutions '
+-  for a complete listing of agilent products and services  see products   services  agilent technologies and solutions 
+?                                                                                    ^^^^^^^^^^ -- ^^^^^^
++  for a complete listing of agilent products and services  see products   services  #co                  and solutions 
+?                                                                                    ^  ^^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 141, in test_fCompanyTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: ' for[52 chars]  see products   services  agilent technologies and solutions ' != ' for[52 chars]  see products   services  #co                  and solutions '
+-  for a complete listing of agilent products and services  see products   services  agilent technologies and solutions 
+?                                                                                    ^^^^^^^^^^ -- ^^^^^^
++  for a complete listing of agilent products and services  see products   services  #co                  and solutions 
+?                                                                                    ^  ^^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fCompanyTest_5" time="0.744">
+		<error message="' tot[32 chars] for $17.2 million by omnicare and $5 million [18 chars]acy ' != ' tot[32 chars] for  17.2 million by #co      and  5 million [18 chars]acy '
+-  total pharmacy services was settled for $17.2 million by omnicare and $5 million by the total pharmacy 
+?                                          ^                 ^^^^^^^     ^
++  total pharmacy services was settled for  17.2 million by #co      and  5 million by the total pharmacy 
+?                                          ^                ++ ^^^^^     ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 147, in test_fCompanyTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: ' tot[32 chars] for $17.2 million by omnicare and $5 million [18 chars]acy ' != ' tot[32 chars] for  17.2 million by #co      and  5 million [18 chars]acy '
+-  total pharmacy services was settled for $17.2 million by omnicare and $5 million by the total pharmacy 
+?                                          ^                 ^^^^^^^     ^
++  total pharmacy services was settled for  17.2 million by #co      and  5 million by the total pharmacy 
+?                                          ^                ++ ^^^^^     ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_14" time="0.637">
+		<error message="' ons to ^its parent  edison international  ' != ' ons to ^its parent  edison International  '
+-  ons to ^its parent  edison international  
+?                             ^
++  ons to ^its parent  edison International  
+?                             ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 33, in test_fpCompanyTest_14
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ons to ^its parent  edison international  ' != ' ons to ^its parent  edison International  '
+-  ons to ^its parent  edison international  
+?                             ^
++  ons to ^its parent  edison International  
+?                             ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_28" time="0.554">
+		<error message="' earnings to exceed expectations, company ' != ' earnings to exceed expectations  company '
+-  earnings to exceed expectations, company 
+?                                 ^
++  earnings to exceed expectations  company 
+?                                 ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 39, in test_fpCompanyTest_28
+    self.assertEqual(Actuval, expected)
+AssertionError: ' earnings to exceed expectations, company ' != ' earnings to exceed expectations  company '
+-  earnings to exceed expectations, company 
+?                                 ^
++  earnings to exceed expectations  company 
+?                                 ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpCompanyTest_35" time="0.587">
+		<error message="' dwarfs  $21.94  and the godfather dvd col ' != ' dwarfs   21.94  and the godfather dvd col '
+-  dwarfs  $21.94  and the godfather dvd col 
+?          ^
++  dwarfs   21.94  and the godfather dvd col 
+?          ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 51, in test_fpCompanyTest_35
+    self.assertEqual(Actuval, expected)
+AssertionError: ' dwarfs  $21.94  and the godfather dvd col ' != ' dwarfs   21.94  and the godfather dvd col '
+-  dwarfs  $21.94  and the godfather dvd col 
+?          ^
++  dwarfs   21.94  and the godfather dvd col 
+?          ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iCompanyTest_1" time="0.575">
+		<error message="' general nutrition investment company ' != ' #co                                  '
+-  general nutrition investment company 
++  #co                                  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 110, in test_iCompanyTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' general nutrition investment company ' != ' #co                                  '
+-  general nutrition investment company 
++  #co                                  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iCompanyTest_4" time="0.612">
+		<error message="' pc power and cooling ' != ' #co                  '
+-  pc power and cooling 
++  #co                  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 116, in test_iCompanyTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: ' pc power and cooling ' != ' #co                  '
+-  pc power and cooling 
++  #co                  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcCompanyTest_1" time="0.604">
+		<error message="'  sandisk  is publicly traded on nasdaq. as[63 chars]on  ' != '  #co      is publicly traded on nasdaq. as[63 chars]on  '
+-   sandisk  is publicly traded on nasdaq. as of june 2015  its market capitalization was over us$13.3 billion  
+?   ^^^^  -----
++   #co      is publicly traded on nasdaq. as of june 2015  its market capitalization was over us$13.3 billion  
+?   ^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 180, in test_mcCompanyTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: '  sandisk  is publicly traded on nasdaq. as[63 chars]on  ' != '  #co      is publicly traded on nasdaq. as[63 chars]on  '
+-   sandisk  is publicly traded on nasdaq. as of june 2015  its market capitalization was over us$13.3 billion  
+?   ^^^^  -----
++   #co      is publicly traded on nasdaq. as of june 2015  its market capitalization was over us$13.3 billion  
+?   ^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcCompanyTest_2" time="0.606">
+		<error message="' one[55 chars] to  spirit airlines  and inaugurated service [27 chars]ty  ' != ' one[55 chars] to  #co              and inaugurated service [27 chars]ty  '
+-  one brought jet equipment into the fleet  changed its name to  spirit airlines  and inaugurated service from detroit to atlantic city  
+?                                                                 ^^^^^^^^^^^^^^^
++  one brought jet equipment into the fleet  changed its name to  #co              and inaugurated service from detroit to atlantic city  
+?                                                                 ^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 186, in test_mcCompanyTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' one[55 chars] to  spirit airlines  and inaugurated service [27 chars]ty  ' != ' one[55 chars] to  #co              and inaugurated service [27 chars]ty  '
+-  one brought jet equipment into the fleet  changed its name to  spirit airlines  and inaugurated service from detroit to atlantic city  
+?                                                                 ^^^^^^^^^^^^^^^
++  one brought jet equipment into the fleet  changed its name to  #co              and inaugurated service from detroit to atlantic city  
+?                                                                 ^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcCompanyTest_3" time="0.617">
+		<error message="' on may 12, 2014   toll brothers  was named builder[30 chars]ne  ' != ' on may 12  2014   #co            was named builder[30 chars]ne  '
+-  on may 12, 2014   toll brothers  was named builder of the year by builder magazine  
+?           ^        ^ ^^^^^^^^^^^
++  on may 12  2014   #co            was named builder of the year by builder magazine  
+?           ^        ^^ ^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 192, in test_mcCompanyTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' on may 12, 2014   toll brothers  was named builder[30 chars]ne  ' != ' on may 12  2014   #co            was named builder[30 chars]ne  '
+-  on may 12, 2014   toll brothers  was named builder of the year by builder magazine  
+?           ^        ^ ^^^^^^^^^^^
++  on may 12  2014   #co            was named builder of the year by builder magazine  
+?           ^        ^^ ^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pCompanyTest_1" time="0.581">
+		<error message="' with nearly $500 billion in sales last year  walmart [55 chars]ies ' != ' with nearly  500 billion in sales last year  #co     [55 chars]ies '
+-  with nearly $500 billion in sales last year  walmart  is the largest customer for many packaged-goods companies 
+?              ^                                ^^^^^^^
++  with nearly  500 billion in sales last year  #co      is the largest customer for many packaged-goods companies 
+?              ^                                ^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 154, in test_pCompanyTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' with nearly $500 billion in sales last year  walmart [55 chars]ies ' != ' with nearly  500 billion in sales last year  #co     [55 chars]ies '
+-  with nearly $500 billion in sales last year  walmart  is the largest customer for many packaged-goods companies 
+?              ^                                ^^^^^^^
++  with nearly  500 billion in sales last year  #co      is the largest customer for many packaged-goods companies 
+?              ^                                ^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pCompanyTest_2" time="0.588">
+		<error message="&quot; the union would be the first such group[38 chars]es  &quot; != ' the union would be the first such group[38 chars]es  '
+-  the union would be the first such group among target's nearly 350,000 employees  
+?                                                ^^^^^^^^
++  the union would be the first such group among #co      nearly 350,000 employees  
+?                                                ^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 160, in test_pCompanyTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: " the union would be the first such group[38 chars]es  " != ' the union would be the first such group[38 chars]es  '
+-  the union would be the first such group among target's nearly 350,000 employees  
+?                                                ^^^^^^^^
++  the union would be the first such group among #co      nearly 350,000 employees  
+?                                                ^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pCompanyTest_3" time="0.611">
+		<error message="' as [44 chars]ld   old navy  has been making current america[149 chars]ld  ' != ' as [44 chars]ld   #co       has been making current america[149 chars]ld  '
+-  as one of the largest apparel brands in the world   old navy  has been making current american fashion essentials accessible for every family  and they offer customers fabulous fashion both online and in their 1,000-plus stores around the world  
++  as one of the largest apparel brands in the world   #co       has been making current american fashion essentials accessible for every family  and they offer customers fabulous fashion both online and in their 1,000-plus stores around the world  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 166, in test_pCompanyTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' as [44 chars]ld   old navy  has been making current america[149 chars]ld  ' != ' as [44 chars]ld   #co       has been making current america[149 chars]ld  '
+-  as one of the largest apparel brands in the world   old navy  has been making current american fashion essentials accessible for every family  and they offer customers fabulous fashion both online and in their 1,000-plus stores around the world  
++  as one of the largest apparel brands in the world   #co       has been making current american fashion essentials accessible for every family  and they offer customers fabulous fashion both online and in their 1,000-plus stores around the world  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pCompanyTest_4" time="0.630">
+		<error message="&quot; starbucks  isn't giving out free coffee f[83 chars]es  &quot; != &quot; #co        isn't giving out free coffee f[83 chars]es  &quot;
+-  starbucks  isn't giving out free coffee for national coffee day  it's kicking off a year-long effort to give away coffee trees  
+?  ^^^^^^ ^^
++  #co        isn't giving out free coffee for national coffee day  it's kicking off a year-long effort to give away coffee trees  
+?  ^ ^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 172, in test_pCompanyTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: " starbucks  isn't giving out free coffee f[83 chars]es  " != " #co        isn't giving out free coffee f[83 chars]es  "
+-  starbucks  isn't giving out free coffee for national coffee day  it's kicking off a year-long effort to give away coffee trees  
+?  ^^^^^^ ^^
++  #co        isn't giving out free coffee for national coffee day  it's kicking off a year-long effort to give away coffee trees  
+?  ^ ^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

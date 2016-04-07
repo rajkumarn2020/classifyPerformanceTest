@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="InequalityTest-20160329120849" tests="2" time="1.164">
+	<testcase classname="InequalityTest" name="test_fpUrlTest_1" time="0.604"/>
+	<testcase classname="InequalityTest" name="test_iUrlTest_2" time="0.560">
+		<error message="' pic.twitter.com/qut4hcstwh ' != ' #url                       '
+-  pic.twitter.com/qut4hcstwh 
++  #url                       
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 27, in test_iUrlTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' pic.twitter.com/qut4hcstwh ' != ' #url                       '
+-  pic.twitter.com/qut4hcstwh 
++  #url                       
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<testsuite errors="4" failures="0" name="InequalityTest-20160329122318" tests="4" time="2.293">
+	<testcase classname="InequalityTest" name="test_fPhoneNumberTest_2" time="0.580">
+		<error message="' they ask me to contact them on their 718 #h       number ' != ' they ask me to contact them on their #h           number '
+-  they ask me to contact them on their 718 #h       number 
+?                                       ----
++  they ask me to contact them on their #h           number 
+?                                         ++++
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 34, in test_fPhoneNumberTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' they ask me to contact them on their 718 #h       number ' != ' they ask me to contact them on their #h           number '
+-  they ask me to contact them on their 718 #h       number 
+?                                       ----
++  they ask me to contact them on their #h           number 
+?                                         ++++
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fPhoneNumberTest_5" time="0.584">
+		<error message="&quot; you've searched business  +1  #h           n bayshore rd w in san jose &quot; != &quot; you've searched business  #h               n bayshore rd w in san jose &quot;
+-  you've searched business  +1  #h           n bayshore rd w in san jose 
+?                            ----
++  you've searched business  #h               n bayshore rd w in san jose 
+?                                         ++++
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 40, in test_fPhoneNumberTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: " you've searched business  +1  #h           n bayshore rd w in san jose " != " you've searched business  #h               n bayshore rd w in san jose "
+-  you've searched business  +1  #h           n bayshore rd w in san jose 
+?                            ----
++  you've searched business  #h               n bayshore rd w in san jose 
+?                                         ++++
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iPhoneNumberTest_3" time="0.535">
+		<error message="' +1(345) #h       ' != ' #h               '
+-  +1(345) #h       
++  #h               
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 27, in test_iPhoneNumberTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' +1(345) #h       ' != ' #h               '
+-  +1(345) #h       
++  #h               
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcPhoneNumberTest_3" time="0.594">
+		<error message="&quot; ple[15 chars]umber [+1 #h              estimated employee's quantity is 3  &quot; != &quot; ple[15 chars]umber #h                  estimated employee's quantity is 3  &quot;
+-  please use phone number [+1 #h              estimated employee's quantity is 3  
+?                          ----
++  please use phone number #h                  estimated employee's quantity is 3  
+?                            ++++
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 47, in test_mcPhoneNumberTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: " ple[15 chars]umber [+1 #h              estimated employee's quantity is 3  " != " ple[15 chars]umber #h                  estimated employee's quantity is 3  "
+-  please use phone number [+1 #h              estimated employee's quantity is 3  
+?                          ----
++  please use phone number #h                  estimated employee's quantity is 3  
+?                            ++++
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

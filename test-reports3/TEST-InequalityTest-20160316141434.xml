@@ -1,0 +1,988 @@
+<?xml version="1.0" ?>
+<testsuite errors="69" failures="0" name="InequalityTest-20160316141434" tests="70" time="52.888">
+	<testcase classname="InequalityTest" name="test_fpForwardTagger2" time="0.734"/>
+	<testcase classname="InequalityTest" name="test_ForwardTest_1" time="1.258">
+		<error message="'  ----- forwarded by kim cleaveland/na/enron on 12/18/2000 04:31 pm -----  ' != '  #forward                                                                 '
+-   ----- forwarded by kim cleaveland/na/enron on 12/18/2000 04:31 pm -----  
++   #forward                                                                 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 26, in test_ForwardTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: '  ----- forwarded by kim cleaveland/na/enron on 12/18/2000 04:31 pm -----  ' != '  #forward                                                                 '
+-   ----- forwarded by kim cleaveland/na/enron on 12/18/2000 04:31 pm -----  
++   #forward                                                                 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_ForwardTest_2" time="0.612">
+		<error message="'forwarded by kim godfrey/enron communicat[29 chars]    ' != ' #forward                                [36 chars]    '
+- forwarded by kim godfrey/enron communications on 12/11/00 01:55 pm        
++  #forward                                                                        
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 32, in test_ForwardTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'forwarded by kim godfrey/enron communicat[29 chars]    ' != ' #forward                                [36 chars]    '
+- forwarded by kim godfrey/enron communications on 12/11/00 01:55 pm        
++  #forward                                                                        
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_ForwardTest_3" time="0.614">
+		<error message="' ------------------- forwarded by kim dwor[34 chars]    ' != ' #forward                                 [34 chars]    '
+-  ------------------- forwarded by kim dworkin on 10/24/2001 12:43 pm            
++  #forward                                                                       
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 38, in test_ForwardTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ------------------- forwarded by kim dwor[34 chars]    ' != ' #forward                                 [34 chars]    '
+-  ------------------- forwarded by kim dworkin on 10/24/2001 12:43 pm            
++  #forward                                                                       
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_ForwardTest_4" time="0.620">
+		<error message="' ---------------------- forwarded by brinl[44 chars]--  ' != ' #forward                                 [44 chars]    '
+-  ---------------------- forwarded by brinly cuilla/hou/ect on 11/03/2000 01:19 pm ------  
++  #forward                                                                                 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 44, in test_ForwardTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by brinl[44 chars]--  ' != ' #forward                                 [44 chars]    '
+-  ---------------------- forwarded by brinly cuilla/hou/ect on 11/03/2000 01:19 pm ------  
++  #forward                                                                                 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csForwardTagger1" time="0.688">
+		<error message="' ---------------------- forwarded by sally[167 chars]ses ' != ' #forward                                 [167 chars]ses '
+-  ---------------------- forwarded by sally beck/hou/ect on 12/28/99 11:33 am ---------------------------  email forwarding can also redirect mail going to one address and send it to one or several other addresses 
++  #forward                                                                                                 email forwarding can also redirect mail going to one address and send it to one or several other addresses 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 333, in test_csForwardTagger1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by sally[167 chars]ses ' != ' #forward                                 [167 chars]ses '
+-  ---------------------- forwarded by sally beck/hou/ect on 12/28/99 11:33 am ---------------------------  email forwarding can also redirect mail going to one address and send it to one or several other addresses 
++  #forward                                                                                                 email forwarding can also redirect mail going to one address and send it to one or several other addresses 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csForwardTagger2" time="0.648">
+		<error message="' ---------------------- forwarded by #n   [151 chars]ver ' != ' #forward                                 [151 chars]ver '
+-  ---------------------- forwarded by #n      k allen/hou/ect on 09/26/2000 12:08 pm ---------------------------   protocol engineers sometimes use the term mediator to refer to a forwarding server 
++  #forward                                                                                                         protocol engineers sometimes use the term mediator to refer to a forwarding server 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 339, in test_csForwardTagger2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by #n   [151 chars]ver ' != ' #forward                                 [151 chars]ver '
+-  ---------------------- forwarded by #n      k allen/hou/ect on 09/26/2000 12:08 pm ---------------------------   protocol engineers sometimes use the term mediator to refer to a forwarding server 
++  #forward                                                                                                         protocol engineers sometimes use the term mediator to refer to a forwarding server 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csForwardTagger3" time="0.681">
+		<error message="'  ---------------------- forwarded by john [165 chars]son ' != '  #forward                                 [165 chars]son '
+-   ---------------------- forwarded by john arnold/hou/ect on 09/07/2000 05:14 pm ---------------------------   an organization may forward messages intended for a given role to the personal address of the person 
++   #forward                                                                                                     an organization may forward messages intended for a given role to the personal address of the person 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 345, in test_csForwardTagger3
+    self.assertEqual(Actuval, expected)
+AssertionError: '  ---------------------- forwarded by john [165 chars]son ' != '  #forward                                 [165 chars]son '
+-   ---------------------- forwarded by john arnold/hou/ect on 09/07/2000 05:14 pm ---------------------------   an organization may forward messages intended for a given role to the personal address of the person 
++   #forward                                                                                                     an organization may forward messages intended for a given role to the personal address of the person 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csForwardTagger4" time="0.653">
+		<error message="' ---------------------- forwarded by #n   [173 chars]hed ' != ' #forward                                 [173 chars]hed '
+-  ---------------------- forwarded by #n      simmons/hou/ect on 11/13/2000 09:56 am ---------------------------  plain message-forwarding changes the envelope recipient(s  and leaves the envelope sender field untouched 
++  #forward                                                                                                        plain message-forwarding changes the envelope recipient(s  and leaves the envelope sender field untouched 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 351, in test_csForwardTagger4
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by #n   [173 chars]hed ' != ' #forward                                 [173 chars]hed '
+-  ---------------------- forwarded by #n      simmons/hou/ect on 11/13/2000 09:56 am ---------------------------  plain message-forwarding changes the envelope recipient(s  and leaves the envelope sender field untouched 
++  #forward                                                                                                        plain message-forwarding changes the envelope recipient(s  and leaves the envelope sender field untouched 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csForwardTagger5" time="2.128">
+		<error message="' ---------------------- forwarded by georg[144 chars]ges ' != ' #forward                                 [144 chars]ges '
+-  ---------------------- forwarded by georgeanne hodges/hou/ect on 12/30/99 09:08 am ---------------------------  this field holds the address to which mail-systems must send bounce messages 
++  #forward                                                                                                        this field holds the address to which mail-systems must send bounce messages 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 357, in test_csForwardTagger5
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by georg[144 chars]ges ' != ' #forward                                 [144 chars]ges '
+-  ---------------------- forwarded by georgeanne hodges/hou/ect on 12/30/99 09:08 am ---------------------------  this field holds the address to which mail-systems must send bounce messages 
++  #forward                                                                                                        this field holds the address to which mail-systems must send bounce messages 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fForwardTagger1" time="0.631">
+		<error message="' ---------------------- forwarded by lesli[121 chars]ting' != ' #forward                                 [121 chars]ting'
+-  ---------------------- forwarded by leslie reeves/hou/ect on 12/27/99 02:33 pm ---------------------------    sometimes mean re-sending the message and also rewriting
++  #forward                                                                                                      sometimes mean re-sending the message and also rewriting
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 365, in test_fForwardTagger1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by lesli[121 chars]ting' != ' #forward                                 [121 chars]ting'
+-  ---------------------- forwarded by leslie reeves/hou/ect on 12/27/99 02:33 pm ---------------------------    sometimes mean re-sending the message and also rewriting
++  #forward                                                                                                      sometimes mean re-sending the message and also rewriting
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fForwardTagger2" time="0.624">
+		<error message="' ---------------------- forwarded by shann[146 chars]ding' != ' #forward                                 [146 chars]ding'
+-  ---------------------- forwarded by shannon bedrich/corp/enron on 12/19/99 09:03 pm ---------------------------  plain message-forwarding does alias-expansion  while proper message-forwarding
++  #forward                                                                                                         plain message-forwarding does alias-expansion  while proper message-forwarding
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 371, in test_fForwardTagger2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by shann[146 chars]ding' != ' #forward                                 [146 chars]ding'
+-  ---------------------- forwarded by shannon bedrich/corp/enron on 12/19/99 09:03 pm ---------------------------  plain message-forwarding does alias-expansion  while proper message-forwarding
++  #forward                                                                                                         plain message-forwarding does alias-expansion  while proper message-forwarding
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fForwardTagger3" time="0.752">
+		<error message="' ---------------------- forwarded by james[144 chars]ions' != ' #forward                                 [144 chars]ions'
+-  ---------------------- forwarded by james l bouillion/hou/ect on 12/17/99 12:32 pm ---------------------------  the domain-name in the envelope sender remains subject to policy restrictions
++  #forward                                                                                                        the domain-name in the envelope sender remains subject to policy restrictions
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 377, in test_fForwardTagger3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by james[144 chars]ions' != ' #forward                                 [144 chars]ions'
+-  ---------------------- forwarded by james l bouillion/hou/ect on 12/17/99 12:32 pm ---------------------------  the domain-name in the envelope sender remains subject to policy restrictions
++  #forward                                                                                                        the domain-name in the envelope sender remains subject to policy restrictions
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fForwardTagger4" time="1.293">
+		<error message="' ---------------------- forwarded by john [131 chars]tion' != ' #forward                                 [131 chars]tion'
+-  ---------------------- forwarded by john paskin/lon/ect on 26/01/2001 07:56 am -------------  complies with spf as long as the relevant servers share a consistent configuration
++  #forward                                                                                      complies with spf as long as the relevant servers share a consistent configuration
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 383, in test_fForwardTagger4
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by john [131 chars]tion' != ' #forward                                 [131 chars]tion'
+-  ---------------------- forwarded by john paskin/lon/ect on 26/01/2001 07:56 am -------------  complies with spf as long as the relevant servers share a consistent configuration
++  #forward                                                                                      complies with spf as long as the relevant servers share a consistent configuration
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fForwardTagger5" time="0.644">
+		<error message="' ---------------------- forwarded by #n   [126 chars]even' != ' #forward                                 [126 chars]even'
+-  ---------------------- forwarded by #n     glover/hou/ect on 12/15/99 04:32 pm ------------------  servers that practise inter-domain message-forwarding may break spf even
++  #forward                                                                                           servers that practise inter-domain message-forwarding may break spf even
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 389, in test_fForwardTagger5
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by #n   [126 chars]even' != ' #forward                                 [126 chars]even'
+-  ---------------------- forwarded by #n     glover/hou/ect on 12/15/99 04:32 pm ------------------  servers that practise inter-domain message-forwarding may break spf even
++  #forward                                                                                           servers that practise inter-domain message-forwarding may break spf even
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpForwardTagger1" time="2.036">
+		<error message="'    [25 chars]rded #n     superty/hou/ect on 03/30/2001 02:3[96 chars]ers ' != '    [25 chars]rded robert superty/hou/ect on 03/30/2001 02:3[96 chars]ers '
+-                         forwarded #n     superty/hou/ect on 03/30/2001 02:33 pm                              a mail-server program may work for both virtual and regular users 
+?                                   ^^^^^^
++                         forwarded robert superty/hou/ect on 03/30/2001 02:33 pm                              a mail-server program may work for both virtual and regular users 
+?                                   ^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 434, in test_fpForwardTagger1
+    self.assertEqual(Actuval, expected)
+AssertionError: '    [25 chars]rded #n     superty/hou/ect on 03/30/2001 02:3[96 chars]ers ' != '    [25 chars]rded robert superty/hou/ect on 03/30/2001 02:3[96 chars]ers '
+-                         forwarded #n     superty/hou/ect on 03/30/2001 02:33 pm                              a mail-server program may work for both virtual and regular users 
+?                                   ^^^^^^
++                         forwarded robert superty/hou/ect on 03/30/2001 02:33 pm                              a mail-server program may work for both virtual and regular users 
+?                                   ^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTagger45" time="0.643">
+		<error message="'  ---------------------- forwarded by scott[63 chars]    ' != '  #forward                                 [63 chars]    '
+-   ---------------------- forwarded by scott neal/hou/ect on 07/10/2000 03:18 pm                               
++   #forward                                                                                                    
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 290, in test_iForwardTagger45
+    self.assertEqual(Actuval, expected)
+AssertionError: '  ---------------------- forwarded by scott[63 chars]    ' != '  #forward                                 [63 chars]    '
+-   ---------------------- forwarded by scott neal/hou/ect on 07/10/2000 03:18 pm                               
++   #forward                                                                                                    
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTagger46" time="1.825">
+		<error message="'  ----- forwarded by stephen morse/enron co[38 chars]    ' != '  #forward                                 [38 chars]    '
+-   ----- forwarded by stephen morse/enron communications on 12/11/00 03:24 pm         
++   #forward                                                                           
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 296, in test_iForwardTagger46
+    self.assertEqual(Actuval, expected)
+AssertionError: '  ----- forwarded by stephen morse/enron co[38 chars]    ' != '  #forward                                 [38 chars]    '
+-   ----- forwarded by stephen morse/enron communications on 12/11/00 03:24 pm         
++   #forward                                                                           
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTagger47" time="0.656">
+		<error message="' ----- forwarded by peter morrison/nyiso on 04/27/2001 04:10 pm ----- ' != ' #forward                                                             '
+-  ----- forwarded by peter morrison/nyiso on 04/27/2001 04:10 pm ----- 
++  #forward                                                             
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 302, in test_iForwardTagger47
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ----- forwarded by peter morrison/nyiso on 04/27/2001 04:10 pm ----- ' != ' #forward                                                             '
+-  ----- forwarded by peter morrison/nyiso on 04/27/2001 04:10 pm ----- 
++  #forward                                                             
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTagger48" time="0.792">
+		<error message="' ---------------------- forwarded by felic[63 chars]--- ' != ' #forward                                 [63 chars]    '
+-  ---------------------- forwarded by felicia doan/hou/ect on 11/10/2000 12:44 pm --------------------------- 
++  #forward                                                                                                    
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 308, in test_iForwardTagger48
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by felic[63 chars]--- ' != ' #forward                                 [63 chars]    '
+-  ---------------------- forwarded by felicia doan/hou/ect on 11/10/2000 12:44 pm --------------------------- 
++  #forward                                                                                                    
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTagger49" time="1.277">
+		<error message="' ----- forwarded by peter morrison/nyiso on 04/27/2001 04:10 pm ----- ' != ' #forward                                                             '
+-  ----- forwarded by peter morrison/nyiso on 04/27/2001 04:10 pm ----- 
++  #forward                                                             
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 314, in test_iForwardTagger49
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ----- forwarded by peter morrison/nyiso on 04/27/2001 04:10 pm ----- ' != ' #forward                                                             '
+-  ----- forwarded by peter morrison/nyiso on 04/27/2001 04:10 pm ----- 
++  #forward                                                             
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTagger50" time="0.611">
+		<error message="' ---------------------- forwarded by #n   [66 chars]--- ' != ' #forward                                 [66 chars]    '
+-  ---------------------- forwarded by #n      simmons/hou/ect on 11/13/2000 09:56 am --------------------------- 
++  #forward                                                                                                       
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 320, in test_iForwardTagger50
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by #n   [66 chars]--- ' != ' #forward                                 [66 chars]    '
+-  ---------------------- forwarded by #n      simmons/hou/ect on 11/13/2000 09:56 am --------------------------- 
++  #forward                                                                                                       
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTagger51" time="0.662">
+		<error message="' ---------------------- forwarded by #n   [68 chars]--- ' != ' #forward                                 [68 chars]    '
+-  ---------------------- forwarded by #n      l nicolay/hou/ect on 05/07/2001 12:29 pm --------------------------- 
++  #forward                                                                                                         
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 326, in test_iForwardTagger51
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by #n   [68 chars]--- ' != ' #forward                                 [68 chars]    '
+-  ---------------------- forwarded by #n      l nicolay/hou/ect on 05/07/2001 12:29 pm --------------------------- 
++  #forward                                                                                                         
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_10" time="0.699">
+		<error message="'   something       ' != '       something       '
+-    something       
++        something       
+? ++++
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 80, in test_iForwardTest_10
+    self.assertEqual(Actuval, expected)
+AssertionError: '   something       ' != '       something       '
+-    something       
++        something       
+? ++++
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_11" time="0.629">
+		<error message="' ---------------------- forwarded by pegg [45 chars]--  ' != ' #forward                                 [45 chars]    '
+-  ---------------------- forwarded by pegg mahoney/hou/ees on 03/21/2001 07:27 am --------  
++  #forward                                                                                  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 86, in test_iForwardTest_11
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by pegg [45 chars]--  ' != ' #forward                                 [45 chars]    '
+-  ---------------------- forwarded by pegg mahoney/hou/ees on 03/21/2001 07:27 am --------  
++  #forward                                                                                  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_12" time="0.649">
+		<error message="'   forwarded by james d steffes/na/enron on 04/02/2001 07:53 am        ' != ' #forward                                                                  '
+-    forwarded by james d steffes/na/enron on 04/02/2001 07:53 am        
++  #forward                                                                  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 92, in test_iForwardTest_12
+    self.assertEqual(Actuval, expected)
+AssertionError: '   forwarded by james d steffes/na/enron on 04/02/2001 07:53 am        ' != ' #forward                                                                  '
+-    forwarded by james d steffes/na/enron on 04/02/2001 07:53 am        
++  #forward                                                                  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_13" time="0.615">
+		<error message="'------------------- forwarded by scott st[47 chars]--  ' != ' #forward                                [51 chars]    '
+- ------------------- forwarded by scott stoness/hou/ees on 04/02/2001 09:22 am ------------  
++  #forward                                                                                       
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 98, in test_iForwardTest_13
+    self.assertEqual(Actuval, expected)
+AssertionError: '------------------- forwarded by scott st[47 chars]--  ' != ' #forward                                [51 chars]    '
+- ------------------- forwarded by scott stoness/hou/ees on 04/02/2001 09:22 am ------------  
++  #forward                                                                                       
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_14" time="0.607">
+		<error message="'forwarded by #n    m landwehr/na/enron on 04/10/2001 11:52 pm        ' != ' #forward                                                                   '
+- forwarded by #n    m landwehr/na/enron on 04/10/2001 11:52 pm        
++  #forward                                                                   
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 104, in test_iForwardTest_14
+    self.assertEqual(Actuval, expected)
+AssertionError: 'forwarded by #n    m landwehr/na/enron on 04/10/2001 11:52 pm        ' != ' #forward                                                                   '
+- forwarded by #n    m landwehr/na/enron on 04/10/2001 11:52 pm        
++  #forward                                                                   
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_15" time="0.623">
+		<error message="'forwarded by brise communications on 12/12/2002 12:12 p.m        ' != ' #forward                                                              '
+- forwarded by brise communications on 12/12/2002 12:12 p.m        
++  #forward                                                              
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 110, in test_iForwardTest_15
+    self.assertEqual(Actuval, expected)
+AssertionError: 'forwarded by brise communications on 12/12/2002 12:12 p.m        ' != ' #forward                                                              '
+- forwarded by brise communications on 12/12/2002 12:12 p.m        
++  #forward                                                              
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_16" time="0.628">
+		<error message="' ----- forwarded by kim godfrey/enron comm[35 chars]--  ' != ' #forward                                 [35 chars]    '
+-  ----- forwarded by kim godfrey/enron communications on 12/11/00 01:55 pm -----  
++  #forward                                                                        
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 116, in test_iForwardTest_16
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ----- forwarded by kim godfrey/enron comm[35 chars]--  ' != ' #forward                                 [35 chars]    '
+-  ----- forwarded by kim godfrey/enron communications on 12/11/00 01:55 pm -----  
++  #forward                                                                        
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_17" time="0.616">
+		<error message="' ------------------- forwarded by kim dwor[34 chars]--  ' != ' #forward                                 [34 chars]    '
+-  ------------------- forwarded by kim dworkin on 10/24/2001 12:43 pm ---------  
++  #forward                                                                       
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 122, in test_iForwardTest_17
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ------------------- forwarded by kim dwor[34 chars]--  ' != ' #forward                                 [34 chars]    '
+-  ------------------- forwarded by kim dworkin on 10/24/2001 12:43 pm ---------  
++  #forward                                                                       
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_18" time="0.608">
+		<error message="' ------------------- forwarded by #n      [57 chars]--  ' != ' #forward                                 [57 chars]    '
+-  ------------------- forwarded by #n      k allen/hou/ect on 05/01/2001 02:14 pm --------------------  
++  #forward                                                                                              
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 128, in test_iForwardTest_18
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ------------------- forwarded by #n      [57 chars]--  ' != ' #forward                                 [57 chars]    '
+-  ------------------- forwarded by #n      k allen/hou/ect on 05/01/2001 02:14 pm --------------------  
++  #forward                                                                                              
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_19" time="0.640">
+		<error message="' ------------------- forwarded by #n      [42 chars]--  ' != ' #forward                                 [42 chars]    '
+-  ------------------- forwarded by #n      k bass/hou/ect on 09/27/2000 12:22 pm ------  
++  #forward                                                                               
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 134, in test_iForwardTest_19
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ------------------- forwarded by #n      [42 chars]--  ' != ' #forward                                 [42 chars]    '
+-  ------------------- forwarded by #n      k bass/hou/ect on 09/27/2000 12:22 pm ------  
++  #forward                                                                               
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_20" time="0.624">
+		<error message="' ---------------------- forwarded by brinl[44 chars]--  ' != ' #forward                                 [44 chars]    '
+-  ---------------------- forwarded by brinly cuilla/hou/ect on 11/03/2000 01:19 pm ------  
++  #forward                                                                                 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 140, in test_iForwardTest_20
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by brinl[44 chars]--  ' != ' #forward                                 [44 chars]    '
+-  ---------------------- forwarded by brinly cuilla/hou/ect on 11/03/2000 01:19 pm ------  
++  #forward                                                                                 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_21" time="0.639">
+		<error message="' ---------------------- forwarded by brisa[45 chars]--  ' != ' #forward                                 [45 chars]    '
+-  ---------------------- forwarded by brisa arteaga/hou/ect on 11/08/2000 06:02 pm -------  
++  #forward                                                                                  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 146, in test_iForwardTest_21
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by brisa[45 chars]--  ' != ' #forward                                 [45 chars]    '
+-  ---------------------- forwarded by brisa arteaga/hou/ect on 11/08/2000 06:02 pm -------  
++  #forward                                                                                  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_22" time="1.264">
+		<error message="' ---------------------- forwarded by glo k[50 chars]--  ' != ' #forward                                 [50 chars]    '
+-  ---------------------- forwarded by glo kaufman/pdx/ect on 03/15/2000 03:36 am --------------  
++  #forward                                                                                       
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 152, in test_iForwardTest_22
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by glo k[50 chars]--  ' != ' #forward                                 [50 chars]    '
+-  ---------------------- forwarded by glo kaufman/pdx/ect on 03/15/2000 03:36 am --------------  
++  #forward                                                                                       
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_23" time="0.611">
+		<error message="' ----- forwarded by ginger dernehl/na/enron on 03/15/2001 10:27 am -----  ' != ' #forward                                                                 '
+-  ----- forwarded by ginger dernehl/na/enron on 03/15/2001 10:27 am -----  
++  #forward                                                                 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 158, in test_iForwardTest_23
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ----- forwarded by ginger dernehl/na/enron on 03/15/2001 10:27 am -----  ' != ' #forward                                                                 '
+-  ----- forwarded by ginger dernehl/na/enron on 03/15/2001 10:27 am -----  
++  #forward                                                                 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_24" time="0.619">
+		<error message="' ---------------------- forwarded by glyn [77 chars]--  ' != ' #forward                                 [77 chars]    '
+-  ---------------------- forwarded by glyn dillingham/enron_development on 09/01/2000 01:13 pm ---------------------------  
++  #forward                                                                                                                  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 164, in test_iForwardTest_24
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by glyn [77 chars]--  ' != ' #forward                                 [77 chars]    '
+-  ---------------------- forwarded by glyn dillingham/enron_development on 09/01/2000 01:13 pm ---------------------------  
++  #forward                                                                                                                  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_25" time="0.646">
+		<error message="' ----- forwarded by nicia guerrero/corp/enron on 03/15/2001 03:08 pm -----  ' != ' #forward                                                                   '
+-  ----- forwarded by nicia guerrero/corp/enron on 03/15/2001 03:08 pm -----  
++  #forward                                                                   
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 170, in test_iForwardTest_25
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ----- forwarded by nicia guerrero/corp/enron on 03/15/2001 03:08 pm -----  ' != ' #forward                                                                   '
+-  ----- forwarded by nicia guerrero/corp/enron on 03/15/2001 03:08 pm -----  
++  #forward                                                                   
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_26" time="0.622">
+		<error message="' ----- forwarded by nicie robertson/na/enron on 03/15/2001 03:51 pm -----  ' != ' #forward                                                                  '
+-  ----- forwarded by nicie robertson/na/enron on 03/15/2001 03:51 pm -----  
++  #forward                                                                  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 176, in test_iForwardTest_26
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ----- forwarded by nicie robertson/na/enron on 03/15/2001 03:51 pm -----  ' != ' #forward                                                                  '
+-  ----- forwarded by nicie robertson/na/enron on 03/15/2001 03:51 pm -----  
++  #forward                                                                  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_27" time="0.625">
+		<error message="' ----- forwarded by #n    j mara/na/enron on 03/15/2001 03:57 pm -----  ' != ' #forward                                                               '
+-  ----- forwarded by #n    j mara/na/enron on 03/15/2001 03:57 pm -----  
++  #forward                                                               
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 182, in test_iForwardTest_27
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ----- forwarded by #n    j mara/na/enron on 03/15/2001 03:57 pm -----  ' != ' #forward                                                               '
+-  ----- forwarded by #n    j mara/na/enron on 03/15/2001 03:57 pm -----  
++  #forward                                                               
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_28" time="0.608">
+		<error message="' ----- forwarded by lida d steffes/na/enron on 03/16/2001 11:13 am -----  ' != ' #forward                                                                 '
+-  ----- forwarded by lida d steffes/na/enron on 03/16/2001 11:13 am -----  
++  #forward                                                                 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 188, in test_iForwardTest_28
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ----- forwarded by lida d steffes/na/enron on 03/16/2001 11:13 am -----  ' != ' #forward                                                                 '
+-  ----- forwarded by lida d steffes/na/enron on 03/16/2001 11:13 am -----  
++  #forward                                                                 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_29" time="0.709">
+		<error message="' ----- forwarded by ginger dernehl/na/enron on 03/19/2001 11:02 am -----  ' != ' #forward                                                                 '
+-  ----- forwarded by ginger dernehl/na/enron on 03/19/2001 11:02 am -----  
++  #forward                                                                 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 194, in test_iForwardTest_29
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ----- forwarded by ginger dernehl/na/enron on 03/19/2001 11:02 am -----  ' != ' #forward                                                                 '
+-  ----- forwarded by ginger dernehl/na/enron on 03/19/2001 11:02 am -----  
++  #forward                                                                 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_30" time="0.613">
+		<error message="' ----- forwarded by ginger dernehl/na/enron ----  ' != ' #forward                                         '
+-  ----- forwarded by ginger dernehl/na/enron ----  
++  #forward                                         
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 200, in test_iForwardTest_30
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ----- forwarded by ginger dernehl/na/enron ----  ' != ' #forward                                         '
+-  ----- forwarded by ginger dernehl/na/enron ----  
++  #forward                                         
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_31" time="0.667">
+		<error message="' ----- forwarded by ------  ' != ' #forward                   '
+-  ----- forwarded by ------  
++  #forward                   
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 206, in test_iForwardTest_31
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ----- forwarded by ------  ' != ' #forward                   '
+-  ----- forwarded by ------  
++  #forward                   
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_32" time="0.626">
+		<error message="' arded by #n   dasovich/na/enron on 03/19/2001 08:30 pm ' != ' forwarded by jeff dasovich/na/enron on 03/19/2001 08:30 pm '
+-  arded by #n   dasovich/na/enron on 03/19/2001 08:30 pm 
+?           ^^^^
++  forwarded by jeff dasovich/na/enron on 03/19/2001 08:30 pm 
+?  ++++         ^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 212, in test_iForwardTest_32
+    self.assertEqual(Actuval, expected)
+AssertionError: ' arded by #n   dasovich/na/enron on 03/19/2001 08:30 pm ' != ' forwarded by jeff dasovich/na/enron on 03/19/2001 08:30 pm '
+-  arded by #n   dasovich/na/enron on 03/19/2001 08:30 pm 
+?           ^^^^
++  forwarded by jeff dasovich/na/enron on 03/19/2001 08:30 pm 
+?  ++++         ^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_33" time="0.615">
+		<error message="' ----- forwarded by tracy cooper/enron com[36 chars]--  ' != ' #forward                                 [36 chars]    '
+-  ----- forwarded by tracy cooper/enron communications on 09/01/00 04:00 pm -----  
++  #forward                                                                         
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 218, in test_iForwardTest_33
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ----- forwarded by tracy cooper/enron com[36 chars]--  ' != ' #forward                                 [36 chars]    '
+-  ----- forwarded by tracy cooper/enron communications on 09/01/00 04:00 pm -----  
++  #forward                                                                         
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_34" time="0.656">
+		<error message="' ---------------------- forwarded by pegg [45 chars]--  ' != ' #forward                                 [45 chars]    '
+-  ---------------------- forwarded by pegg mahoney/hou/ees on 03/21/2001 07:27 am --------  
++  #forward                                                                                  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 224, in test_iForwardTest_34
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by pegg [45 chars]--  ' != ' #forward                                 [45 chars]    '
+-  ---------------------- forwarded by pegg mahoney/hou/ees on 03/21/2001 07:27 am --------  
++  #forward                                                                                  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_35" time="0.626">
+		<error message="' ---------------------- forwarded by paul [46 chars]--  ' != ' #forward                                 [46 chars]    '
+-  ---------------------- forwarded by paul kaufman/pdx/ect on 04/02/2001 03:22:12 pm ------  
++  #forward                                                                                   
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 230, in test_iForwardTest_35
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by paul [46 chars]--  ' != ' #forward                                 [46 chars]    '
+-  ---------------------- forwarded by paul kaufman/pdx/ect on 04/02/2001 03:22:12 pm ------  
++  #forward                                                                                   
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_36" time="0.614">
+		<error message="' ----- forwarded by james d steffes/na/enron on 04/02/2001 07:53 am -----  ' != ' #forward                                                                  '
+-  ----- forwarded by james d steffes/na/enron on 04/02/2001 07:53 am -----  
++  #forward                                                                  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 236, in test_iForwardTest_36
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ----- forwarded by james d steffes/na/enron on 04/02/2001 07:53 am -----  ' != ' #forward                                                                  '
+-  ----- forwarded by james d steffes/na/enron on 04/02/2001 07:53 am -----  
++  #forward                                                                  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_37" time="0.633">
+		<error message="' ---------------------- forwarded by scott[50 chars]--  ' != ' #forward                                 [50 chars]    '
+-  ---------------------- forwarded by scott stoness/hou/ees on 04/02/2001 09:22 am ------------  
++  #forward                                                                                       
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 242, in test_iForwardTest_37
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by scott[50 chars]--  ' != ' #forward                                 [50 chars]    '
+-  ---------------------- forwarded by scott stoness/hou/ees on 04/02/2001 09:22 am ------------  
++  #forward                                                                                       
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_38" time="1.244">
+		<error message="' ----- forwarded by tracy cooper/enron com[39 chars]--  ' != ' #forward                                 [39 chars]    '
+-  ----- forwarded by tracy cooper/enron communications on 09/01/00 04:00 pm --------  
++  #forward                                                                            
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 248, in test_iForwardTest_38
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ----- forwarded by tracy cooper/enron com[39 chars]--  ' != ' #forward                                 [39 chars]    '
+-  ----- forwarded by tracy cooper/enron communications on 09/01/00 04:00 pm --------  
++  #forward                                                                            
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_39" time="0.632">
+		<error message="' ----- forwarded by #n    m landwehr/na/enron on 04/10/2001 11:52 pm -----  ' != ' #forward                                                                   '
+-  ----- forwarded by #n    m landwehr/na/enron on 04/10/2001 11:52 pm -----  
++  #forward                                                                   
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 254, in test_iForwardTest_39
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ----- forwarded by #n    m landwehr/na/enron on 04/10/2001 11:52 pm -----  ' != ' #forward                                                                   '
+-  ----- forwarded by #n    m landwehr/na/enron on 04/10/2001 11:52 pm -----  
++  #forward                                                                   
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_40" time="0.686">
+		<error message="' --------- forwarded by mona l petrochko/n[40 chars]--  ' != ' #forward                                 [40 chars]    '
+-  --------- forwarded by mona l petrochko/na/enron on 04/11/2001 12:36:34 am --------  
++  #forward                                                                             
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 260, in test_iForwardTest_40
+    self.assertEqual(Actuval, expected)
+AssertionError: ' --------- forwarded by mona l petrochko/n[40 chars]--  ' != ' #forward                                 [40 chars]    '
+-  --------- forwarded by mona l petrochko/na/enron on 04/11/2001 12:36:34 am --------  
++  #forward                                                                             
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_41" time="0.615">
+		<error message="' ---------------------- forwarded by #n   [49 chars]--  ' != ' #forward                                 [49 chars]    '
+-  ---------------------- forwarded by #n       rudolph/hou/ees on 04/13/2001 02:10:22 pm -----  
++  #forward                                                                                      
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 266, in test_iForwardTest_41
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by #n   [49 chars]--  ' != ' #forward                                 [49 chars]    '
+-  ---------------------- forwarded by #n       rudolph/hou/ees on 04/13/2001 02:10:22 pm -----  
++  #forward                                                                                      
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_42" time="0.609">
+		<error message="' ---------------------- forwarded by #n   [44 chars]--  ' != ' #forward                                 [44 chars]    '
+-  ---------------------- forwarded by #n   comnes/pdx/ect on 04/13/2001 12:39 pm --------  
++  #forward                                                                                 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 272, in test_iForwardTest_42
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by #n   [44 chars]--  ' != ' #forward                                 [44 chars]    '
+-  ---------------------- forwarded by #n   comnes/pdx/ect on 04/13/2001 12:39 pm --------  
++  #forward                                                                                 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_43" time="0.618">
+		<error message="' ----- forwarded by leslie lawner/na/enron on 04/16/01 07:57 am -----  ' != ' #forward                                                              '
+-  ----- forwarded by leslie lawner/na/enron on 04/16/01 07:57 am -----  
++  #forward                                                              
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 278, in test_iForwardTest_43
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ----- forwarded by leslie lawner/na/enron on 04/16/01 07:57 am -----  ' != ' #forward                                                              '
+-  ----- forwarded by leslie lawner/na/enron on 04/16/01 07:57 am -----  
++  #forward                                                              
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_44" time="0.655">
+		<error message="' ----- forwarded by harry kingerski/na/enron on 04/17/2001 09:15 pm -----  ' != ' #forward                                                                  '
+-  ----- forwarded by harry kingerski/na/enron on 04/17/2001 09:15 pm -----  
++  #forward                                                                  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 284, in test_iForwardTest_44
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ----- forwarded by harry kingerski/na/enron on 04/17/2001 09:15 pm -----  ' != ' #forward                                                                  '
+-  ----- forwarded by harry kingerski/na/enron on 04/17/2001 09:15 pm -----  
++  #forward                                                                  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_5" time="0.668">
+		<error message="' ---------------------- forwarded by glyn [77 chars]--  ' != ' #forward                                 [77 chars]    '
+-  ---------------------- forwarded by glyn dillingham/enron_development on 09/01/2000 01:13 pm ---------------------------  
++  #forward                                                                                                                  
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 50, in test_iForwardTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by glyn [77 chars]--  ' != ' #forward                                 [77 chars]    '
+-  ---------------------- forwarded by glyn dillingham/enron_development on 09/01/2000 01:13 pm ---------------------------  
++  #forward                                                                                                                  
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_6" time="0.641">
+		<error message="'forwarded by ginger dernehl/na/enron       ' != ' #forward                                         '
+- forwarded by ginger dernehl/na/enron       
++  #forward                                         
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 56, in test_iForwardTest_6
+    self.assertEqual(Actuval, expected)
+AssertionError: 'forwarded by ginger dernehl/na/enron       ' != ' #forward                                         '
+- forwarded by ginger dernehl/na/enron       
++  #forward                                         
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_7" time="0.607">
+		<error message="'   forwarded by lida d steffes/na/enron on 03/16/2001 11:13 am        ' != ' #forward                                                                 '
+-    forwarded by lida d steffes/na/enron on 03/16/2001 11:13 am        
++  #forward                                                                 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 62, in test_iForwardTest_7
+    self.assertEqual(Actuval, expected)
+AssertionError: '   forwarded by lida d steffes/na/enron on 03/16/2001 11:13 am        ' != ' #forward                                                                 '
+-    forwarded by lida d steffes/na/enron on 03/16/2001 11:13 am        
++  #forward                                                                 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_8" time="1.306">
+		<error message="' ----- forwarded by ------  ' != ' #forward                   '
+-  ----- forwarded by ------  
++  #forward                   
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 68, in test_iForwardTest_8
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ----- forwarded by ------  ' != ' #forward                   '
+-  ----- forwarded by ------  
++  #forward                   
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iForwardTest_9" time="0.602">
+		<error message="' forwarded by #n   dasovich/na/enron on 03/19/2001 08:30 pm  ' != ' forwarded by jeff dasovich/na/enron on 03/19/2001 08:30 pm  '
+-  forwarded by #n   dasovich/na/enron on 03/19/2001 08:30 pm  
+?               ^^^^
++  forwarded by jeff dasovich/na/enron on 03/19/2001 08:30 pm  
+?               ^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 74, in test_iForwardTest_9
+    self.assertEqual(Actuval, expected)
+AssertionError: ' forwarded by #n   dasovich/na/enron on 03/19/2001 08:30 pm  ' != ' forwarded by jeff dasovich/na/enron on 03/19/2001 08:30 pm  '
+-  forwarded by #n   dasovich/na/enron on 03/19/2001 08:30 pm  
+?               ^^^^
++  forwarded by jeff dasovich/na/enron on 03/19/2001 08:30 pm  
+?               ^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcForwardTagger1" time="0.646">
+		<error message="' ---------------------- forwarded by #n   [187 chars]ent ' != ' #forward                                 [187 chars]ent '
+-  ---------------------- forwarded by #n      sage/lon/ect on 03/04/2001 23:22 ---------------------------   this kind of forwarding actually constitutes a remailing from the points of view of the envelope-sender and of the recipient 
++  #forward                                                                                                   this kind of forwarding actually constitutes a remailing from the points of view of the envelope-sender and of the recipient 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 415, in test_mcForwardTagger1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by #n   [187 chars]ent ' != ' #forward                                 [187 chars]ent '
+-  ---------------------- forwarded by #n      sage/lon/ect on 03/04/2001 23:22 ---------------------------   this kind of forwarding actually constitutes a remailing from the points of view of the envelope-sender and of the recipient 
++  #forward                                                                                                   this kind of forwarding actually constitutes a remailing from the points of view of the envelope-sender and of the recipient 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcForwardTagger2" time="0.647">
+		<error message="' ---------------------- forwarded by craig[137 chars]ent ' != ' #forward                                 [137 chars]ent '
+-  ---------------------- forwarded by craig hiddleston/corp/enron on 01/24/2012 07:54 pm ---------------------------   an end-user can manually forward a message using an email client 
++  #forward                                                                                                             an end-user can manually forward a message using an email client 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 421, in test_mcForwardTagger2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by craig[137 chars]ent ' != ' #forward                                 [137 chars]ent '
+-  ---------------------- forwarded by craig hiddleston/corp/enron on 01/24/2012 07:54 pm ---------------------------   an end-user can manually forward a message using an email client 
++  #forward                                                                                                             an end-user can manually forward a message using an email client 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcForwardTagger3" time="0.637">
+		<error message="' ---------------------- forwarded by james[92 chars]ges ' != ' #forward                                 [92 chars]ges '
+-  ---------------------- forwarded by james new/lon/ect on 23/02/2001 16:14 am -----------------------   the message identity also changes 
++  #forward                                                                                               the message identity also changes 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 427, in test_mcForwardTagger3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by james[92 chars]ges ' != ' #forward                                 [92 chars]ges '
+-  ---------------------- forwarded by james new/lon/ect on 23/02/2001 16:14 am -----------------------   the message identity also changes 
++  #forward                                                                                               the message identity also changes 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_ncForwardTagger1" time="0.682">
+		<error message="&quot; ---------------------- forwarded by lesli[143 chars] it &quot; != &quot; #forward                                 [143 chars] it &quot;
+-  ---------------------- forwarded by leslie reeves/hou/ect on 12/27/99 02:33 pm                     by contrast  primary servers can deliver a message to a user's mailbox and/or forward it 
++  #forward                                                                                           by contrast  primary servers can deliver a message to a user's mailbox and/or forward it 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 447, in test_ncForwardTagger1
+    self.assertEqual(Actuval, expected)
+AssertionError: " ---------------------- forwarded by lesli[143 chars] it " != " #forward                                 [143 chars] it "
+-  ---------------------- forwarded by leslie reeves/hou/ect on 12/27/99 02:33 pm                     by contrast  primary servers can deliver a message to a user's mailbox and/or forward it 
++  #forward                                                                                           by contrast  primary servers can deliver a message to a user's mailbox and/or forward it 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pForwardTagger1" time="0.658">
+		<error message="' ---------------------- forwarded by benne[95 chars]vers' != ' #forward                                 [96 chars]ers '
+-  ---------------------- forwarded by bennett kaufman/hou/ect on 12/15/99 03:34 am ------------------  a domain may also define backup servers
++  #forward                                                                                             a domain may also define backup servers 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 396, in test_pForwardTagger1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by benne[95 chars]vers' != ' #forward                                 [96 chars]ers '
+-  ---------------------- forwarded by bennett kaufman/hou/ect on 12/15/99 03:34 am ------------------  a domain may also define backup servers
++  #forward                                                                                             a domain may also define backup servers 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pForwardTagger2" time="0.657">
+		<error message="' ---------------------- forwarded by #n   [171 chars]ent ' != ' #forward                                 [171 chars]ent '
+-  ---------------------- forwarded by #n    h cook/hou/ect on 01/26/2001 10:46 am ------------------------   client forwarding can take place automatically using a non-interactive client such as a mail retrieval agent 
++  #forward                                                                                                   client forwarding can take place automatically using a non-interactive client such as a mail retrieval agent 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 402, in test_pForwardTagger2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by #n   [171 chars]ent ' != ' #forward                                 [171 chars]ent '
+-  ---------------------- forwarded by #n    h cook/hou/ect on 01/26/2001 10:46 am ------------------------   client forwarding can take place automatically using a non-interactive client such as a mail retrieval agent 
++  #forward                                                                                                   client forwarding can take place automatically using a non-interactive client such as a mail retrieval agent 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pForwardTagger3" time="0.662">
+		<error message="' ---------------------- forwarded by #n   [177 chars] it ' != ' #forward                                 [177 chars] it '
+-  ---------------------- forwarded by #n      c gossett/hou/ect on 04/23/2001 07:34 am ---------------------------  although the retrieval agent uses a client protocol  this forwarding resembles server forwarding in that it 
++  #forward                                                                                                          although the retrieval agent uses a client protocol  this forwarding resembles server forwarding in that it 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 408, in test_pForwardTagger3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' ---------------------- forwarded by #n   [177 chars] it ' != ' #forward                                 [177 chars] it '
+-  ---------------------- forwarded by #n      c gossett/hou/ect on 04/23/2001 07:34 am ---------------------------  although the retrieval agent uses a client protocol  this forwarding resembles server forwarding in that it 
++  #forward                                                                                                          although the retrieval agent uses a client protocol  this forwarding resembles server forwarding in that it 
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

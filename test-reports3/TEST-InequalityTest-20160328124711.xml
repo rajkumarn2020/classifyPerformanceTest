@@ -1,0 +1,298 @@
+<?xml version="1.0" ?>
+<testsuite errors="16" failures="0" name="InequalityTest-20160328124711" tests="19" time="11.859">
+	<testcase classname="InequalityTest" name="test_fpEmoticon_1" time="0.579"/>
+	<testcase classname="InequalityTest" name="test_fpEmoticon_2" time="0.588"/>
+	<testcase classname="InequalityTest" name="test_fpEmoticon_3" time="0.576"/>
+	<testcase classname="InequalityTest" name="test_csEmoticon_1" time="0.578">
+		<error message="'costa \\_/7 has the most caffeine whilst in mcdonalds ' != 'costa h#   has the most caffeine whilst in mcdonalds '
+- costa \_/7 has the most caffeine whilst in mcdonalds 
+?       ^^^^
++ costa h#   has the most caffeine whilst in mcdonalds 
+?       ^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 27, in test_csEmoticon_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'costa \\_/7 has the most caffeine whilst in mcdonalds ' != 'costa h#   has the most caffeine whilst in mcdonalds '
+- costa \_/7 has the most caffeine whilst in mcdonalds 
+?       ^^^^
++ costa h#   has the most caffeine whilst in mcdonalds 
+?       ^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csEmoticon_2" time="0.589">
+		<error message="'one lake is teeming with         that are threatening the lakes welfare ' != 'one lake is teeming with h#      that are threatening the lakes welfare '
+- one lake is teeming with         that are threatening the lakes welfare 
+?                          ^^
++ one lake is teeming with h#      that are threatening the lakes welfare 
+?                          ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 33, in test_csEmoticon_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'one lake is teeming with         that are threatening the lakes welfare ' != 'one lake is teeming with h#      that are threatening the lakes welfare '
+- one lake is teeming with         that are threatening the lakes welfare 
+?                          ^^
++ one lake is teeming with h#      that are threatening the lakes welfare 
+?                          ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csEmoticon_3" time="0.616">
+		<error message="'terrifying games against xd schoolboys ' != 'terrifying games against h# schoolboys '
+- terrifying games against xd schoolboys 
+?                          ^^
++ terrifying games against h# schoolboys 
+?                          ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 39, in test_csEmoticon_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'terrifying games against xd schoolboys ' != 'terrifying games against h# schoolboys '
+- terrifying games against xd schoolboys 
+?                          ^^
++ terrifying games against h# schoolboys 
+?                          ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csEmoticon_4" time="0.600">
+		<error message="'give[23 chars]his collection of angry      japanese kaomoji text emoticons. ' != 'give[23 chars]his collection of angry h#   japanese kaomoji text emoticons. '
+- give into your anger with this collection of angry      japanese kaomoji text emoticons. 
+?                                                    ^^
++ give into your anger with this collection of angry h#   japanese kaomoji text emoticons. 
+?                                                    ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 45, in test_csEmoticon_4
+    self.assertEqual(Actuval, expected)
+AssertionError: 'give[23 chars]his collection of angry      japanese kaomoji text emoticons. ' != 'give[23 chars]his collection of angry h#   japanese kaomoji text emoticons. '
+- give into your anger with this collection of angry      japanese kaomoji text emoticons. 
+?                                                    ^^
++ give into your anger with this collection of angry h#   japanese kaomoji text emoticons. 
+?                                                    ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csEmoticon_5" time="0.618">
+		<error message="'the western use of :o shocked emoticons is quite different f[28 chars]net ' != 'the western use of h# shocked emoticons is quite different f[28 chars]net '
+- the western use of :o shocked emoticons is quite different from eastern usage  and internet 
+?                    ^^
++ the western use of h# shocked emoticons is quite different from eastern usage  and internet 
+?                    ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 51, in test_csEmoticon_5
+    self.assertEqual(Actuval, expected)
+AssertionError: 'the western use of :o shocked emoticons is quite different f[28 chars]net ' != 'the western use of h# shocked emoticons is quite different f[28 chars]net '
+- the western use of :o shocked emoticons is quite different from eastern usage  and internet 
+?                    ^^
++ the western use of h# shocked emoticons is quite different from eastern usage  and internet 
+?                    ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fEmoticon_1" time="0.879">
+		<error message="'merry christmas       ' != 'merry christmas h#    '
+- merry christmas       
+?                 ^^
++ merry christmas h#    
+?                 ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 59, in test_fEmoticon_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'merry christmas       ' != 'merry christmas h#    '
+- merry christmas       
+?                 ^^
++ merry christmas h#    
+?                 ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fEmoticon_2" time="0.667">
+		<error message="'roger federer         about novak djokovics' != 'roger federer     s#  about novak djokovics'
+- roger federer         about novak djokovics
+?                   ^^
++ roger federer     s#  about novak djokovics
+?                   ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 65, in test_fEmoticon_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'roger federer         about novak djokovics' != 'roger federer     s#  about novak djokovics'
+- roger federer         about novak djokovics
+?                   ^^
++ roger federer     s#  about novak djokovics
+?                   ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fEmoticon_3" time="0.750">
+		<error message="'with her    baby' != 'with her h# baby'
+- with her    baby
+?          ^^
++ with her h# baby
+?          ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 71, in test_fEmoticon_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'with her    baby' != 'with her h# baby'
+- with her    baby
+?          ^^
++ with her h# baby
+?          ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fEmoticon_4" time="0.734">
+		<error message="'my  3 was broken' != 'my h# was broken'
+- my  3 was broken
+?    ^^
++ my h# was broken
+?    ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 77, in test_fEmoticon_4
+    self.assertEqual(Actuval, expected)
+AssertionError: 'my  3 was broken' != 'my h# was broken'
+- my  3 was broken
+?    ^^
++ my h# was broken
+?    ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fEmoticon_5" time="0.605">
+		<error message="'paris        made on social media' != 'paris h#     made on social media'
+- paris        made on social media
+?       ^^
++ paris h#     made on social media
+?       ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 83, in test_fEmoticon_5
+    self.assertEqual(Actuval, expected)
+AssertionError: 'paris        made on social media' != 'paris h#     made on social media'
+- paris        made on social media
+?       ^^
++ paris h#     made on social media
+?       ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcEmoticon_1" time="0.567">
+		<error message="'as this site also functions as a graphic  :-c  smiley database ' != 'as this site also functions as a graphic  s#   smiley database '
+- as this site also functions as a graphic  :-c  smiley database 
+?                                           ^^^
++ as this site also functions as a graphic  s#   smiley database 
+?                                           ^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 104, in test_mcEmoticon_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'as this site also functions as a graphic  :-c  smiley database ' != 'as this site also functions as a graphic  s#   smiley database '
+- as this site also functions as a graphic  :-c  smiley database 
+?                                           ^^^
++ as this site also functions as a graphic  s#   smiley database 
+?                                           ^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcEmoticon_2" time="0.582">
+		<error message="'fantasia barrinos weight in           petals around the room' != 'fantasia barrinos weight in  h#       petals around the room'
+- fantasia barrinos weight in           petals around the room
+?                              ^^
++ fantasia barrinos weight in  h#       petals around the room
+?                              ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 110, in test_mcEmoticon_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'fantasia barrinos weight in           petals around the room' != 'fantasia barrinos weight in  h#       petals around the room'
+- fantasia barrinos weight in           petals around the room
+?                              ^^
++ fantasia barrinos weight in  h#       petals around the room
+?                              ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcEmoticon_3" time="0.606">
+		<error message="'yuvika chaudharys      will be missed on the show ' != 'yuvika chaudharys  h#  will be missed on the show '
+- yuvika chaudharys      will be missed on the show 
+?                    ^^
++ yuvika chaudharys  h#  will be missed on the show 
+?                    ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 116, in test_mcEmoticon_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'yuvika chaudharys      will be missed on the show ' != 'yuvika chaudharys  h#  will be missed on the show '
+- yuvika chaudharys      will be missed on the show 
+?                    ^^
++ yuvika chaudharys  h#  will be missed on the show 
+?                    ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_nlEmoticon_1" time="0.567">
+		<error message="'send someone a virtual hug with these cute hug :d&lt;  emoticons.' != 'send someone a virtual hug with these cute hug h#    emoticons.'
+- send someone a virtual hug with these cute hug :d&lt;  emoticons.
+?                                                ^^^
++ send someone a virtual hug with these cute hug h#    emoticons.
+?                                                ^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 143, in test_nlEmoticon_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'send someone a virtual hug with these cute hug :d<  emoticons.' != 'send someone a virtual hug with these cute hug h#    emoticons.'
+- send someone a virtual hug with these cute hug :d<  emoticons.
+?                                                ^^^
++ send someone a virtual hug with these cute hug h#    emoticons.
+?                                                ^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pEmoticon_1" time="0.592">
+		<error message="'mean        blame your genes' != 'mean h#      blame your genes'
+- mean        blame your genes
+?      ^
++ mean h#      blame your genes
+?      ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 91, in test_pEmoticon_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'mean        blame your genes' != 'mean h#      blame your genes'
+- mean        blame your genes
+?      ^
++ mean h#      blame your genes
+?      ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pEmoticon_2" time="0.565">
+		<error message="'text-based emoticons for high five  h5  ' != 'text-based emoticons for high five h#   '
+- text-based emoticons for high five  h5  
+?                                    - ^
++ text-based emoticons for high five h#   
+?                                     ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 97, in test_pEmoticon_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'text-based emoticons for high five  h5  ' != 'text-based emoticons for high five h#   '
+- text-based emoticons for high five  h5  
+?                                    - ^
++ text-based emoticons for high five h#   
+?                                     ^^
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

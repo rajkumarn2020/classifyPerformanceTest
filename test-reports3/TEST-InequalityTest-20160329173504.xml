@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<testsuite errors="2" failures="0" name="InequalityTest-20160329173504" tests="8" time="4.637">
+	<testcase classname="InequalityTest" name="test_csDecimalTest_11" time="0.577"/>
+	<testcase classname="InequalityTest" name="test_fpDecimalTest_1" time="0.551"/>
+	<testcase classname="InequalityTest" name="test_fpDecimalTest_4" time="0.600"/>
+	<testcase classname="InequalityTest" name="test_fpDecimalTest_5" time="0.571"/>
+	<testcase classname="InequalityTest" name="test_fpDecimalTest_6" time="0.581"/>
+	<testcase classname="InequalityTest" name="test_fpDecimalTest_7" time="0.581"/>
+	<testcase classname="InequalityTest" name="test_fpDecimalTest_2" time="0.632">
+		<error message="'family tree maker #c   version' != 'family tree maker 9.0. version'
+- family tree maker #c   version
+?                   ^^^^
++ family tree maker 9.0. version
+?                   ^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 34, in test_fpDecimalTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'family tree maker #c   version' != 'family tree maker 9.0. version'
+- family tree maker #c   version
+?                   ^^^^
++ family tree maker 9.0. version
+?                   ^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fpDecimalTest_3" time="0.544">
+		<error message="'where does this get us:1- sell' != 'where does this get us:1  sell'
+- where does this get us:1- sell
+?                         ^
++ where does this get us:1  sell
+?                         ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 39, in test_fpDecimalTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'where does this get us:1- sell' != 'where does this get us:1  sell'
+- where does this get us:1- sell
+?                         ^
++ where does this get us:1  sell
+?                         ^
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

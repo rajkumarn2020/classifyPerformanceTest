@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="InequalityTest-20160406152420" tests="1" time="0.888">
+	<testcase classname="InequalityTest" name="test_IsEmail_1" time="0.888">
+		<error message="'#g              i was going to be over yo[1157 chars]    ' != 'hi christopher  i was going to be over yo[1157 chars]any '
+Diff is 2411 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 31, in test_IsEmail_1
+    self.assertEqual(Actuval, expected)
+AssertionError: '#g              i was going to be over yo[1157 chars]    ' != 'hi christopher  i was going to be over yo[1157 chars]any '
+Diff is 2411 characters long. Set self.maxDiff to None to see it.
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

@@ -1,0 +1,305 @@
+<?xml version="1.0" ?>
+<testsuite errors="19" failures="0" name="InequalityTest-20160328130354" tests="19" time="22.303">
+	<testcase classname="InequalityTest" name="test_csJobTitleTagger_3" time="1.574">
+		<error message="' welder and #jt         are actually two s[69 chars]sa  ' != ' #jt    and #jt         are actually two s[69 chars]sa  '
+-  welder and #jt         are actually two separate careers  though some welders may be pipe fitters and vice versa  
+?  ^^^^^^                                                                               ^^^^^^^ ^^^^
++  #jt    and #jt         are actually two separate careers  though some welders may be #jt          and vice versa  
+?  ^^^^^^                                                                               ^^ ^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 88, in test_csJobTitleTagger_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' welder and #jt         are actually two s[69 chars]sa  ' != ' #jt    and #jt         are actually two s[69 chars]sa  '
+-  welder and #jt         are actually two separate careers  though some welders may be pipe fitters and vice versa  
+?  ^^^^^^                                                                               ^^^^^^^ ^^^^
++  #jt    and #jt         are actually two separate careers  though some welders may be #jt          and vice versa  
+?  ^^^^^^                                                                               ^^ ^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csJobTitleTagger_5" time="1.051">
+		<error message="&quot; find your next rail yard worker job and jump-start your [42 chars]ne  &quot; != &quot; find your next #jt              job and jump-start your [42 chars]ne  &quot;
+-  find your next rail yard worker job and jump-start your career with simply hired's job search engine  
+?                 ^^^^^^^^^^^^^^^^
++  find your next #jt              job and jump-start your career with simply hired's job search engine  
+?                 ^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 94, in test_csJobTitleTagger_5
+    self.assertEqual(Actuval, expected)
+AssertionError: " find your next rail yard worker job and jump-start your [42 chars]ne  " != " find your next #jt              job and jump-start your [42 chars]ne  "
+-  find your next rail yard worker job and jump-start your career with simply hired's job search engine  
+?                 ^^^^^^^^^^^^^^^^
++  find your next #jt              job and jump-start your career with simply hired's job search engine  
+?                 ^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fJobTitleTagger_1" time="0.591">
+		<error message="' start your own business consulting firm ' != ' start your own #jt                 firm '
+-  start your own business consulting firm 
++  start your own #jt                 firm 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 101, in test_fJobTitleTagger_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' start your own business consulting firm ' != ' start your own #jt                 firm '
+-  start your own business consulting firm 
++  start your own #jt                 firm 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fJobTitleTagger_2" time="1.342">
+		<error message="' states license master electricians based on examinations  accrued experience ' != ' states license #jt                 based on examinations  accrued experience '
+-  states license master electricians based on examinations  accrued experience 
+?                 ^^^ ^^^^^^^^^^^^^^^
++  states license #jt                 based on examinations  accrued experience 
+?                 ^^ ^^^^^^^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 107, in test_fJobTitleTagger_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' states license master electricians based on examinations  accrued experience ' != ' states license #jt                 based on examinations  accrued experience '
+-  states license master electricians based on examinations  accrued experience 
+?                 ^^^ ^^^^^^^^^^^^^^^
++  states license #jt                 based on examinations  accrued experience 
+?                 ^^ ^^^^^^^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fJobTitleTagger_5" time="1.265">
+		<error message="&quot; the yard and it's up to you  the yardmaster to organize and manage &quot; != &quot; the yard and it's up to you  the #jt        to organize and manage &quot;
+-  the yard and it's up to you  the yardmaster to organize and manage 
+?                                   ^^^^^^^ ^^
++  the yard and it's up to you  the #jt        to organize and manage 
+?                                   ^^ ^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 113, in test_fJobTitleTagger_5
+    self.assertEqual(Actuval, expected)
+AssertionError: " the yard and it's up to you  the yardmaster to organize and manage " != " the yard and it's up to you  the #jt        to organize and manage "
+-  the yard and it's up to you  the yardmaster to organize and manage 
+?                                   ^^^^^^^ ^^
++  the yard and it's up to you  the #jt        to organize and manage 
+?                                   ^^ ^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iJobTitleTagger_1" time="1.099">
+		<error message="' senior #jt            ' != ' #jt                   '
+-  senior #jt            
++  #jt                   
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 27, in test_iJobTitleTagger_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' senior #jt            ' != ' #jt                   '
+-  senior #jt            
++  #jt                   
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iJobTitleTagger_10" time="0.949">
+		<error message="' customer executive ' != ' #jt                '
+-  customer executive 
++  #jt                
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 81, in test_iJobTitleTagger_10
+    self.assertEqual(Actuval, expected)
+AssertionError: ' customer executive ' != ' #jt                '
+-  customer executive 
++  #jt                
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iJobTitleTagger_2" time="1.146">
+		<error message="' senior legal specialist ' != ' #jt                     '
+-  senior legal specialist 
++  #jt                     
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 33, in test_iJobTitleTagger_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' senior legal specialist ' != ' #jt                     '
+-  senior legal specialist 
++  #jt                     
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iJobTitleTagger_3" time="1.102">
+		<error message="' senior director ' != ' #jt             '
+-  senior director 
++  #jt             
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 39, in test_iJobTitleTagger_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' senior director ' != ' #jt             '
+-  senior director 
++  #jt             
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iJobTitleTagger_4" time="1.096">
+		<error message="' senior economist ' != ' #jt              '
+-  senior economist 
++  #jt              
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 45, in test_iJobTitleTagger_4
+    self.assertEqual(Actuval, expected)
+AssertionError: ' senior economist ' != ' #jt              '
+-  senior economist 
++  #jt              
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iJobTitleTagger_5" time="1.093">
+		<error message="' senior #jt                ' != ' #jt                       '
+-  senior #jt                
+? -------
++  #jt                       
+?                     +++++++
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 51, in test_iJobTitleTagger_5
+    self.assertEqual(Actuval, expected)
+AssertionError: ' senior #jt                ' != ' #jt                       '
+-  senior #jt                
+? -------
++  #jt                       
+?                     +++++++
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iJobTitleTagger_6" time="1.185">
+		<error message="' software programmer ' != ' #jt                 '
+-  software programmer 
++  #jt                 
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 57, in test_iJobTitleTagger_6
+    self.assertEqual(Actuval, expected)
+AssertionError: ' software programmer ' != ' #jt                 '
+-  software programmer 
++  #jt                 
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iJobTitleTagger_7" time="0.903">
+		<error message="' software trainer ' != ' #jt              '
+-  software trainer 
++  #jt              
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 63, in test_iJobTitleTagger_7
+    self.assertEqual(Actuval, expected)
+AssertionError: ' software trainer ' != ' #jt              '
+-  software trainer 
++  #jt              
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iJobTitleTagger_8" time="1.433">
+		<error message="' sales officer ' != ' #jt           '
+-  sales officer 
++  #jt           
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 69, in test_iJobTitleTagger_8
+    self.assertEqual(Actuval, expected)
+AssertionError: ' sales officer ' != ' #jt           '
+-  sales officer 
++  #jt           
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iJobTitleTagger_9" time="1.168">
+		<error message="' technical lead ' != ' #jt            '
+-  technical lead 
++  #jt            
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 75, in test_iJobTitleTagger_9
+    self.assertEqual(Actuval, expected)
+AssertionError: ' technical lead ' != ' #jt            '
+-  technical lead 
++  #jt            
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcJobTitleTagger_1" time="1.297">
+		<error message="' the  cost engineering  is the engineering prac[44 chars]st  ' != ' the  #jt               is the engineering prac[44 chars]st  '
+-  the  cost engineering  is the engineering practice devoted to the management of project cost  
+?       ^^               --------------------
++  the  #jt               is the engineering practice devoted to the management of project cost  
+?       ^^^^^^^^^^^^^^^^^^^ + ++
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 133, in test_mcJobTitleTagger_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' the  cost engineering  is the engineering prac[44 chars]st  ' != ' the  #jt               is the engineering prac[44 chars]st  '
+-  the  cost engineering  is the engineering practice devoted to the management of project cost  
+?       ^^               --------------------
++  the  #jt               is the engineering practice devoted to the management of project cost  
+?       ^^^^^^^^^^^^^^^^^^^ + ++
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcJobTitleTagger_2" time="1.473">
+		<error message="' the  lead #jt                should work to st[38 chars]es  ' != ' the  #jt                     should work to st[38 chars]es  '
+-  the  lead #jt                should work to stay up to date with changing technologies  
+?       -----
++  the  #jt                     should work to stay up to date with changing technologies  
+?          +++++
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 139, in test_mcJobTitleTagger_2
+    self.assertEqual(Actuval, expected)
+AssertionError: ' the  lead #jt                should work to st[38 chars]es  ' != ' the  #jt                     should work to st[38 chars]es  '
+-  the  lead #jt                should work to stay up to date with changing technologies  
+?       -----
++  the  #jt                     should work to stay up to date with changing technologies  
+?          +++++
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pJobTitleTagger_3" time="1.445">
+		<error message="' com[23 chars]he national and state salaries for sailors and marine oilers. ' != ' com[23 chars]he national and state salaries for #jt                        '
+-  compare your salary with the national and state salaries for sailors and marine oilers. 
++  compare your salary with the national and state salaries for #jt                        
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 120, in test_pJobTitleTagger_3
+    self.assertEqual(Actuval, expected)
+AssertionError: ' com[23 chars]he national and state salaries for sailors and marine oilers. ' != ' com[23 chars]he national and state salaries for #jt                        '
+-  compare your salary with the national and state salaries for sailors and marine oilers. 
++  compare your salary with the national and state salaries for #jt                        
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pJobTitleTagger_4" time="1.090">
+		<error message="' are you looking for an exciting career as yacht deckhand  ' != ' are you looking for an exciting career as #jt             '
+-  are you looking for an exciting career as yacht deckhand  
+?                                            ^^^^  ^^^^^^^^
++  are you looking for an exciting career as #jt             
+?                                            ^^  ^^^^^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 126, in test_pJobTitleTagger_4
+    self.assertEqual(Actuval, expected)
+AssertionError: ' are you looking for an exciting career as yacht deckhand  ' != ' are you looking for an exciting career as #jt             '
+-  are you looking for an exciting career as yacht deckhand  
+?                                            ^^^^  ^^^^^^^^
++  are you looking for an exciting career as #jt             
+?                                            ^^  ^^^^^^^^^^
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

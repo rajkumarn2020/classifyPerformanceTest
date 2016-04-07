@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="InequalityTest-20160406185939" tests="1" time="0.680">
+	<testcase classname="InequalityTest" name="test_IsClassify_1" time="0.680">
+		<error message="list indices must be integers, not str" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 24, in test_IsClassify_1
+    Actuval=self.Ontobi_API(text)
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 18, in Ontobi_API
+    print(int(output[u'id'].encode('ascii')))
+TypeError: list indices must be integers, not str
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

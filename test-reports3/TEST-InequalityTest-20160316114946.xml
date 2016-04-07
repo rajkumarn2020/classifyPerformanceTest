@@ -1,0 +1,1371 @@
+<?xml version="1.0" ?>
+<testsuite errors="87" failures="0" name="InequalityTest-20160316114946" tests="87" time="61.997">
+	<testcase classname="InequalityTest" name="test_csTokenizeTest_1" time="0.670">
+		<error message="'kingmaker is a term that refers to a pers[68 chars]ion ' != 'Kingmaker|is|a|term|that|refers|to|a|pers[69 chars]on|.'
+- kingmaker is a term that refers to a person or group that has great influence in a royal or political succession 
+? ^        ^  ^ ^    ^    ^      ^  ^ ^      ^  ^     ^    ^   ^     ^         ^  ^ ^     ^  ^         ^          ^
++ Kingmaker|is|a|term|that|refers|to|a|person|or|group|that|has|great|influence|in|a|royal|or|political|succession|.
+? ^        ^  ^ ^    ^    ^      ^  ^ ^      ^  ^     ^    ^   ^     ^         ^  ^ ^     ^  ^         ^          ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 89, in test_csTokenizeTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'kingmaker is a term that refers to a pers[68 chars]ion ' != 'Kingmaker|is|a|term|that|refers|to|a|pers[69 chars]on|.'
+- kingmaker is a term that refers to a person or group that has great influence in a royal or political succession 
+? ^        ^  ^ ^    ^    ^      ^  ^ ^      ^  ^     ^    ^   ^     ^         ^  ^ ^     ^  ^         ^          ^
++ Kingmaker|is|a|term|that|refers|to|a|person|or|group|that|has|great|influence|in|a|royal|or|political|succession|.
+? ^        ^  ^ ^    ^    ^      ^  ^ ^      ^  ^     ^    ^   ^     ^         ^  ^ ^     ^  ^         ^          ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csTokenizeTest_2" time="0.646">
+		<error message="'kingmaker is a player who lacks sufficien[43 chars]ame ' != 'Kingmaker|is|a|player|who|lacks|sufficien[44 chars]me|.'
+- kingmaker is a player who lacks sufficient resources or position to win at a given game 
+? ^        ^  ^ ^      ^   ^     ^          ^         ^  ^        ^  ^   ^  ^ ^     ^    ^
++ Kingmaker|is|a|player|who|lacks|sufficient|resources|or|position|to|win|at|a|given|game|.
+? ^        ^  ^ ^      ^   ^     ^          ^         ^  ^        ^  ^   ^  ^ ^     ^    ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 95, in test_csTokenizeTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'kingmaker is a player who lacks sufficien[43 chars]ame ' != 'Kingmaker|is|a|player|who|lacks|sufficien[44 chars]me|.'
+- kingmaker is a player who lacks sufficient resources or position to win at a given game 
+? ^        ^  ^ ^      ^   ^     ^          ^         ^  ^        ^  ^   ^  ^ ^     ^    ^
++ Kingmaker|is|a|player|who|lacks|sufficient|resources|or|position|to|win|at|a|given|game|.
+? ^        ^  ^ ^      ^   ^     ^          ^         ^  ^        ^  ^   ^  ^ ^     ^    ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csTokenizeTest_3" time="0.628">
+		<error message="'an employee contributes labor and expertise to an endeavor of an employer ' != 'An|employee|contributes|labor|and|expertise|to|an|endeavor|of|an|employer|.'
+- an employee contributes labor and expertise to an endeavor of an employer 
+? ^ ^        ^           ^     ^   ^         ^  ^  ^        ^  ^  ^        ^
++ An|employee|contributes|labor|and|expertise|to|an|endeavor|of|an|employer|.
+? ^ ^        ^           ^     ^   ^         ^  ^  ^        ^  ^  ^        ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 101, in test_csTokenizeTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'an employee contributes labor and expertise to an endeavor of an employer ' != 'An|employee|contributes|labor|and|expertise|to|an|endeavor|of|an|employer|.'
+- an employee contributes labor and expertise to an endeavor of an employer 
+? ^ ^        ^           ^     ^   ^         ^  ^  ^        ^  ^  ^        ^
++ An|employee|contributes|labor|and|expertise|to|an|endeavor|of|an|employer|.
+? ^ ^        ^           ^     ^   ^         ^  ^  ^        ^  ^  ^        ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csTokenizeTest_4" time="0.640">
+		<error message="'employer and managerial control within an organization rests at many levels ' != 'Employer|and|managerial|control|within|an|organization|rests|at|many|levels|.'
+- employer and managerial control within an organization rests at many levels 
+? ^       ^   ^          ^       ^      ^  ^            ^     ^  ^    ^      ^
++ Employer|and|managerial|control|within|an|organization|rests|at|many|levels|.
+? ^       ^   ^          ^       ^      ^  ^            ^     ^  ^    ^      ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 107, in test_csTokenizeTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: 'employer and managerial control within an organization rests at many levels ' != 'Employer|and|managerial|control|within|an|organization|rests|at|many|levels|.'
+- employer and managerial control within an organization rests at many levels 
+? ^       ^   ^          ^       ^      ^  ^            ^     ^  ^    ^      ^
++ Employer|and|managerial|control|within|an|organization|rests|at|many|levels|.
+? ^       ^   ^          ^       ^      ^  ^            ^     ^  ^    ^      ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_csTokenizeTest_5" time="0.626">
+		<error message="'this is referred to as at will employment ' != 'This|is|referred|to|as|at|will|employment|.'
+- this is referred to as at will employment 
+? ^   ^  ^        ^  ^  ^  ^    ^          ^
++ This|is|referred|to|as|at|will|employment|.
+? ^   ^  ^        ^  ^  ^  ^    ^          ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 113, in test_csTokenizeTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: 'this is referred to as at will employment ' != 'This|is|referred|to|as|at|will|employment|.'
+- this is referred to as at will employment 
+? ^   ^  ^        ^  ^  ^  ^    ^          ^
++ This|is|referred|to|as|at|will|employment|.
+? ^   ^  ^        ^  ^  ^  ^    ^          ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_1" time="0.616">
+		<error message="'this is a test        ' != 'This|is|a|test|........'
+- this is a test        
++ This|is|a|test|........
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 120, in test_fTokenizeTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'this is a test        ' != 'This|is|a|test|........'
+- this is a test        
++ This|is|a|test|........
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_10" time="1.218">
+		<error message="'this is a $100' != 'This|is|a|$|100'
+- this is a $100
++ This|is|a|$|100
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 174, in test_fTokenizeTest_10
+    self.assertEqual(Actuval, expected)
+AssertionError: 'this is a $100' != 'This|is|a|$|100'
+- this is a $100
++ This|is|a|$|100
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_11" time="0.621">
+		<error message="'testing numbers 12%' != 'Testing|numbers|12|%'
+- testing numbers 12%
+? ^      ^       ^
++ Testing|numbers|12|%
+? ^      ^       ^  +
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 180, in test_fTokenizeTest_11
+    self.assertEqual(Actuval, expected)
+AssertionError: 'testing numbers 12%' != 'Testing|numbers|12|%'
+- testing numbers 12%
+? ^      ^       ^
++ Testing|numbers|12|%
+? ^      ^       ^  +
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_12" time="0.621">
+		<error message="'testing numbers  12% ' != 'Testing|numbers|(|12|%|)'
+- testing numbers  12% 
++ Testing|numbers|(|12|%|)
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 186, in test_fTokenizeTest_12
+    self.assertEqual(Actuval, expected)
+AssertionError: 'testing numbers  12% ' != 'Testing|numbers|(|12|%|)'
+- testing numbers  12% 
++ Testing|numbers|(|12|%|)
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_13" time="0.596">
+		<error message="'testing numbers  45%  ' != 'Testing|numbers|(|45|%|)|.'
+- testing numbers  45%  
++ Testing|numbers|(|45|%|)|.
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 192, in test_fTokenizeTest_13
+    self.assertEqual(Actuval, expected)
+AssertionError: 'testing numbers  45%  ' != 'Testing|numbers|(|45|%|)|.'
+- testing numbers  45%  
++ Testing|numbers|(|45|%|)|.
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_14" time="0.599">
+		<error message="'testing numbers   $100.00   ' != &quot;Testing|numbers|'|(|$|100.00|)|'|.&quot;
+- testing numbers   $100.00   
++ Testing|numbers|'|(|$|100.00|)|'|.
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 198, in test_fTokenizeTest_14
+    self.assertEqual(Actuval, expected)
+AssertionError: 'testing numbers   $100.00   ' != "Testing|numbers|'|(|$|100.00|)|'|."
+- testing numbers   $100.00   
++ Testing|numbers|'|(|$|100.00|)|'|.
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_15" time="0.658">
+		<error message="'testing passwords  h123ert ' != 'Testing|passwords|\n|H123ert|!'
+- testing passwords  h123ert 
+? ^      ^         ^^^      ^
++ Testing|passwords|
+|H123ert|!
+? ^      ^         ^^^^      ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 204, in test_fTokenizeTest_15
+    self.assertEqual(Actuval, expected)
+AssertionError: 'testing passwords  h123ert ' != 'Testing|passwords|\n|H123ert|!'
+- testing passwords  h123ert 
+? ^      ^         ^^^      ^
++ Testing|passwords|
+|H123ert|!
+? ^      ^         ^^^^      ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_16" time="0.668">
+		<error message="'testing passwords test1 ' != 'Testing|passwords|test1|!'
+- testing passwords test1 
+? ^      ^         ^     ^
++ Testing|passwords|test1|!
+? ^      ^         ^     ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 210, in test_fTokenizeTest_16
+    self.assertEqual(Actuval, expected)
+AssertionError: 'testing passwords test1 ' != 'Testing|passwords|test1|!'
+- testing passwords test1 
+? ^      ^         ^     ^
++ Testing|passwords|test1|!
+? ^      ^         ^     ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_17" time="1.800">
+		<error message="'testing passwords test ' != 'Testing|passwords|test|!'
+- testing passwords test 
+? ^      ^         ^    ^
++ Testing|passwords|test|!
+? ^      ^         ^    ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 216, in test_fTokenizeTest_17
+    self.assertEqual(Actuval, expected)
+AssertionError: 'testing passwords test ' != 'Testing|passwords|test|!'
+- testing passwords test 
+? ^      ^         ^    ^
++ Testing|passwords|test|!
+? ^      ^         ^    ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_18" time="0.602">
+		<error message="'word.......word' != 'Word.......word'
+- word.......word
+? ^
++ Word.......word
+? ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 222, in test_fTokenizeTest_18
+    self.assertEqual(Actuval, expected)
+AssertionError: 'word.......word' != 'Word.......word'
+- word.......word
+? ^
++ Word.......word
+? ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_19" time="0.639">
+		<error message="'word        word' != 'Word|.......|Word'
+- word        word
++ Word|.......|Word
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 228, in test_fTokenizeTest_19
+    self.assertEqual(Actuval, expected)
+AssertionError: 'word        word' != 'Word|.......|Word'
+- word        word
++ Word|.......|Word
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_2" time="0.600">
+		<error message="'this is a ...test' != 'This|is|a|...test'
+- this is a ...test
+? ^   ^  ^ ^
++ This|is|a|...test
+? ^   ^  ^ ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 126, in test_fTokenizeTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'this is a ...test' != 'This|is|a|...test'
+- this is a ...test
+? ^   ^  ^ ^
++ This|is|a|...test
+? ^   ^  ^ ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_20" time="0.598">
+		<error message="'my name is #n           ' != 'My|name|is|Mr.|Williams|.'
+- my name is #n           
++ My|name|is|Mr.|Williams|.
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 234, in test_fTokenizeTest_20
+    self.assertEqual(Actuval, expected)
+AssertionError: 'my name is #n           ' != 'My|name|is|Mr.|Williams|.'
+- my name is #n           
++ My|name|is|Mr.|Williams|.
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_21" time="0.598">
+		<error message="'  he said   this is not fun   ' != '\'|he|said|,|&quot;|this|is|not|fun|.|&quot;|\''
+-   he said   this is not fun   
++ '|he|said|,|&quot;|this|is|not|fun|.|&quot;|'
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 240, in test_fTokenizeTest_21
+    self.assertEqual(Actuval, expected)
+AssertionError: '  he said   this is not fun   ' != '\'|he|said|,|"|this|is|not|fun|.|"|\''
+-   he said   this is not fun   
++ '|he|said|,|"|this|is|not|fun|.|"|'
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_22" time="0.616">
+		<error message="'i like playing with toys ' != 'I|like|playing|with|toys|.'
+- i like playing with toys 
+? ^^    ^       ^    ^    ^
++ I|like|playing|with|toys|.
+? ^^    ^       ^    ^    ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 246, in test_fTokenizeTest_22
+    self.assertEqual(Actuval, expected)
+AssertionError: 'i like playing with toys ' != 'I|like|playing|with|toys|.'
+- i like playing with toys 
+? ^^    ^       ^    ^    ^
++ I|like|playing|with|toys|.
+? ^^    ^       ^    ^    ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_23" time="0.605">
+		<error message="'two plus two equals four ' != 'Two|plus|two|equals|four|.'
+- two plus two equals four 
+? ^  ^    ^   ^      ^    ^
++ Two|plus|two|equals|four|.
+? ^  ^    ^   ^      ^    ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 252, in test_fTokenizeTest_23
+    self.assertEqual(Actuval, expected)
+AssertionError: 'two plus two equals four ' != 'Two|plus|two|equals|four|.'
+- two plus two equals four 
+? ^  ^    ^   ^      ^    ^
++ Two|plus|two|equals|four|.
+? ^  ^    ^   ^      ^    ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_24" time="0.628">
+		<error message="'right now it is 10:00 p.m. eastern ' != 'Right|now|it|is|10:00|p.m.|Eastern|.'
+- right now it is 10:00 p.m. eastern 
++ Right|now|it|is|10:00|p.m.|Eastern|.
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 258, in test_fTokenizeTest_24
+    self.assertEqual(Actuval, expected)
+AssertionError: 'right now it is 10:00 p.m. eastern ' != 'Right|now|it|is|10:00|p.m.|Eastern|.'
+- right now it is 10:00 p.m. eastern 
++ Right|now|it|is|10:00|p.m.|Eastern|.
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_25" time="0.639">
+		<error message="&quot;perception and judgement of employer's treatment in the context of fairness&quot; != &quot;perception|and|judgement|of|employer|'s|treatment|in|the|context|of|fairness&quot;
+- perception and judgement of employer's treatment in the context of fairness
+?           ^   ^         ^  ^          ^         ^  ^   ^       ^  ^
++ perception|and|judgement|of|employer|'s|treatment|in|the|context|of|fairness
+?           ^   ^         ^  ^        +  ^         ^  ^   ^       ^  ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 264, in test_fTokenizeTest_25
+    self.assertEqual(Actuval, expected)
+AssertionError: "perception and judgement of employer's treatment in the context of fairness" != "perception|and|judgement|of|employer|'s|treatment|in|the|context|of|fairness"
+- perception and judgement of employer's treatment in the context of fairness
+?           ^   ^         ^  ^          ^         ^  ^   ^       ^  ^
++ perception|and|judgement|of|employer|'s|treatment|in|the|context|of|fairness
+?           ^   ^         ^  ^        +  ^         ^  ^   ^       ^  ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_26" time="0.602">
+		<error message="&quot;as institutionalised under today's market economic systems&quot; != &quot;as|institutionalised|under|today|'s|market|economic|systems&quot;
+- as institutionalised under today's market economic systems
+?   ^                 ^     ^       ^      ^        ^
++ as|institutionalised|under|today|'s|market|economic|systems
+?   ^                 ^     ^     +  ^      ^        ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 270, in test_fTokenizeTest_26
+    self.assertEqual(Actuval, expected)
+AssertionError: "as institutionalised under today's market economic systems" != "as|institutionalised|under|today|'s|market|economic|systems"
+- as institutionalised under today's market economic systems
+?   ^                 ^     ^       ^      ^        ^
++ as|institutionalised|under|today|'s|market|economic|systems
+?   ^                 ^     ^     +  ^      ^        ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_27" time="0.656">
+		<error message="'labor in india must be paid minimum wage and c[32 chars]ided' != 'labor|in|India|must|be|paid|minimum|wage|and|c[32 chars]ided'
+- labor in india must be paid minimum wage and certain facilities are to be provided
+?      ^  ^^    ^    ^  ^    ^       ^    ^   ^       ^          ^   ^  ^  ^
++ labor|in|India|must|be|paid|minimum|wage|and|certain|facilities|are|to|be|provided
+?      ^  ^^    ^    ^  ^    ^       ^    ^   ^       ^          ^   ^  ^  ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 276, in test_fTokenizeTest_27
+    self.assertEqual(Actuval, expected)
+AssertionError: 'labor in india must be paid minimum wage and c[32 chars]ided' != 'labor|in|India|must|be|paid|minimum|wage|and|c[32 chars]ided'
+- labor in india must be paid minimum wage and certain facilities are to be provided
+?      ^  ^^    ^    ^  ^    ^       ^    ^   ^       ^          ^   ^  ^  ^
++ labor|in|India|must|be|paid|minimum|wage|and|certain|facilities|are|to|be|provided
+?      ^  ^^    ^    ^  ^    ^       ^    ^   ^       ^          ^   ^  ^  ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_28" time="0.639">
+		<error message="'meaning that the employer and employee are both [28 chars]ment' != 'meaning|that|the|employer|and|employee|are|both|[28 chars]ment'
+- meaning that the employer and employee are both free to terminate the employment
+?        ^    ^   ^        ^   ^        ^   ^    ^    ^  ^         ^   ^
++ meaning|that|the|employer|and|employee|are|both|free|to|terminate|the|employment
+?        ^    ^   ^        ^   ^        ^   ^    ^    ^  ^         ^   ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 282, in test_fTokenizeTest_28
+    self.assertEqual(Actuval, expected)
+AssertionError: 'meaning that the employer and employee are both [28 chars]ment' != 'meaning|that|the|employer|and|employee|are|both|[28 chars]ment'
+- meaning that the employer and employee are both free to terminate the employment
+?        ^    ^   ^        ^   ^        ^   ^    ^    ^  ^         ^   ^
++ meaning|that|the|employer|and|employee|are|both|free|to|terminate|the|employment
+?        ^    ^   ^        ^   ^        ^   ^    ^    ^  ^         ^   ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_29" time="1.245">
+		<error message="&quot;when there is dispute as to the worker's entitlement to have matching&quot; != &quot;when|there|is|dispute|as|to|the|worker|'s|entitlement|to|have|matching&quot;
+- when there is dispute as to the worker's entitlement to have matching
+?     ^     ^  ^       ^  ^  ^   ^        ^           ^  ^    ^
++ when|there|is|dispute|as|to|the|worker|'s|entitlement|to|have|matching
+?     ^     ^  ^       ^  ^  ^   ^      +  ^           ^  ^    ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 288, in test_fTokenizeTest_29
+    self.assertEqual(Actuval, expected)
+AssertionError: "when there is dispute as to the worker's entitlement to have matching" != "when|there|is|dispute|as|to|the|worker|'s|entitlement|to|have|matching"
+- when there is dispute as to the worker's entitlement to have matching
+?     ^     ^  ^       ^  ^  ^   ^        ^           ^  ^    ^
++ when|there|is|dispute|as|to|the|worker|'s|entitlement|to|have|matching
+?     ^     ^  ^       ^  ^  ^   ^      +  ^           ^  ^    ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_3" time="0.614">
+		<error message="'this is a ....test     ' != 'This|is|a|....test|.....'
+- this is a ....test     
++ This|is|a|....test|.....
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 132, in test_fTokenizeTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'this is a ....test     ' != 'This|is|a|....test|.....'
+- this is a ....test     
++ This|is|a|....test|.....
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_4" time="0.607">
+		<error message="'this is a ,,,test' != 'This|is|a|,,,test'
+- this is a ,,,test
+? ^   ^  ^ ^
++ This|is|a|,,,test
+? ^   ^  ^ ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 138, in test_fTokenizeTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: 'this is a ,,,test' != 'This|is|a|,,,test'
+- this is a ,,,test
+? ^   ^  ^ ^
++ This|is|a|,,,test
+? ^   ^  ^ ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_5" time="0.631">
+		<error message="'this is a test    ' != 'This|is|a|test|,|,|,|,'
+- this is a test    
++ This|is|a|test|,|,|,|,
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 144, in test_fTokenizeTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: 'this is a test    ' != 'This|is|a|test|,|,|,|,'
+- this is a test    
++ This|is|a|test|,|,|,|,
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_6" time="0.610">
+		<error message="&quot;this is a ':(%test &quot; != &quot;This|is|a|':(%test&quot;
+- this is a ':(%test 
+? ^   ^  ^ ^        -
++ This|is|a|':(%test
+? ^   ^  ^ ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 150, in test_fTokenizeTest_6
+    self.assertEqual(Actuval, expected)
+AssertionError: "this is a ':(%test " != "This|is|a|':(%test"
+- this is a ':(%test 
+? ^   ^  ^ ^        -
++ This|is|a|':(%test
+? ^   ^  ^ ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_7" time="0.596">
+		<error message="'this is a test    ' != 'This|is|a|test|\'|&quot;|)|.'
+- this is a test    
++ This|is|a|test|'|&quot;|)|.
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 156, in test_fTokenizeTest_7
+    self.assertEqual(Actuval, expected)
+AssertionError: 'this is a test    ' != 'This|is|a|test|\'|"|)|.'
+- this is a test    
++ This|is|a|test|'|"|)|.
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_8" time="0.606">
+		<error message="'this is  a test#-@' != 'This|is|a|test#-@'
+- this is  a test#-@
+? ^   ^  ^^ ^
++ This|is|a|test#-@
+? ^   ^  ^ ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 162, in test_fTokenizeTest_8
+    self.assertEqual(Actuval, expected)
+AssertionError: 'this is  a test#-@' != 'This|is|a|test#-@'
+- this is  a test#-@
+? ^   ^  ^^ ^
++ This|is|a|test#-@
+? ^   ^  ^ ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_fTokenizeTest_9" time="0.657">
+		<error message="'this is a %=_test' != 'This|is|a|%=_test'
+- this is a %=_test
+? ^   ^  ^ ^
++ This|is|a|%=_test
+? ^   ^  ^ ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 168, in test_fTokenizeTest_9
+    self.assertEqual(Actuval, expected)
+AssertionError: 'this is a %=_test' != 'This|is|a|%=_test'
+- this is a %=_test
+? ^   ^  ^ ^
++ This|is|a|%=_test
+? ^   ^  ^ ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iTokenizeTest_1" time="2.029">
+		<error message="'    v-8       ' != '(\'&quot;&lt;V-8&gt;)\'&quot;))&gt;'
+-     v-8       
++ ('&quot;&lt;V-8&gt;)'&quot;))&gt;
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 28, in test_iTokenizeTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: '    v-8       ' != '(\'"<V-8>)\'"))>'
+-     v-8       
++ ('"<V-8>)'"))>
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iTokenizeTest_10" time="0.605">
+		<error message="'etc.' != 'Etc.'
+- etc.
+? ^
++ Etc.
+? ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 82, in test_iTokenizeTest_10
+    self.assertEqual(Actuval, expected)
+AssertionError: 'etc.' != 'Etc.'
+- etc.
+? ^
++ Etc.
+? ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iTokenizeTest_2" time="0.597">
+		<error message="'?(\'&quot;&lt;v-8&gt;)\'&quot;))&gt;' != '?(\'&quot;&lt;V-8&gt;)\'&quot;))&gt;'
+- ?('&quot;&lt;v-8&gt;)'&quot;))&gt;
+?      ^
++ ?('&quot;&lt;V-8&gt;)'&quot;))&gt;
+?      ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 34, in test_iTokenizeTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: '?(\'"<v-8>)\'"))>' != '?(\'"<V-8>)\'"))>'
+- ?('"<v-8>)'"))>
+?      ^
++ ?('"<V-8>)'"))>
+?      ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iTokenizeTest_3" time="0.621">
+		<error message="'.(\'&quot;&lt;v-8&gt;)\'&quot;))&gt;' != '.(\'&quot;&lt;V-8&gt;)\'&quot;))&gt;'
+- .('&quot;&lt;v-8&gt;)'&quot;))&gt;
+?      ^
++ .('&quot;&lt;V-8&gt;)'&quot;))&gt;
+?      ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 40, in test_iTokenizeTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: '.(\'"<v-8>)\'"))>' != '.(\'"<V-8>)\'"))>'
+- .('"<v-8>)'"))>
+?      ^
++ .('"<V-8>)'"))>
+?      ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iTokenizeTest_4" time="0.599">
+		<error message="'    v-8       ' != '(|\'|&quot;|&lt;|V-8|&gt;|)|\'|&quot;|)|)|&gt;'
+-     v-8       
++ (|'|&quot;|&lt;|V-8|&gt;|)|'|&quot;|)|)|&gt;
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 46, in test_iTokenizeTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: '    v-8       ' != '(|\'|"|<|V-8|>|)|\'|"|)|)|>'
+-     v-8       
++ (|'|"|<|V-8|>|)|'|"|)|)|>
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iTokenizeTest_5" time="0.602">
+		<error message="'  hyper-space  ' != &quot;(|'|hyper-space|'|)&quot;
+-   hyper-space  
++ (|'|hyper-space|'|)
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 52, in test_iTokenizeTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: '  hyper-space  ' != "(|'|hyper-space|'|)"
+-   hyper-space  
++ (|'|hyper-space|'|)
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iTokenizeTest_6" time="0.604">
+		<error message="'   149-78-9001   ' != &quot;(|'|&lt;|149-78-9001|&gt;|'|)&quot;
+-    149-78-9001   
++ (|'|&lt;|149-78-9001|&gt;|'|)
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 58, in test_iTokenizeTest_6
+    self.assertEqual(Actuval, expected)
+AssertionError: '   149-78-9001   ' != "(|'|<|149-78-9001|>|'|)"
+-    149-78-9001   
++ (|'|<|149-78-9001|>|'|)
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iTokenizeTest_7" time="0.594">
+		<error message="'   149-78-9001    ' != &quot;(|'|&lt;|149-78-9001|&gt;|'|)|,&quot;
+-    149-78-9001    
++ (|'|&lt;|149-78-9001|&gt;|'|)|,
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 64, in test_iTokenizeTest_7
+    self.assertEqual(Actuval, expected)
+AssertionError: '   149-78-9001    ' != "(|'|<|149-78-9001|>|'|)|,"
+-    149-78-9001    
++ (|'|<|149-78-9001|>|'|)|,
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iTokenizeTest_8" time="0.602">
+		<error message="'  good purchase  ' != &quot;'|(|good|purchase|'|)&quot;
+-   good purchase  
++ '|(|good|purchase|'|)
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 70, in test_iTokenizeTest_8
+    self.assertEqual(Actuval, expected)
+AssertionError: '  good purchase  ' != "'|(|good|purchase|'|)"
+-   good purchase  
++ '|(|good|purchase|'|)
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_iTokenizeTest_9" time="0.599">
+		<error message="'hon. john davis' != 'Hon.|John|Davis'
+- hon. john davis
++ Hon.|John|Davis
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 76, in test_iTokenizeTest_9
+    self.assertEqual(Actuval, expected)
+AssertionError: 'hon. john davis' != 'Hon.|John|Davis'
+- hon. john davis
++ Hon.|John|Davis
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcTokenizeTest_1" time="1.319">
+		<error message="'i am chris  call me ct ' != 'I|am|Chris|(|call|me|ct|)'
+- i am chris  call me ct 
++ I|am|Chris|(|call|me|ct|)
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 434, in test_mcTokenizeTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'i am chris  call me ct ' != 'I|am|Chris|(|call|me|ct|)'
+- i am chris  call me ct 
++ I|am|Chris|(|call|me|ct|)
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcTokenizeTest_10" time="0.649">
+		<error message="'parentheses within parentheses  like this  and like this   ' != 'parentheses|within|parentheses|(|like|this|(|and|like|this|)|)|.'
+- parentheses within parentheses  like this  and like this   
+?            ^      ^           ^^    ^    ^^   ^    ^    ^^^
++ parentheses|within|parentheses|(|like|this|(|and|like|this|)|)|.
+?            ^      ^           ^^^    ^    ^^^   ^    ^    ^^^^^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 488, in test_mcTokenizeTest_10
+    self.assertEqual(Actuval, expected)
+AssertionError: 'parentheses within parentheses  like this  and like this   ' != 'parentheses|within|parentheses|(|like|this|(|and|like|this|)|)|.'
+- parentheses within parentheses  like this  and like this   
+?            ^      ^           ^^    ^    ^^   ^    ^    ^^^
++ parentheses|within|parentheses|(|like|this|(|and|like|this|)|)|.
+?            ^      ^           ^^^    ^    ^^^   ^    ^    ^^^^^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcTokenizeTest_11" time="2.608">
+		<error message="'my ss number is hard to remember  149-66-1344  ' != 'My|SS|Number|is|hard|to|remember|(|149-66-1344|)|.'
+- my ss number is hard to remember  149-66-1344  
++ My|SS|Number|is|hard|to|remember|(|149-66-1344|)|.
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 494, in test_mcTokenizeTest_11
+    self.assertEqual(Actuval, expected)
+AssertionError: 'my ss number is hard to remember  149-66-1344  ' != 'My|SS|Number|is|hard|to|remember|(|149-66-1344|)|.'
+- my ss number is hard to remember  149-66-1344  
++ My|SS|Number|is|hard|to|remember|(|149-66-1344|)|.
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcTokenizeTest_12" time="0.643">
+		<error message="'the gap between productivity and wages has been rising since the 1980s.[26 ' != 'The|gap|between|productivity|and|wages|has|been|rising|since|the|1980s.[26|]'
+- the gap between productivity and wages has been rising since the 1980s.[26 
+? ^  ^   ^       ^            ^   ^     ^   ^    ^      ^     ^   ^         ^
++ The|gap|between|productivity|and|wages|has|been|rising|since|the|1980s.[26|]
+? ^  ^   ^       ^            ^   ^     ^   ^    ^      ^     ^   ^         ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 500, in test_mcTokenizeTest_12
+    self.assertEqual(Actuval, expected)
+AssertionError: 'the gap between productivity and wages has been rising since the 1980s.[26 ' != 'The|gap|between|productivity|and|wages|has|been|rising|since|the|1980s.[26|]'
+- the gap between productivity and wages has been rising since the 1980s.[26 
+? ^  ^   ^       ^            ^   ^     ^   ^    ^      ^     ^   ^         ^
++ The|gap|between|productivity|and|wages|has|been|rising|since|the|1980s.[26|]
+? ^  ^   ^       ^            ^   ^     ^   ^    ^      ^     ^   ^         ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcTokenizeTest_13" time="0.645">
+		<error message="'this article is about work for the #n    [34 chars]um  ' != 'This|article|is|about|work|for|the|Kaiser[38 chars]|)|.'
+- this article is about work for the #n     chiefs album  see employment  album  
++ This|article|is|about|work|for|the|Kaiser|Chiefs|album|,|see|Employment|(|album|)|.
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 506, in test_mcTokenizeTest_13
+    self.assertEqual(Actuval, expected)
+AssertionError: 'this article is about work for the #n    [34 chars]um  ' != 'This|article|is|about|work|for|the|Kaiser[38 chars]|)|.'
+- this article is about work for the #n     chiefs album  see employment  album  
++ This|article|is|about|work|for|the|Kaiser|Chiefs|album|,|see|Employment|(|album|)|.
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcTokenizeTest_14" time="0.642">
+		<error message="'you must be entered for each name on the [53 chars]sis ' != 'You|must|be|entered|for|each|name|on|the|[55 chars]is|}'
+- you must be entered for each name on the official listing  no comma before the openingparenthesis 
+? ^  ^    ^  ^       ^   ^    ^    ^  ^   ^        ^       ^^  ^     ^^^^^^^^   ^                  ^
++ You|must|be|entered|for|each|name|on|the|official|listing|{|no|comma|BEFORE|the|openingparenthesis|}
+? ^  ^    ^  ^       ^   ^    ^    ^  ^   ^        ^       ^^^  ^     ^^^^^^^^   ^                  ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 512, in test_mcTokenizeTest_14
+    self.assertEqual(Actuval, expected)
+AssertionError: 'you must be entered for each name on the [53 chars]sis ' != 'You|must|be|entered|for|each|name|on|the|[55 chars]is|}'
+- you must be entered for each name on the official listing  no comma before the openingparenthesis 
+? ^  ^    ^  ^       ^   ^    ^    ^  ^   ^        ^       ^^  ^     ^^^^^^^^   ^                  ^
++ You|must|be|entered|for|each|name|on|the|official|listing|{|no|comma|BEFORE|the|openingparenthesis|}
+? ^  ^    ^  ^       ^   ^    ^    ^  ^   ^        ^       ^^^  ^     ^^^^^^^^   ^                  ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcTokenizeTest_15" time="0.611">
+		<error message="' this is a quote   quote  text    ' != '&quot;|This|is|a|quote|,|\'|quote|(|text|)|.|\'|&quot;'
+-  this is a quote   quote  text    
++ &quot;|This|is|a|quote|,|'|quote|(|text|)|.|'|&quot;
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 518, in test_mcTokenizeTest_15
+    self.assertEqual(Actuval, expected)
+AssertionError: ' this is a quote   quote  text    ' != '"|This|is|a|quote|,|\'|quote|(|text|)|.|\'|"'
+-  this is a quote   quote  text    
++ "|This|is|a|quote|,|'|quote|(|text|)|.|'|"
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcTokenizeTest_16" time="0.606">
+		<error message="'  print    the title is $book.&quot;' != '(|\'|print|\'|)|&quot;|The|title|is|$Book.&quot;|'
+-   print    the title is $book.&quot;
++ (|'|print|'|)|&quot;|The|title|is|$Book.&quot;|
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 524, in test_mcTokenizeTest_16
+    self.assertEqual(Actuval, expected)
+AssertionError: '  print    the title is $book."' != '(|\'|print|\'|)|"|The|title|is|$Book."|'
+-   print    the title is $book."
++ (|'|print|'|)|"|The|title|is|$Book."|
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcTokenizeTest_17" time="1.367">
+		<error message="&quot;imagine   bart's surprise    dear reader[65 chars]e   &quot; != 'Imagine|(|&quot;|Bart|\'s|surprise|&quot;|)|,|dear[82 chars]|?|&quot;'
+- imagine   bart's surprise    dear reader  when emma turned to him and said  contemptuously   what  promise   
++ Imagine|(|&quot;|Bart|'s|surprise|&quot;|)|,|dear|reader|,|when|Emma|turned|to|him|and|said|,|contemptuously|,|&quot;|What|'|promise|'|?|&quot;
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 530, in test_mcTokenizeTest_17
+    self.assertEqual(Actuval, expected)
+AssertionError: "imagine   bart's surprise    dear reader[65 chars]e   " != 'Imagine|(|"|Bart|\'s|surprise|"|)|,|dear[82 chars]|?|"'
+- imagine   bart's surprise    dear reader  when emma turned to him and said  contemptuously   what  promise   
++ Imagine|(|"|Bart|'s|surprise|"|)|,|dear|reader|,|when|Emma|turned|to|him|and|said|,|contemptuously|,|"|What|'|promise|'|?|"
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcTokenizeTest_18" time="0.657">
+		<error message="'  hal said   good morning  #n       recalled frank ' != '(|&quot;|HAL|said|,|\'|Good|morning|,|Dave|,|\'|&quot;|)|recalled|Frank|.'
+-   hal said   good morning  #n       recalled frank 
++ (|&quot;|HAL|said|,|'|Good|morning|,|Dave|,|'|&quot;|)|recalled|Frank|.
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 536, in test_mcTokenizeTest_18
+    self.assertEqual(Actuval, expected)
+AssertionError: '  hal said   good morning  #n       recalled frank ' != '(|"|HAL|said|,|\'|Good|morning|,|Dave|,|\'|"|)|recalled|Frank|.'
+-   hal said   good morning  #n       recalled frank 
++ (|"|HAL|said|,|'|Good|morning|,|Dave|,|'|"|)|recalled|Frank|.
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcTokenizeTest_19" time="0.609">
+		<error message="' magic is a important    this is  a  important  ' != '\'|magic|is|a|important|.|\'|(|this|is|&quot;|a|&quot;|important|)|.'
+-  magic is a important    this is  a  important  
++ '|magic|is|a|important|.|'|(|this|is|&quot;|a|&quot;|important|)|.
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 542, in test_mcTokenizeTest_19
+    self.assertEqual(Actuval, expected)
+AssertionError: ' magic is a important    this is  a  important  ' != '\'|magic|is|a|important|.|\'|(|this|is|"|a|"|important|)|.'
+-  magic is a important    this is  a  important  
++ '|magic|is|a|important|.|'|(|this|is|"|a|"|important|)|.
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcTokenizeTest_2" time="0.602">
+		<error message="'please call me at (212) 555-7875 ' != 'please|call|me|at|(|212|)|555-7875|.'
+- please call me at (212) 555-7875 
+?       ^    ^  ^  ^     ^        ^
++ please|call|me|at|(|212|)|555-7875|.
+?       ^    ^  ^  ^ +   + ^        ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 440, in test_mcTokenizeTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'please call me at (212) 555-7875 ' != 'please|call|me|at|(|212|)|555-7875|.'
+- please call me at (212) 555-7875 
+?       ^    ^  ^  ^     ^        ^
++ please|call|me|at|(|212|)|555-7875|.
+?       ^    ^  ^  ^ +   + ^        ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcTokenizeTest_3" time="1.270">
+		<error message="'he gave me a nice bonus  $500  ' != 'He|gave|me|a|nice|bonus|(|$|500|)|.'
+- he gave me a nice bonus  $500  
++ He|gave|me|a|nice|bonus|(|$|500|)|.
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 446, in test_mcTokenizeTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: 'he gave me a nice bonus  $500  ' != 'He|gave|me|a|nice|bonus|(|$|500|)|.'
+- he gave me a nice bonus  $500  
++ He|gave|me|a|nice|bonus|(|$|500|)|.
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcTokenizeTest_4" time="0.624">
+		<error message="&quot;please read the analysis   you'll be amazed  &quot; != &quot;Please|read|the|analysis|.|(|You|'ll|be|amazed|.|)&quot;
+- please read the analysis   you'll be amazed  
++ Please|read|the|analysis|.|(|You|'ll|be|amazed|.|)
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 452, in test_mcTokenizeTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: "please read the analysis   you'll be amazed  " != "Please|read|the|analysis|.|(|You|'ll|be|amazed|.|)"
+- please read the analysis   you'll be amazed  
++ Please|read|the|analysis|.|(|You|'ll|be|amazed|.|)
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcTokenizeTest_5" time="0.659">
+		<error message="&quot;please read the analysis  you'll be amazed  &quot; != &quot;Please|read|the|analysis|(|you|'ll|be|amazed|)|.&quot;
+- please read the analysis  you'll be amazed  
++ Please|read|the|analysis|(|you|'ll|be|amazed|)|.
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 458, in test_mcTokenizeTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: "please read the analysis  you'll be amazed  " != "Please|read|the|analysis|(|you|'ll|be|amazed|)|."
+- please read the analysis  you'll be amazed  
++ Please|read|the|analysis|(|you|'ll|be|amazed|)|.
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcTokenizeTest_6" time="0.613">
+		<error message="'internal parentheses  like this and like this   in general' != 'Internal|parentheses|(|like|this|and|like|this|)|.|In|general'
+- internal parentheses  like this and like this   in general
+? ^       ^           ^^    ^    ^   ^    ^    ^^^^ ^
++ Internal|parentheses|(|like|this|and|like|this|)|.|In|general
+? ^       ^           ^^^    ^    ^   ^    ^    ^^^^^^ ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 464, in test_mcTokenizeTest_6
+    self.assertEqual(Actuval, expected)
+AssertionError: 'internal parentheses  like this and like this   in general' != 'Internal|parentheses|(|like|this|and|like|this|)|.|In|general'
+- internal parentheses  like this and like this   in general
+? ^       ^           ^^    ^    ^   ^    ^    ^^^^ ^
++ Internal|parentheses|(|like|this|and|like|this|)|.|In|general
+? ^       ^           ^^^    ^    ^   ^    ^    ^^^^^^ ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcTokenizeTest_7" time="0.621">
+		<error message="'when he got home  it was already dark outside   he fixed dinner ' != 'When|he|got|home|(|it|was|already|dark|outside|)|,|he|fixed|dinner|.'
+- when he got home  it was already dark outside   he fixed dinner 
++ When|he|got|home|(|it|was|already|dark|outside|)|,|he|fixed|dinner|.
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 470, in test_mcTokenizeTest_7
+    self.assertEqual(Actuval, expected)
+AssertionError: 'when he got home  it was already dark outside   he fixed dinner ' != 'When|he|got|home|(|it|was|already|dark|outside|)|,|he|fixed|dinner|.'
+- when he got home  it was already dark outside   he fixed dinner 
++ When|he|got|home|(|it|was|already|dark|outside|)|,|he|fixed|dinner|.
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcTokenizeTest_8" time="0.613">
+		<error message="'we saw a small  red bird  a cardinal   in the tree ' != 'We|saw|a|small|,|red|bird|(|a|cardinal|?|)|in|the|tree|.'
+- we saw a small  red bird  a cardinal   in the tree 
++ We|saw|a|small|,|red|bird|(|a|cardinal|?|)|in|the|tree|.
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 476, in test_mcTokenizeTest_8
+    self.assertEqual(Actuval, expected)
+AssertionError: 'we saw a small  red bird  a cardinal   in the tree ' != 'We|saw|a|small|,|red|bird|(|a|cardinal|?|)|in|the|tree|.'
+- we saw a small  red bird  a cardinal   in the tree 
++ We|saw|a|small|,|red|bird|(|a|cardinal|?|)|in|the|tree|.
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_mcTokenizeTest_9" time="0.642">
+		<error message="'the low price  $10   made the hamburger combo irresistible ' != 'The|low|price|(|$|10|!|)|made|the|hamburger|combo|irresistible|.'
+- the low price  $10   made the hamburger combo irresistible 
+? ^  ^   ^     ^^   ^^^    ^   ^         ^     ^            ^
++ The|low|price|(|$|10|!|)|made|the|hamburger|combo|irresistible|.
+? ^  ^   ^     ^^^ +  ^^^^^    ^   ^         ^     ^            ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 482, in test_mcTokenizeTest_9
+    self.assertEqual(Actuval, expected)
+AssertionError: 'the low price  $10   made the hamburger combo irresistible ' != 'The|low|price|(|$|10|!|)|made|the|hamburger|combo|irresistible|.'
+- the low price  $10   made the hamburger combo irresistible 
+? ^  ^   ^     ^^   ^^^    ^   ^         ^     ^            ^
++ The|low|price|(|$|10|!|)|made|the|hamburger|combo|irresistible|.
+? ^  ^   ^     ^^^ +  ^^^^^    ^   ^         ^     ^            ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_nlTokenizeTest_1" time="0.620">
+		<error message="'if the material within parentheses  appears within a sentence  ' != 'If|the|material|within|parentheses|\n|appears|within|a|sentence|.|\n'
+- if the material within parentheses  appears within a sentence  
+? ^ ^   ^        ^      ^           ^^       ^      ^ ^        ^^
++ If|the|material|within|parentheses|
+|appears|within|a|sentence|.|
+
+? ^ ^   ^        ^      ^           ^^^       ^      ^ ^        ^^^ +
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 549, in test_nlTokenizeTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: 'if the material within parentheses  appears within a sentence  ' != 'If|the|material|within|parentheses|\n|appears|within|a|sentence|.|\n'
+- if the material within parentheses  appears within a sentence  
+? ^ ^   ^        ^      ^           ^^       ^      ^ ^        ^^
++ If|the|material|within|parentheses|
+|appears|within|a|sentence|.|
+
+? ^ ^   ^        ^      ^           ^^^       ^      ^ ^        ^^^ +
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_1" time="0.597">
+		<error message="' this is a test ' != &quot;'|this|is|a|test|'&quot;
+-  this is a test 
++ '|this|is|a|test|'
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 295, in test_pTokenizeTest_1
+    self.assertEqual(Actuval, expected)
+AssertionError: ' this is a test ' != "'|this|is|a|test|'"
+-  this is a test 
++ '|this|is|a|test|'
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_10" time="0.647">
+		<error message="'she asked   how many of you have read  the lady of shalott   ' != 'She|asked|,|&quot;|How|many|of|you|have|read|\'|The|Lady|of|Shalott|\'|?|&quot;'
+- she asked   how many of you have read  the lady of shalott   
++ She|asked|,|&quot;|How|many|of|you|have|read|'|The|Lady|of|Shalott|'|?|&quot;
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 349, in test_pTokenizeTest_10
+    self.assertEqual(Actuval, expected)
+AssertionError: 'she asked   how many of you have read  the lady of shalott   ' != 'She|asked|,|"|How|many|of|you|have|read|\'|The|Lady|of|Shalott|\'|?|"'
+- she asked   how many of you have read  the lady of shalott   
++ She|asked|,|"|How|many|of|you|have|read|'|The|Lady|of|Shalott|'|?|"
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_11" time="0.618">
+		<error message="'helen said   she asked us   how many of y[40 chars]ad  ' != 'Helen|said|,|&quot;|She|asked|us|,|\'|How|many[52 chars]|.|&quot;'
+- helen said   she asked us   how many of you have read  the lady of shalott    i had  
++ Helen|said|,|&quot;|She|asked|us|,|'|How|many|of|you|have|read|&quot;|The|Lady|of|Shalott|&quot;|?|'|I|had|.|&quot;
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 355, in test_pTokenizeTest_11
+    self.assertEqual(Actuval, expected)
+AssertionError: 'helen said   she asked us   how many of y[40 chars]ad  ' != 'Helen|said|,|"|She|asked|us|,|\'|How|many[52 chars]|.|"'
+- helen said   she asked us   how many of you have read  the lady of shalott    i had  
++ Helen|said|,|"|She|asked|us|,|'|How|many|of|you|have|read|"|The|Lady|of|Shalott|"|?|'|I|had|.|"
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_12" time="0.613">
+		<error message="' why did she call the man a  traitor   ' != '&quot;|Why|did|she|call|the|man|a|\'|traitor|\'|?|&quot;'
+-  why did she call the man a  traitor   
++ &quot;|Why|did|she|call|the|man|a|'|traitor|'|?|&quot;
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 361, in test_pTokenizeTest_12
+    self.assertEqual(Actuval, expected)
+AssertionError: ' why did she call the man a  traitor   ' != '"|Why|did|she|call|the|man|a|\'|traitor|\'|?|"'
+-  why did she call the man a  traitor   
++ "|Why|did|she|call|the|man|a|'|traitor|'|?|"
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_13" time="0.655">
+		<error message="' when i say  immediately   i mean some ti[32 chars]ger ' != '&quot;|When|I|say|\'|immediately|,|\'|I|mean|s[41 chars]er|.'
+-  when i say  immediately   i mean some time before august   said the manager 
++ &quot;|When|I|say|'|immediately|,|'|I|mean|some|time|before|August|,|&quot;|said|the|manager|.
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 367, in test_pTokenizeTest_13
+    self.assertEqual(Actuval, expected)
+AssertionError: ' when i say  immediately   i mean some ti[32 chars]ger ' != '"|When|I|say|\'|immediately|,|\'|I|mean|s[41 chars]er|.'
+-  when i say  immediately   i mean some time before august   said the manager 
++ "|When|I|say|'|immediately|,|'|I|mean|some|time|before|August|,|"|said|the|manager|.
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_14" time="0.651">
+		<error message="'my father always said   be careful what you wish for  ' != 'My|father|always|said|,|&quot;|Be|careful|what|you|wish|for|.|&quot;'
+- my father always said   be careful what you wish for  
++ My|father|always|said|,|&quot;|Be|careful|what|you|wish|for|.|&quot;
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 373, in test_pTokenizeTest_14
+    self.assertEqual(Actuval, expected)
+AssertionError: 'my father always said   be careful what you wish for  ' != 'My|father|always|said|,|"|Be|careful|what|you|wish|for|.|"'
+- my father always said   be careful what you wish for  
++ My|father|always|said|,|"|Be|careful|what|you|wish|for|.|"
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_15" time="0.611">
+		<error message="' this is a test ' != '&quot;|this|is|a|test|&quot;'
+-  this is a test 
++ &quot;|this|is|a|test|&quot;
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 379, in test_pTokenizeTest_15
+    self.assertEqual(Actuval, expected)
+AssertionError: ' this is a test ' != '"|this|is|a|test|"'
+-  this is a test 
++ "|this|is|a|test|"
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_16" time="0.594">
+		<error message="' what do you mean   he replied ' != '&quot;|What|do|you|mean|?|&quot;|he|replied|.'
+-  what do you mean   he replied 
++ &quot;|What|do|you|mean|?|&quot;|he|replied|.
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 385, in test_pTokenizeTest_16
+    self.assertEqual(Actuval, expected)
+AssertionError: ' what do you mean   he replied ' != '"|What|do|you|mean|?|"|he|replied|.'
+-  what do you mean   he replied 
++ "|What|do|you|mean|?|"|he|replied|.
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_17" time="0.636">
+		<error message="' you know darn well what i mean   #n     huffed ' != '&quot;|You|know|darn|well|what|I|mean|!|&quot;|Edward|huffed|.'
+-  you know darn well what i mean   #n     huffed 
++ &quot;|You|know|darn|well|what|I|mean|!|&quot;|Edward|huffed|.
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 391, in test_pTokenizeTest_17
+    self.assertEqual(Actuval, expected)
+AssertionError: ' you know darn well what i mean   #n     huffed ' != '"|You|know|darn|well|what|I|mean|!|"|Edward|huffed|.'
+-  you know darn well what i mean   #n     huffed 
++ "|You|know|darn|well|what|I|mean|!|"|Edward|huffed|.
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_18" time="0.641">
+		<error message="' have it your way   alberta added   if that is how you feel  ' != '&quot;|Have|it|your|way|,|&quot;|Alberta|added|,|&quot;|if|that|is|how|you|feel|.|&quot;'
+-  have it your way   alberta added   if that is how you feel  
++ &quot;|Have|it|your|way|,|&quot;|Alberta|added|,|&quot;|if|that|is|how|you|feel|.|&quot;
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 397, in test_pTokenizeTest_18
+    self.assertEqual(Actuval, expected)
+AssertionError: ' have it your way   alberta added   if that is how you feel  ' != '"|Have|it|your|way|,|"|Alberta|added|,|"|if|that|is|how|you|feel|.|"'
+-  have it your way   alberta added   if that is how you feel  
++ "|Have|it|your|way|,|"|Alberta|added|,|"|if|that|is|how|you|feel|.|"
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_19" time="0.621">
+		<error message="'who said   fame means when your computer [69 chars]er  ' != 'Who|said|,|&quot;|Fame|means|when|your|compute[74 chars]|&quot;|?'
+- who said   fame means when your computer modem is broken  the repair guy comes out to your house a little faster  
++ Who|said|,|&quot;|Fame|means|when|your|computer|modem|is|broken|,|the|repair|guy|comes|out|to|your|house|a|little|faster|&quot;|?
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 403, in test_pTokenizeTest_19
+    self.assertEqual(Actuval, expected)
+AssertionError: 'who said   fame means when your computer [69 chars]er  ' != 'Who|said|,|"|Fame|means|when|your|compute[74 chars]|"|?'
+- who said   fame means when your computer modem is broken  the repair guy comes out to your house a little faster  
++ Who|said|,|"|Fame|means|when|your|computer|modem|is|broken|,|the|repair|guy|comes|out|to|your|house|a|little|faster|"|?
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_2" time="0.597">
+		<error message="'congress cries  shame  ' != &quot;Congress|Cries|'|Shame|!|'&quot;
+- congress cries  shame  
++ Congress|Cries|'|Shame|!|'
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 301, in test_pTokenizeTest_2
+    self.assertEqual(Actuval, expected)
+AssertionError: 'congress cries  shame  ' != "Congress|Cries|'|Shame|!|'"
+- congress cries  shame  
++ Congress|Cries|'|Shame|!|'
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_20" time="0.611">
+		<error message="'i love  design  however' != 'I|love|&quot;|Design|&quot;||however'
+- i love  design  however
++ I|love|&quot;|Design|&quot;||however
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 409, in test_pTokenizeTest_20
+    self.assertEqual(Actuval, expected)
+AssertionError: 'i love  design  however' != 'I|love|"|Design|"||however'
+- i love  design  however
++ I|love|"|Design|"||however
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_21" time="0.603">
+		<error message="'mainstream economics  employment is seen [35 chars]ion ' != 'Mainstream|economics|:|employment|is|seen[37 chars]on|.'
+- mainstream economics  employment is seen as a mutually advantageous transaction 
+? ^         ^         ^^          ^  ^    ^  ^ ^        ^            ^           ^
++ Mainstream|economics|:|employment|is|seen|as|a|mutually|advantageous|transaction|.
+? ^         ^         ^^^          ^  ^    ^  ^ ^        ^            ^           ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 415, in test_pTokenizeTest_21
+    self.assertEqual(Actuval, expected)
+AssertionError: 'mainstream economics  employment is seen [35 chars]ion ' != 'Mainstream|economics|:|employment|is|seen[37 chars]on|.'
+- mainstream economics  employment is seen as a mutually advantageous transaction 
+? ^         ^         ^^          ^  ^    ^  ^ ^        ^            ^           ^
++ Mainstream|economics|:|employment|is|seen|as|a|mutually|advantageous|transaction|.
+? ^         ^         ^^^          ^  ^    ^  ^ ^        ^            ^           ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_22" time="0.625">
+		<error message="'for purposes of this chapter  the term  e[77 chars]tes ' != 'For|purposes|of|this|chapter|,|the|term|&quot;[83 chars]es|.'
+- for purposes of this chapter  the term  employee  includes an officer  employee  or elected official of the united states 
+? ^  ^        ^  ^    ^       ^^   ^    ^^        ^^        ^  ^       ^^        ^^  ^       ^        ^  ^   ^^     ^^     ^
++ For|purposes|of|this|chapter|,|the|term|&quot;|employee|&quot;|includes|an|officer|,|employee|,|or|elected|official|of|the|United|States|.
+? ^  ^        ^  ^    ^       ^^^   ^    ^^^        ^^^        ^  ^       ^^^        ^^^  ^       ^        ^  ^   ^^     ^^     ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 421, in test_pTokenizeTest_22
+    self.assertEqual(Actuval, expected)
+AssertionError: 'for purposes of this chapter  the term  e[77 chars]tes ' != 'For|purposes|of|this|chapter|,|the|term|"[83 chars]es|.'
+- for purposes of this chapter  the term  employee  includes an officer  employee  or elected official of the united states 
+? ^  ^        ^  ^    ^       ^^   ^    ^^        ^^        ^  ^       ^^        ^^  ^       ^        ^  ^   ^^     ^^     ^
++ For|purposes|of|this|chapter|,|the|term|"|employee|"|includes|an|officer|,|employee|,|or|elected|official|of|the|United|States|.
+? ^  ^        ^  ^    ^       ^^^   ^    ^^^        ^^^        ^  ^       ^^^        ^^^  ^       ^        ^  ^   ^^     ^^     ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_23" time="0.618">
+		<error message="'it is obvious that within the context of[74 chars]ion ' != &quot;It|is|obvious|that|within|the|context|of[77 chars]on|.&quot;
+- it is obvious that within the context of both statutes the word  includes  is a term of enlargement not of limitation 
+? ^ ^  ^       ^    ^      ^   ^       ^  ^    ^        ^   ^    ^^        ^^  ^ ^    ^  ^           ^   ^  ^          ^
++ It|is|obvious|that|within|the|context|of|both|statutes|the|word|'|includes|'|is|a|term|of|enlargement|not|of|limitation|.
+? ^ ^  ^       ^    ^      ^   ^       ^  ^    ^        ^   ^    ^^^        ^^^  ^ ^    ^  ^           ^   ^  ^          ^^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 427, in test_pTokenizeTest_23
+    self.assertEqual(Actuval, expected)
+AssertionError: 'it is obvious that within the context of[74 chars]ion ' != "It|is|obvious|that|within|the|context|of[77 chars]on|."
+- it is obvious that within the context of both statutes the word  includes  is a term of enlargement not of limitation 
+? ^ ^  ^       ^    ^      ^   ^       ^  ^    ^        ^   ^    ^^        ^^  ^ ^    ^  ^           ^   ^  ^          ^
++ It|is|obvious|that|within|the|context|of|both|statutes|the|word|'|includes|'|is|a|term|of|enlargement|not|of|limitation|.
+? ^ ^  ^       ^    ^      ^   ^       ^  ^    ^        ^   ^    ^^^        ^^^  ^ ^    ^  ^           ^   ^  ^          ^^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_3" time="0.619">
+		<error message="&quot;sartre's treatment of  being   as opposed[79 chars]ook &quot; != &quot;Sartre|'s|treatment|of|'|being|'|,|as|opp[88 chars]ok|.&quot;
+- sartre's treatment of  being   as opposed to his treatment of  non-being   has been thoroughly described in #n      's book 
++ Sartre|'s|treatment|of|'|being|'|,|as|opposed|to|his|treatment|of|'|non-being|'|,|has|been|thoroughly|described|in|Kaufmann|'s|book|.
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 307, in test_pTokenizeTest_3
+    self.assertEqual(Actuval, expected)
+AssertionError: "sartre's treatment of  being   as opposed[79 chars]ook " != "Sartre|'s|treatment|of|'|being|'|,|as|opp[88 chars]ok|."
+- sartre's treatment of  being   as opposed to his treatment of  non-being   has been thoroughly described in #n      's book 
++ Sartre|'s|treatment|of|'|being|'|,|as|opposed|to|his|treatment|of|'|non-being|'|,|has|been|thoroughly|described|in|Kaufmann|'s|book|.
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_4" time="0.658">
+		<error message="'protesters cried  no more high taxes  ' != &quot;Protesters|cried|'|No|more|high|taxes|!|'&quot;
+- protesters cried  no more high taxes  
++ Protesters|cried|'|No|more|high|taxes|!|'
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 313, in test_pTokenizeTest_4
+    self.assertEqual(Actuval, expected)
+AssertionError: 'protesters cried  no more high taxes  ' != "Protesters|cried|'|No|more|high|taxes|!|'"
+- protesters cried  no more high taxes  
++ Protesters|cried|'|No|more|high|taxes|!|'
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_5" time="0.630">
+		<error message="&quot;president says  don't worry america  &quot; != &quot;President|says|'|Do|n't|worry|America|.|'&quot;
+- president says  don't worry america  
++ President|says|'|Do|n't|worry|America|.|'
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 319, in test_pTokenizeTest_5
+    self.assertEqual(Actuval, expected)
+AssertionError: "president says  don't worry america  " != "President|says|'|Do|n't|worry|America|.|'"
+- president says  don't worry america  
++ President|says|'|Do|n't|worry|America|.|'
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_6" time="0.599">
+		<error message="'john thought   why is she getting so upset  ' != &quot;John|thought|:|'|Why|is|she|getting|so|upset|?|'&quot;
+- john thought   why is she getting so upset  
++ John|thought|:|'|Why|is|she|getting|so|upset|?|'
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 325, in test_pTokenizeTest_6
+    self.assertEqual(Actuval, expected)
+AssertionError: 'john thought   why is she getting so upset  ' != "John|thought|:|'|Why|is|she|getting|so|upset|?|'"
+- john thought   why is she getting so upset  
++ John|thought|:|'|Why|is|she|getting|so|upset|?|'
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_7" time="0.644">
+		<error message="'i told john to wash his hands  but he sa[165 chars]ely ' != &quot;I|told|John|to|wash|his|hands|,|but|he|s[181 chars]ly|.&quot;
+- i told john to wash his hands  but he said   ok  i will later  mother   which i thought was odd  because he is normally so obedient  so i shouted   not later  john  i mean now     but he ignored me completely 
++ I|told|John|to|wash|his|hands|,|but|he|said|:|'|OK|,|I|will|later|,|Mother|,|'|which|I|thought|was|odd|,|because|he|is|normally|so|obedient|,|so|I|shouted|:|'|Not|later|,|John|,|I|mean|now|!|'|-|but|he|ignored|me|completely|.
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 331, in test_pTokenizeTest_7
+    self.assertEqual(Actuval, expected)
+AssertionError: 'i told john to wash his hands  but he sa[165 chars]ely ' != "I|told|John|to|wash|his|hands|,|but|he|s[181 chars]ly|."
+- i told john to wash his hands  but he said   ok  i will later  mother   which i thought was odd  because he is normally so obedient  so i shouted   not later  john  i mean now     but he ignored me completely 
++ I|told|John|to|wash|his|hands|,|but|he|said|:|'|OK|,|I|will|later|,|Mother|,|'|which|I|thought|was|odd|,|because|he|is|normally|so|obedient|,|so|I|shouted|:|'|Not|later|,|John|,|I|mean|now|!|'|-|but|he|ignored|me|completely|.
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_8" time="0.605">
+		<error message="'bobbi told me   delia said   this will never work   ' != 'Bobbi|told|me|,|&quot;|Delia|said|,|\'|This|will|never|work|.|\'|&quot;'
+- bobbi told me   delia said   this will never work   
++ Bobbi|told|me|,|&quot;|Delia|said|,|'|This|will|never|work|.|'|&quot;
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 337, in test_pTokenizeTest_8
+    self.assertEqual(Actuval, expected)
+AssertionError: 'bobbi told me   delia said   this will never work   ' != 'Bobbi|told|me|,|"|Delia|said|,|\'|This|will|never|work|.|\'|"'
+- bobbi told me   delia said   this will never work   
++ Bobbi|told|me|,|"|Delia|said|,|'|This|will|never|work|.|'|"
+
+]]>		</error>
+	</testcase>
+	<testcase classname="InequalityTest" name="test_pTokenizeTest_9" time="0.633">
+		<error message="&quot;#n    said   i read the article   a poor woman's journey   &quot; != 'Bobbi|said|,|&quot;|I|read|the|article|,|\'|A|Poor|Woman|\'s|Journey|.|\'|&quot;'
+- #n    said   i read the article   a poor woman's journey   
++ Bobbi|said|,|&quot;|I|read|the|article|,|'|A|Poor|Woman|'s|Journey|.|'|&quot;
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/CHRIS/PycharmProjects/Requests/Requests.py", line 343, in test_pTokenizeTest_9
+    self.assertEqual(Actuval, expected)
+AssertionError: "#n    said   i read the article   a poor woman's journey   " != 'Bobbi|said|,|"|I|read|the|article|,|\'|A|Poor|Woman|\'s|Journey|.|\'|"'
+- #n    said   i read the article   a poor woman's journey   
++ Bobbi|said|,|"|I|read|the|article|,|'|A|Poor|Woman|'s|Journey|.|'|"
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
