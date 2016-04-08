@@ -1,9 +1,0 @@
-<?xml version="1.0" ?>
-<testsuite errors="0" failures="0" name="InequalityTest-20160407105534" tests="1" time="0.791">
-	<testcase classname="InequalityTest" name="test_IsClassify_1" time="0.791"/>
-	<system-out>
-<![CDATA[500
-]]>	</system-out>
-	<system-err>
-<![CDATA[]]>	</system-err>
-</testsuite>

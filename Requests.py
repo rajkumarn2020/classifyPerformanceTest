@@ -4,6 +4,7 @@ import requests
 import json
 import xmlrunner
 import csv
+import datetime
 
 class InequalityTest(unittest.TestCase):
 
@@ -17,25 +18,36 @@ class InequalityTest(unittest.TestCase):
         output = j["data"]["categories"][0]["id"]
         return output
 
-  def test_IsClassify_many(self):
-   presig=open('classifyUnitTests.csv')
-   Presigs=csv.DictReader(presig)
+
+  def test_IsClassify_PerformanceTest(self):
+   print("Loading....")
+   ClassifyDoc=open('classifyUnitTests.csv')
+   GivenInputs=csv.DictReader(ClassifyDoc)
    BODYS1=[]
    CATID=[]
-   for row in Presigs:
+   for row in GivenInputs:
     CATID.append(row['categoryId'])
     BODYS1.append(row['bodyS1'])
-   presig.close()
-   lenPRESIG=len(CATID)
+   ClassifyDoc.close()
+   lenInputRows=len(CATID)
 
-   for i in range(1,lenPRESIG):
+   #StartTime
+   StartTime = datetime.datetime.now()
+
+   for i in range(1,lenInputRows):
     expected = CATID[i]
     bodys1=BODYS1[i]
     Actuval=self.Ontobi_API(bodys1)
-    print(Actuval)
-    #self.assertEqual(Actuval, int(expected))
+
+   #EndTime
+   EndTime = datetime.datetime.now()
+   #TakenTime
+   TimeTaken=EndTime-StartTime
+   #InSeconds
+   TakenSeconds=int(TimeTaken.total_seconds())
+   self.assertTrue(TakenSeconds<10)
 
 
 if __name__ == '__main__':
     suite = unittest.TestLoader().loadTestsFromTestCase(InequalityTest)
-    xmlrunner.XMLTestRunner(output='test-reports3').run(suite)
+    xmlrunner.XMLTestRunner(output='test-reports').run(suite)
